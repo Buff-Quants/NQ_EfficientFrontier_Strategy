@@ -1,0 +1,6 @@
+2025-03-13 10:31:05,039 - INFO - Connected to database.
+2025-03-13 10:31:05,269 - INFO - Database schema created/updated successfully.
+2025-03-13 10:36:07,214 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-13 10:36:07,214 - INFO - NumExpr defaulting to 16 threads.
+2025-03-13 10:47:38,371 - INFO - Connected to database.
+2025-03-13 10:47:38,374 - INFO - Database schema created/updated successfully.
