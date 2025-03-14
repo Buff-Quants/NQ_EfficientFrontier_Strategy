@@ -1,0 +1,5 @@
+pandas>=1.5.0
+yfinance>=0.2.0
+numpy>=1.21.0
+scikit-learn>=1.0.0  # Will be needed for regression analysis
+lxml>=4.9.0  # For HTML parsing
