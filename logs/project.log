@@ -4,3 +4,21 @@
 2025-03-13 10:36:07,214 - INFO - NumExpr defaulting to 16 threads.
 2025-03-13 10:47:38,371 - INFO - Connected to database.
 2025-03-13 10:47:38,374 - INFO - Database schema created/updated successfully.
+2025-03-14 13:42:18,334 - INFO - Connected to database for technical signals update.
+2025-03-14 13:42:18,595 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:42:23,890 - INFO - Inserted 208636 records into technical_signals.
+2025-03-14 13:47:20,690 - INFO - Connected to database for technical signals update.
+2025-03-14 13:47:20,950 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:47:26,347 - INFO - Inserted 208636 records into technical_signals.
+2025-03-14 13:51:49,573 - INFO - Connected to database for technical signals update.
+2025-03-14 13:51:49,861 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:51:55,481 - INFO - Inserted 208636 records into technical_signals.
+2025-03-14 13:54:20,914 - INFO - Connected to database for technical signals update.
+2025-03-14 13:54:21,165 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:54:27,532 - INFO - Inserted 208734 records into technical_signals.
+2025-03-14 13:55:12,383 - INFO - Connected to database for technical signals update.
+2025-03-14 13:55:12,638 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:55:18,671 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 13:58:31,203 - INFO - Connected to database for technical signals update.
+2025-03-14 13:58:31,457 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:58:37,698 - INFO - Inserted 208832 records into technical_signals.
