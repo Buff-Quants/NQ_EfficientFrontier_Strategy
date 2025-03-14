@@ -5094,3 +5094,1395 @@
 2025-03-14 11:53:46,168 - INFO - Connected to database for technical signals update.
 2025-03-14 11:53:47,488 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
 2025-03-14 11:54:12,008 - INFO - Inserted 782017 records into technical_signals.
+2025-03-14 13:20:53,457 - INFO - Connected to database.
+2025-03-14 13:20:53,561 - INFO - Database schema created/updated successfully.
+2025-03-14 13:21:19,071 - INFO - Successfully stored 100 tickers for 2025-03-14
+2025-03-14 13:21:19,071 - INFO - Ticker fetch process completed successfully
+2025-03-14 13:21:24,703 - INFO - Found 100 unique tickers to process
+2025-03-14 13:21:25,395 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-14 13:21:26,225 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-14 13:21:27,067 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-14 13:21:27,863 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-14 13:21:28,744 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-14 13:21:29,538 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-14 13:21:30,113 - INFO - Successfully stored 2263 price points for META
+2025-03-14 13:21:30,873 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-14 13:21:31,638 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-14 13:21:32,405 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-14 13:21:33,158 - INFO - Successfully stored 2263 price points for COST
+2025-03-14 13:21:34,026 - INFO - Successfully stored 2263 price points for PEP
+2025-03-14 13:21:34,818 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-14 13:21:35,652 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-14 13:21:36,427 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-14 13:21:37,145 - INFO - Successfully stored 2263 price points for AMD
+2025-03-14 13:21:38,202 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-14 13:21:39,037 - INFO - Successfully stored 2263 price points for INTC
+2025-03-14 13:21:39,961 - INFO - Successfully stored 2263 price points for INTU
+2025-03-14 13:21:40,797 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-14 13:21:42,303 - INFO - Successfully stored 2263 price points for TXN
+2025-03-14 13:21:43,084 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-14 13:21:43,856 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-14 13:21:44,442 - INFO - Successfully stored 2263 price points for HON
+2025-03-14 13:21:45,301 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-14 13:21:46,034 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-14 13:21:46,851 - INFO - Successfully stored 2263 price points for ADI
+2025-03-14 13:21:47,692 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-14 13:21:48,449 - INFO - Successfully stored 2263 price points for GILD
+2025-03-14 13:21:49,235 - INFO - Successfully stored 2263 price points for REGN
+2025-03-14 13:21:50,040 - INFO - Successfully stored 2263 price points for ADP
+2025-03-14 13:21:50,808 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-14 13:21:51,393 - INFO - Successfully stored 2263 price points for PANW
+2025-03-14 13:21:52,149 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-14 13:21:52,963 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-14 13:21:53,712 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-14 13:21:54,486 - INFO - Successfully stored 2263 price points for ASML
+2025-03-14 13:21:55,325 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-14 13:21:56,246 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-14 13:21:57,057 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-14 13:21:57,811 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-14 13:21:58,587 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-14 13:21:59,362 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-14 13:22:00,164 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-14 13:22:00,953 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-14 13:22:01,887 - INFO - Successfully stored 2263 price points for MELI
+2025-03-14 13:22:02,730 - INFO - Successfully stored 2263 price points for MNST
+2025-03-14 13:22:03,670 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-14 13:22:04,434 - INFO - Successfully stored 2263 price points for KDP
+2025-03-14 13:22:05,221 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-14 13:22:05,908 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-14 13:22:06,646 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-14 13:22:07,420 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-14 13:22:08,315 - INFO - Successfully stored 2263 price points for LULU
+2025-03-14 13:22:09,070 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-14 13:22:09,889 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-14 13:22:10,651 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-14 13:22:11,502 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-14 13:22:12,312 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-14 13:22:13,214 - INFO - Successfully stored 2263 price points for ROST
+2025-03-14 13:22:14,106 - INFO - Successfully stored 2263 price points for FAST
+2025-03-14 13:22:14,931 - INFO - Successfully stored 2263 price points for EXC
+2025-03-14 13:22:15,892 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-14 13:22:16,643 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-14 13:22:17,391 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-14 13:22:18,207 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-14 13:22:18,982 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-14 13:22:19,801 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-14 13:22:20,610 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-14 13:22:21,379 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-14 13:22:22,147 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-14 13:22:22,903 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-14 13:22:23,620 - INFO - Successfully stored 1709 price points for ZS
+2025-03-14 13:22:24,359 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-14 13:22:25,108 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-14 13:22:26,003 - INFO - Successfully stored 2263 price points for FANG
+2025-03-14 13:22:26,764 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-14 13:22:27,475 - INFO - Successfully stored 512 price points for GEHC
+2025-03-14 13:22:28,296 - INFO - Successfully stored 1020 price points for DASH
+2025-03-14 13:22:30,065 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-14 13:22:30,065 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-14 13:22:30,950 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-14 13:22:31,780 - INFO - Successfully stored 2263 price points for CCEP
+2025-03-14 13:22:33,086 - ERROR - $SPLK: possibly delisted; no timezone found
+2025-03-14 13:22:33,087 - WARNING - No data available for SPLK between 2016-01-01 and 2024-12-31
+2025-03-14 13:22:33,833 - INFO - Successfully stored 2263 price points for TTWO
+2025-03-14 13:22:34,558 - INFO - Successfully stored 2263 price points for VRSN
+2025-03-14 13:22:35,462 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-14 13:22:36,603 - INFO - Successfully stored 2263 price points for AEP
+2025-03-14 13:22:37,383 - INFO - Successfully stored 2263 price points for WBD
+2025-03-14 13:22:38,227 - INFO - Successfully stored 2263 price points for XEL
+2025-03-14 13:22:39,129 - INFO - Successfully stored 2263 price points for CSX
+2025-03-14 13:22:40,710 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-14 13:22:40,710 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-14 13:22:42,121 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-14 13:22:42,121 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-14 13:22:42,855 - INFO - Successfully stored 1810 price points for MDB
+2025-03-14 13:22:43,690 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-14 13:22:44,406 - INFO - Successfully stored 1077 price points for LCID
+2025-03-14 13:22:45,176 - INFO - Successfully stored 788 price points for RIVN
+2025-03-14 13:22:45,960 - INFO - Successfully stored 2082 price points for TTD
+2025-03-14 13:22:46,735 - INFO - Successfully stored 2263 price points for SMCI
+2025-03-14 13:22:47,405 - INFO - Successfully stored 1069 price points for PLTR
+2025-03-14 13:22:48,113 - INFO - Successfully stored 2263 price points for MSTR
+2025-03-14 13:22:48,616 - INFO - Price data fetch completed successfully
+2025-03-14 13:22:48,680 - INFO - Successfully stored 100 tickers for 2025-03-14
+2025-03-14 13:22:48,681 - INFO - Ticker fetch process completed successfully
+2025-03-14 13:23:08,539 - INFO - Successfully stored 100 tickers for 2025-03-14
+2025-03-14 13:23:08,539 - INFO - Ticker fetch process completed successfully
+2025-03-14 13:23:31,352 - INFO - Processing AAPL (1/1)
+2025-03-14 13:23:31,352 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-14
+2025-03-14 13:23:31,352 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AAPL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:23:31,354 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-14 13:23:31,361 - INFO - Downloading market data from 2020-01-01 to 2025-03-14
+2025-03-14 13:23:31,719 - INFO - Downloading risk-free rate data
+2025-03-14 13:23:32,120 - INFO - Downloading Fama-French factor proxies
+2025-03-14 13:23:33,664 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:23:33,664 - INFO - Successfully analyzed AAPL
+2025-03-14 13:23:33,664 - INFO - Test analysis completed successfully
+2025-03-14 13:24:41,389 - INFO - Found 96 tickers to analyze
+2025-03-14 13:24:41,389 - INFO - Processing AAPL (1/96)
+2025-03-14 13:24:41,389 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,390 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AAPL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,392 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-14 13:24:41,401 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,401 - INFO - Successfully analyzed AAPL
+2025-03-14 13:24:41,401 - INFO - Processing ABNB (2/96)
+2025-03-14 13:24:41,401 - INFO - Running FAMA_FRENCH analysis for ABNB from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,402 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ABNB'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,403 - INFO - Retrieved 1019 rows of price data for ABNB
+2025-03-14 13:24:41,411 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,411 - INFO - Successfully analyzed ABNB
+2025-03-14 13:24:41,411 - INFO - Processing ADBE (3/96)
+2025-03-14 13:24:41,411 - INFO - Running FAMA_FRENCH analysis for ADBE from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,411 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADBE'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,413 - INFO - Retrieved 1257 rows of price data for ADBE
+2025-03-14 13:24:41,421 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,421 - INFO - Successfully analyzed ADBE
+2025-03-14 13:24:41,421 - INFO - Processing ADI (4/96)
+2025-03-14 13:24:41,421 - INFO - Running FAMA_FRENCH analysis for ADI from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,421 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,422 - INFO - Retrieved 1257 rows of price data for ADI
+2025-03-14 13:24:41,432 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,432 - INFO - Successfully analyzed ADI
+2025-03-14 13:24:41,432 - INFO - Processing ADP (5/96)
+2025-03-14 13:24:41,432 - INFO - Running FAMA_FRENCH analysis for ADP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,432 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,434 - INFO - Retrieved 1257 rows of price data for ADP
+2025-03-14 13:24:41,440 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,440 - INFO - Successfully analyzed ADP
+2025-03-14 13:24:41,440 - INFO - Processing ADSK (6/96)
+2025-03-14 13:24:41,440 - INFO - Running FAMA_FRENCH analysis for ADSK from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,440 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADSK'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,442 - INFO - Retrieved 1257 rows of price data for ADSK
+2025-03-14 13:24:41,449 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,449 - INFO - Successfully analyzed ADSK
+2025-03-14 13:24:41,449 - INFO - Processing AEP (7/96)
+2025-03-14 13:24:41,449 - INFO - Running FAMA_FRENCH analysis for AEP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,449 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AEP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,451 - INFO - Retrieved 1257 rows of price data for AEP
+2025-03-14 13:24:41,457 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,457 - INFO - Successfully analyzed AEP
+2025-03-14 13:24:41,457 - INFO - Processing ALGN (8/96)
+2025-03-14 13:24:41,457 - INFO - Running FAMA_FRENCH analysis for ALGN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,457 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ALGN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,459 - INFO - Retrieved 1257 rows of price data for ALGN
+2025-03-14 13:24:41,466 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,466 - INFO - Successfully analyzed ALGN
+2025-03-14 13:24:41,466 - INFO - Processing AMAT (9/96)
+2025-03-14 13:24:41,466 - INFO - Running FAMA_FRENCH analysis for AMAT from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,466 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMAT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,467 - INFO - Retrieved 1257 rows of price data for AMAT
+2025-03-14 13:24:41,474 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,474 - INFO - Successfully analyzed AMAT
+2025-03-14 13:24:41,474 - INFO - Processing AMD (10/96)
+2025-03-14 13:24:41,474 - INFO - Running FAMA_FRENCH analysis for AMD from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,474 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,476 - INFO - Retrieved 1257 rows of price data for AMD
+2025-03-14 13:24:41,482 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,482 - INFO - Successfully analyzed AMD
+2025-03-14 13:24:41,482 - INFO - Processing AMGN (11/96)
+2025-03-14 13:24:41,482 - INFO - Running FAMA_FRENCH analysis for AMGN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,482 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMGN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,484 - INFO - Retrieved 1257 rows of price data for AMGN
+2025-03-14 13:24:41,489 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,489 - INFO - Successfully analyzed AMGN
+2025-03-14 13:24:41,489 - INFO - Processing AMZN (12/96)
+2025-03-14 13:24:41,490 - INFO - Running FAMA_FRENCH analysis for AMZN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,490 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMZN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,491 - INFO - Retrieved 1257 rows of price data for AMZN
+2025-03-14 13:24:41,497 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,497 - INFO - Successfully analyzed AMZN
+2025-03-14 13:24:41,497 - INFO - Processing ANSS (13/96)
+2025-03-14 13:24:41,497 - INFO - Running FAMA_FRENCH analysis for ANSS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,497 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ANSS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,499 - INFO - Retrieved 1257 rows of price data for ANSS
+2025-03-14 13:24:41,505 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,505 - INFO - Successfully analyzed ANSS
+2025-03-14 13:24:41,505 - INFO - Processing ASML (14/96)
+2025-03-14 13:24:41,505 - INFO - Running FAMA_FRENCH analysis for ASML from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,505 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ASML'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,508 - INFO - Retrieved 1257 rows of price data for ASML
+2025-03-14 13:24:41,514 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,514 - INFO - Successfully analyzed ASML
+2025-03-14 13:24:41,514 - INFO - Processing AVGO (15/96)
+2025-03-14 13:24:41,514 - INFO - Running FAMA_FRENCH analysis for AVGO from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,514 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AVGO'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,516 - INFO - Retrieved 1257 rows of price data for AVGO
+2025-03-14 13:24:41,522 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,522 - INFO - Successfully analyzed AVGO
+2025-03-14 13:24:41,522 - INFO - Processing BIIB (16/96)
+2025-03-14 13:24:41,522 - INFO - Running FAMA_FRENCH analysis for BIIB from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,522 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'BIIB'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,524 - INFO - Retrieved 1257 rows of price data for BIIB
+2025-03-14 13:24:41,531 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,531 - INFO - Successfully analyzed BIIB
+2025-03-14 13:24:41,531 - INFO - Processing BKNG (17/96)
+2025-03-14 13:24:41,531 - INFO - Running FAMA_FRENCH analysis for BKNG from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,531 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'BKNG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,532 - INFO - Retrieved 1257 rows of price data for BKNG
+2025-03-14 13:24:41,539 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,539 - INFO - Successfully analyzed BKNG
+2025-03-14 13:24:41,539 - INFO - Processing CCEP (18/96)
+2025-03-14 13:24:41,539 - INFO - Running FAMA_FRENCH analysis for CCEP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,539 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CCEP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,540 - INFO - Retrieved 1257 rows of price data for CCEP
+2025-03-14 13:24:41,546 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,546 - INFO - Successfully analyzed CCEP
+2025-03-14 13:24:41,546 - INFO - Processing CDNS (19/96)
+2025-03-14 13:24:41,546 - INFO - Running FAMA_FRENCH analysis for CDNS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,546 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CDNS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,548 - INFO - Retrieved 1257 rows of price data for CDNS
+2025-03-14 13:24:41,554 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,554 - INFO - Successfully analyzed CDNS
+2025-03-14 13:24:41,554 - INFO - Processing CHTR (20/96)
+2025-03-14 13:24:41,554 - INFO - Running FAMA_FRENCH analysis for CHTR from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,554 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CHTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,555 - INFO - Retrieved 1257 rows of price data for CHTR
+2025-03-14 13:24:41,563 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,563 - INFO - Successfully analyzed CHTR
+2025-03-14 13:24:41,563 - INFO - Processing CMCSA (21/96)
+2025-03-14 13:24:41,563 - INFO - Running FAMA_FRENCH analysis for CMCSA from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,563 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CMCSA'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,564 - INFO - Retrieved 1257 rows of price data for CMCSA
+2025-03-14 13:24:41,571 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,571 - INFO - Successfully analyzed CMCSA
+2025-03-14 13:24:41,571 - INFO - Processing COST (22/96)
+2025-03-14 13:24:41,571 - INFO - Running FAMA_FRENCH analysis for COST from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,571 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'COST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,572 - INFO - Retrieved 1257 rows of price data for COST
+2025-03-14 13:24:41,579 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,579 - INFO - Successfully analyzed COST
+2025-03-14 13:24:41,579 - INFO - Processing CPRT (23/96)
+2025-03-14 13:24:41,579 - INFO - Running FAMA_FRENCH analysis for CPRT from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,579 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CPRT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,581 - INFO - Retrieved 1257 rows of price data for CPRT
+2025-03-14 13:24:41,587 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,587 - INFO - Successfully analyzed CPRT
+2025-03-14 13:24:41,587 - INFO - Processing CRWD (24/96)
+2025-03-14 13:24:41,587 - INFO - Running FAMA_FRENCH analysis for CRWD from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,587 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CRWD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,589 - INFO - Retrieved 1257 rows of price data for CRWD
+2025-03-14 13:24:41,595 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,595 - INFO - Successfully analyzed CRWD
+2025-03-14 13:24:41,595 - INFO - Processing CSCO (25/96)
+2025-03-14 13:24:41,595 - INFO - Running FAMA_FRENCH analysis for CSCO from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,595 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CSCO'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,597 - INFO - Retrieved 1257 rows of price data for CSCO
+2025-03-14 13:24:41,603 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,603 - INFO - Successfully analyzed CSCO
+2025-03-14 13:24:41,603 - INFO - Processing CSGP (26/96)
+2025-03-14 13:24:41,603 - INFO - Running FAMA_FRENCH analysis for CSGP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,603 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CSGP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,605 - INFO - Retrieved 1257 rows of price data for CSGP
+2025-03-14 13:24:41,611 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,611 - INFO - Successfully analyzed CSGP
+2025-03-14 13:24:41,611 - INFO - Processing CSX (27/96)
+2025-03-14 13:24:41,611 - INFO - Running FAMA_FRENCH analysis for CSX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,611 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CSX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,613 - INFO - Retrieved 1257 rows of price data for CSX
+2025-03-14 13:24:41,619 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,619 - INFO - Successfully analyzed CSX
+2025-03-14 13:24:41,619 - INFO - Processing CTAS (28/96)
+2025-03-14 13:24:41,619 - INFO - Running FAMA_FRENCH analysis for CTAS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,619 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CTAS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,620 - INFO - Retrieved 1257 rows of price data for CTAS
+2025-03-14 13:24:41,628 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,628 - INFO - Successfully analyzed CTAS
+2025-03-14 13:24:41,628 - INFO - Processing CTSH (29/96)
+2025-03-14 13:24:41,628 - INFO - Running FAMA_FRENCH analysis for CTSH from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,628 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CTSH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,629 - INFO - Retrieved 1257 rows of price data for CTSH
+2025-03-14 13:24:41,636 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,636 - INFO - Successfully analyzed CTSH
+2025-03-14 13:24:41,636 - INFO - Processing DASH (30/96)
+2025-03-14 13:24:41,636 - INFO - Running FAMA_FRENCH analysis for DASH from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,636 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DASH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,637 - INFO - Retrieved 1020 rows of price data for DASH
+2025-03-14 13:24:41,643 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,643 - INFO - Successfully analyzed DASH
+2025-03-14 13:24:41,643 - INFO - Processing DDOG (31/96)
+2025-03-14 13:24:41,643 - INFO - Running FAMA_FRENCH analysis for DDOG from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,643 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DDOG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,645 - INFO - Retrieved 1257 rows of price data for DDOG
+2025-03-14 13:24:41,652 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,652 - INFO - Successfully analyzed DDOG
+2025-03-14 13:24:41,652 - INFO - Processing DLTR (32/96)
+2025-03-14 13:24:41,652 - INFO - Running FAMA_FRENCH analysis for DLTR from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,652 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DLTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,653 - INFO - Retrieved 1257 rows of price data for DLTR
+2025-03-14 13:24:41,660 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,660 - INFO - Successfully analyzed DLTR
+2025-03-14 13:24:41,660 - INFO - Processing DXCM (33/96)
+2025-03-14 13:24:41,660 - INFO - Running FAMA_FRENCH analysis for DXCM from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,660 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DXCM'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,662 - INFO - Retrieved 1257 rows of price data for DXCM
+2025-03-14 13:24:41,668 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,668 - INFO - Successfully analyzed DXCM
+2025-03-14 13:24:41,668 - INFO - Processing ENPH (34/96)
+2025-03-14 13:24:41,668 - INFO - Running FAMA_FRENCH analysis for ENPH from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,668 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ENPH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,669 - INFO - Retrieved 1257 rows of price data for ENPH
+2025-03-14 13:24:41,676 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,676 - INFO - Successfully analyzed ENPH
+2025-03-14 13:24:41,676 - INFO - Processing EXC (35/96)
+2025-03-14 13:24:41,676 - INFO - Running FAMA_FRENCH analysis for EXC from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,676 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'EXC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,677 - INFO - Retrieved 1257 rows of price data for EXC
+2025-03-14 13:24:41,683 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,683 - INFO - Successfully analyzed EXC
+2025-03-14 13:24:41,683 - INFO - Processing FANG (36/96)
+2025-03-14 13:24:41,683 - INFO - Running FAMA_FRENCH analysis for FANG from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,683 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'FANG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,685 - INFO - Retrieved 1257 rows of price data for FANG
+2025-03-14 13:24:41,691 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,692 - INFO - Successfully analyzed FANG
+2025-03-14 13:24:41,692 - INFO - Processing FAST (37/96)
+2025-03-14 13:24:41,692 - INFO - Running FAMA_FRENCH analysis for FAST from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,692 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'FAST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,693 - INFO - Retrieved 1257 rows of price data for FAST
+2025-03-14 13:24:41,700 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,700 - INFO - Successfully analyzed FAST
+2025-03-14 13:24:41,700 - INFO - Processing FTNT (38/96)
+2025-03-14 13:24:41,700 - INFO - Running FAMA_FRENCH analysis for FTNT from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,700 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'FTNT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,701 - INFO - Retrieved 1257 rows of price data for FTNT
+2025-03-14 13:24:41,707 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,707 - INFO - Successfully analyzed FTNT
+2025-03-14 13:24:41,707 - INFO - Processing GEHC (39/96)
+2025-03-14 13:24:41,707 - INFO - Running FAMA_FRENCH analysis for GEHC from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,707 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GEHC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,708 - INFO - Retrieved 512 rows of price data for GEHC
+2025-03-14 13:24:41,715 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,715 - INFO - Successfully analyzed GEHC
+2025-03-14 13:24:41,715 - INFO - Processing GILD (40/96)
+2025-03-14 13:24:41,715 - INFO - Running FAMA_FRENCH analysis for GILD from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,715 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GILD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,715 - INFO - Retrieved 1257 rows of price data for GILD
+2025-03-14 13:24:41,722 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,722 - INFO - Successfully analyzed GILD
+2025-03-14 13:24:41,722 - INFO - Processing GOOG (41/96)
+2025-03-14 13:24:41,722 - INFO - Running FAMA_FRENCH analysis for GOOG from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,722 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GOOG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,723 - INFO - Retrieved 1257 rows of price data for GOOG
+2025-03-14 13:24:41,731 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,731 - INFO - Successfully analyzed GOOG
+2025-03-14 13:24:41,731 - INFO - Processing GOOGL (42/96)
+2025-03-14 13:24:41,731 - INFO - Running FAMA_FRENCH analysis for GOOGL from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,731 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GOOGL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,732 - INFO - Retrieved 1257 rows of price data for GOOGL
+2025-03-14 13:24:41,739 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,739 - INFO - Successfully analyzed GOOGL
+2025-03-14 13:24:41,739 - INFO - Processing HON (43/96)
+2025-03-14 13:24:41,739 - INFO - Running FAMA_FRENCH analysis for HON from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,739 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'HON'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,739 - INFO - Retrieved 1257 rows of price data for HON
+2025-03-14 13:24:41,745 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,745 - INFO - Successfully analyzed HON
+2025-03-14 13:24:41,746 - INFO - Processing IDXX (44/96)
+2025-03-14 13:24:41,746 - INFO - Running FAMA_FRENCH analysis for IDXX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,746 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'IDXX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,747 - INFO - Retrieved 1257 rows of price data for IDXX
+2025-03-14 13:24:41,753 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,753 - INFO - Successfully analyzed IDXX
+2025-03-14 13:24:41,753 - INFO - Processing ILMN (45/96)
+2025-03-14 13:24:41,753 - INFO - Running FAMA_FRENCH analysis for ILMN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,753 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ILMN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,755 - INFO - Retrieved 1257 rows of price data for ILMN
+2025-03-14 13:24:41,761 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,761 - INFO - Successfully analyzed ILMN
+2025-03-14 13:24:41,761 - INFO - Processing INTC (46/96)
+2025-03-14 13:24:41,761 - INFO - Running FAMA_FRENCH analysis for INTC from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,761 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'INTC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,763 - INFO - Retrieved 1257 rows of price data for INTC
+2025-03-14 13:24:41,769 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,769 - INFO - Successfully analyzed INTC
+2025-03-14 13:24:41,769 - INFO - Processing INTU (47/96)
+2025-03-14 13:24:41,769 - INFO - Running FAMA_FRENCH analysis for INTU from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,770 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'INTU'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,771 - INFO - Retrieved 1257 rows of price data for INTU
+2025-03-14 13:24:41,776 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,776 - INFO - Successfully analyzed INTU
+2025-03-14 13:24:41,776 - INFO - Processing ISRG (48/96)
+2025-03-14 13:24:41,776 - INFO - Running FAMA_FRENCH analysis for ISRG from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,776 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ISRG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,778 - INFO - Retrieved 1257 rows of price data for ISRG
+2025-03-14 13:24:41,784 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,784 - INFO - Successfully analyzed ISRG
+2025-03-14 13:24:41,784 - INFO - Processing KDP (49/96)
+2025-03-14 13:24:41,784 - INFO - Running FAMA_FRENCH analysis for KDP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,784 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'KDP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,785 - INFO - Retrieved 1257 rows of price data for KDP
+2025-03-14 13:24:41,792 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,792 - INFO - Successfully analyzed KDP
+2025-03-14 13:24:41,792 - INFO - Processing KLAC (50/96)
+2025-03-14 13:24:41,792 - INFO - Running FAMA_FRENCH analysis for KLAC from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,792 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'KLAC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,793 - INFO - Retrieved 1257 rows of price data for KLAC
+2025-03-14 13:24:41,799 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,799 - INFO - Successfully analyzed KLAC
+2025-03-14 13:24:41,799 - INFO - Processing LCID (51/96)
+2025-03-14 13:24:41,800 - INFO - Running FAMA_FRENCH analysis for LCID from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,800 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'LCID'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,801 - INFO - Retrieved 1077 rows of price data for LCID
+2025-03-14 13:24:41,807 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,807 - INFO - Successfully analyzed LCID
+2025-03-14 13:24:41,807 - INFO - Processing LRCX (52/96)
+2025-03-14 13:24:41,807 - INFO - Running FAMA_FRENCH analysis for LRCX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,807 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'LRCX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,809 - INFO - Retrieved 1257 rows of price data for LRCX
+2025-03-14 13:24:41,815 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,815 - INFO - Successfully analyzed LRCX
+2025-03-14 13:24:41,815 - INFO - Processing LULU (53/96)
+2025-03-14 13:24:41,815 - INFO - Running FAMA_FRENCH analysis for LULU from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,815 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'LULU'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,816 - INFO - Retrieved 1257 rows of price data for LULU
+2025-03-14 13:24:41,822 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,822 - INFO - Successfully analyzed LULU
+2025-03-14 13:24:41,822 - INFO - Processing MCHP (54/96)
+2025-03-14 13:24:41,822 - INFO - Running FAMA_FRENCH analysis for MCHP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,822 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MCHP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,823 - INFO - Retrieved 1257 rows of price data for MCHP
+2025-03-14 13:24:41,830 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,830 - INFO - Successfully analyzed MCHP
+2025-03-14 13:24:41,830 - INFO - Processing MDB (55/96)
+2025-03-14 13:24:41,830 - INFO - Running FAMA_FRENCH analysis for MDB from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,830 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MDB'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,832 - INFO - Retrieved 1257 rows of price data for MDB
+2025-03-14 13:24:41,838 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,838 - INFO - Successfully analyzed MDB
+2025-03-14 13:24:41,838 - INFO - Processing MDLZ (56/96)
+2025-03-14 13:24:41,838 - INFO - Running FAMA_FRENCH analysis for MDLZ from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,838 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MDLZ'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,839 - INFO - Retrieved 1257 rows of price data for MDLZ
+2025-03-14 13:24:41,846 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,846 - INFO - Successfully analyzed MDLZ
+2025-03-14 13:24:41,846 - INFO - Processing MELI (57/96)
+2025-03-14 13:24:41,846 - INFO - Running FAMA_FRENCH analysis for MELI from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,846 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MELI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,847 - INFO - Retrieved 1257 rows of price data for MELI
+2025-03-14 13:24:41,853 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,854 - INFO - Successfully analyzed MELI
+2025-03-14 13:24:41,854 - INFO - Processing META (58/96)
+2025-03-14 13:24:41,854 - INFO - Running FAMA_FRENCH analysis for META from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,854 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'META'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,855 - INFO - Retrieved 1257 rows of price data for META
+2025-03-14 13:24:41,860 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,860 - INFO - Successfully analyzed META
+2025-03-14 13:24:41,860 - INFO - Processing MNST (59/96)
+2025-03-14 13:24:41,860 - INFO - Running FAMA_FRENCH analysis for MNST from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,860 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MNST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,862 - INFO - Retrieved 1257 rows of price data for MNST
+2025-03-14 13:24:41,868 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,868 - INFO - Successfully analyzed MNST
+2025-03-14 13:24:41,868 - INFO - Processing MRVL (60/96)
+2025-03-14 13:24:41,868 - INFO - Running FAMA_FRENCH analysis for MRVL from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,868 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MRVL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,870 - INFO - Retrieved 1257 rows of price data for MRVL
+2025-03-14 13:24:41,877 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,877 - INFO - Successfully analyzed MRVL
+2025-03-14 13:24:41,877 - INFO - Processing MSFT (61/96)
+2025-03-14 13:24:41,877 - INFO - Running FAMA_FRENCH analysis for MSFT from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,877 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MSFT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,877 - INFO - Retrieved 1257 rows of price data for MSFT
+2025-03-14 13:24:41,884 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,884 - INFO - Successfully analyzed MSFT
+2025-03-14 13:24:41,884 - INFO - Processing MSTR (62/96)
+2025-03-14 13:24:41,884 - INFO - Running FAMA_FRENCH analysis for MSTR from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,884 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MSTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,885 - INFO - Retrieved 1257 rows of price data for MSTR
+2025-03-14 13:24:41,891 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,891 - INFO - Successfully analyzed MSTR
+2025-03-14 13:24:41,891 - INFO - Processing MTCH (63/96)
+2025-03-14 13:24:41,891 - INFO - Running FAMA_FRENCH analysis for MTCH from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,891 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MTCH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,893 - INFO - Retrieved 1257 rows of price data for MTCH
+2025-03-14 13:24:41,899 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,899 - INFO - Successfully analyzed MTCH
+2025-03-14 13:24:41,899 - INFO - Processing NFLX (64/96)
+2025-03-14 13:24:41,899 - INFO - Running FAMA_FRENCH analysis for NFLX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,899 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'NFLX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,900 - INFO - Retrieved 1257 rows of price data for NFLX
+2025-03-14 13:24:41,907 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,907 - INFO - Successfully analyzed NFLX
+2025-03-14 13:24:41,907 - INFO - Processing NVDA (65/96)
+2025-03-14 13:24:41,907 - INFO - Running FAMA_FRENCH analysis for NVDA from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,907 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'NVDA'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,909 - INFO - Retrieved 1257 rows of price data for NVDA
+2025-03-14 13:24:41,915 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,915 - INFO - Successfully analyzed NVDA
+2025-03-14 13:24:41,915 - INFO - Processing NXPI (66/96)
+2025-03-14 13:24:41,915 - INFO - Running FAMA_FRENCH analysis for NXPI from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,915 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'NXPI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,916 - INFO - Retrieved 1257 rows of price data for NXPI
+2025-03-14 13:24:41,922 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,922 - INFO - Successfully analyzed NXPI
+2025-03-14 13:24:41,922 - INFO - Processing ODFL (67/96)
+2025-03-14 13:24:41,922 - INFO - Running FAMA_FRENCH analysis for ODFL from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,923 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ODFL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,924 - INFO - Retrieved 1257 rows of price data for ODFL
+2025-03-14 13:24:41,929 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,929 - INFO - Successfully analyzed ODFL
+2025-03-14 13:24:41,929 - INFO - Processing ORLY (68/96)
+2025-03-14 13:24:41,929 - INFO - Running FAMA_FRENCH analysis for ORLY from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,929 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ORLY'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,932 - INFO - Retrieved 1257 rows of price data for ORLY
+2025-03-14 13:24:41,937 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,937 - INFO - Successfully analyzed ORLY
+2025-03-14 13:24:41,937 - INFO - Processing PANW (69/96)
+2025-03-14 13:24:41,937 - INFO - Running FAMA_FRENCH analysis for PANW from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,937 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PANW'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,939 - INFO - Retrieved 1257 rows of price data for PANW
+2025-03-14 13:24:41,946 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,946 - INFO - Successfully analyzed PANW
+2025-03-14 13:24:41,946 - INFO - Processing PAYX (70/96)
+2025-03-14 13:24:41,946 - INFO - Running FAMA_FRENCH analysis for PAYX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,946 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PAYX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,947 - INFO - Retrieved 1257 rows of price data for PAYX
+2025-03-14 13:24:41,954 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,954 - INFO - Successfully analyzed PAYX
+2025-03-14 13:24:41,954 - INFO - Processing PCAR (71/96)
+2025-03-14 13:24:41,954 - INFO - Running FAMA_FRENCH analysis for PCAR from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,954 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PCAR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,955 - INFO - Retrieved 1257 rows of price data for PCAR
+2025-03-14 13:24:41,962 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,962 - INFO - Successfully analyzed PCAR
+2025-03-14 13:24:41,962 - INFO - Processing PEP (72/96)
+2025-03-14 13:24:41,962 - INFO - Running FAMA_FRENCH analysis for PEP from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,962 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PEP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,963 - INFO - Retrieved 1257 rows of price data for PEP
+2025-03-14 13:24:41,970 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,970 - INFO - Successfully analyzed PEP
+2025-03-14 13:24:41,970 - INFO - Processing PLTR (73/96)
+2025-03-14 13:24:41,970 - INFO - Running FAMA_FRENCH analysis for PLTR from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,970 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PLTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,971 - INFO - Retrieved 1069 rows of price data for PLTR
+2025-03-14 13:24:41,978 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,978 - INFO - Successfully analyzed PLTR
+2025-03-14 13:24:41,978 - INFO - Processing PYPL (74/96)
+2025-03-14 13:24:41,978 - INFO - Running FAMA_FRENCH analysis for PYPL from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,978 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PYPL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,980 - INFO - Retrieved 1257 rows of price data for PYPL
+2025-03-14 13:24:41,986 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,986 - INFO - Successfully analyzed PYPL
+2025-03-14 13:24:41,986 - INFO - Processing QCOM (75/96)
+2025-03-14 13:24:41,986 - INFO - Running FAMA_FRENCH analysis for QCOM from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,986 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'QCOM'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,988 - INFO - Retrieved 1257 rows of price data for QCOM
+2025-03-14 13:24:41,994 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:41,994 - INFO - Successfully analyzed QCOM
+2025-03-14 13:24:41,994 - INFO - Processing REGN (76/96)
+2025-03-14 13:24:41,994 - INFO - Running FAMA_FRENCH analysis for REGN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:41,994 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'REGN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:41,995 - INFO - Retrieved 1257 rows of price data for REGN
+2025-03-14 13:24:42,001 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,001 - INFO - Successfully analyzed REGN
+2025-03-14 13:24:42,001 - INFO - Processing RIVN (77/96)
+2025-03-14 13:24:42,001 - INFO - Running FAMA_FRENCH analysis for RIVN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,001 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'RIVN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,002 - INFO - Retrieved 788 rows of price data for RIVN
+2025-03-14 13:24:42,009 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,009 - INFO - Successfully analyzed RIVN
+2025-03-14 13:24:42,009 - INFO - Processing ROST (78/96)
+2025-03-14 13:24:42,009 - INFO - Running FAMA_FRENCH analysis for ROST from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,009 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ROST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,011 - INFO - Retrieved 1257 rows of price data for ROST
+2025-03-14 13:24:42,017 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,017 - INFO - Successfully analyzed ROST
+2025-03-14 13:24:42,017 - INFO - Processing SBUX (79/96)
+2025-03-14 13:24:42,017 - INFO - Running FAMA_FRENCH analysis for SBUX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,017 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SBUX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,018 - INFO - Retrieved 1257 rows of price data for SBUX
+2025-03-14 13:24:42,024 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,024 - INFO - Successfully analyzed SBUX
+2025-03-14 13:24:42,024 - INFO - Processing SIRI (80/96)
+2025-03-14 13:24:42,024 - INFO - Running FAMA_FRENCH analysis for SIRI from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,024 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SIRI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,025 - INFO - Retrieved 1257 rows of price data for SIRI
+2025-03-14 13:24:42,032 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,032 - INFO - Successfully analyzed SIRI
+2025-03-14 13:24:42,032 - INFO - Processing SMCI (81/96)
+2025-03-14 13:24:42,032 - INFO - Running FAMA_FRENCH analysis for SMCI from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,032 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SMCI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,033 - INFO - Retrieved 1257 rows of price data for SMCI
+2025-03-14 13:24:42,039 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,039 - INFO - Successfully analyzed SMCI
+2025-03-14 13:24:42,039 - INFO - Processing SNPS (82/96)
+2025-03-14 13:24:42,039 - INFO - Running FAMA_FRENCH analysis for SNPS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,039 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SNPS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,041 - INFO - Retrieved 1257 rows of price data for SNPS
+2025-03-14 13:24:42,047 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,047 - INFO - Successfully analyzed SNPS
+2025-03-14 13:24:42,047 - INFO - Processing SWKS (83/96)
+2025-03-14 13:24:42,047 - INFO - Running FAMA_FRENCH analysis for SWKS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,047 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SWKS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,049 - INFO - Retrieved 1257 rows of price data for SWKS
+2025-03-14 13:24:42,055 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,055 - INFO - Successfully analyzed SWKS
+2025-03-14 13:24:42,055 - INFO - Processing TEAM (84/96)
+2025-03-14 13:24:42,055 - INFO - Running FAMA_FRENCH analysis for TEAM from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,055 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TEAM'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,056 - INFO - Retrieved 1257 rows of price data for TEAM
+2025-03-14 13:24:42,062 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,062 - INFO - Successfully analyzed TEAM
+2025-03-14 13:24:42,062 - INFO - Processing TMUS (85/96)
+2025-03-14 13:24:42,062 - INFO - Running FAMA_FRENCH analysis for TMUS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,062 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TMUS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,064 - INFO - Retrieved 1257 rows of price data for TMUS
+2025-03-14 13:24:42,070 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,070 - INFO - Successfully analyzed TMUS
+2025-03-14 13:24:42,070 - INFO - Processing TSLA (86/96)
+2025-03-14 13:24:42,070 - INFO - Running FAMA_FRENCH analysis for TSLA from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,070 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TSLA'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,072 - INFO - Retrieved 1257 rows of price data for TSLA
+2025-03-14 13:24:42,079 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,079 - INFO - Successfully analyzed TSLA
+2025-03-14 13:24:42,079 - INFO - Processing TTD (87/96)
+2025-03-14 13:24:42,079 - INFO - Running FAMA_FRENCH analysis for TTD from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,079 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TTD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,080 - INFO - Retrieved 1257 rows of price data for TTD
+2025-03-14 13:24:42,086 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,086 - INFO - Successfully analyzed TTD
+2025-03-14 13:24:42,086 - INFO - Processing TTWO (88/96)
+2025-03-14 13:24:42,086 - INFO - Running FAMA_FRENCH analysis for TTWO from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,086 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TTWO'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,088 - INFO - Retrieved 1257 rows of price data for TTWO
+2025-03-14 13:24:42,094 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,094 - INFO - Successfully analyzed TTWO
+2025-03-14 13:24:42,094 - INFO - Processing TXN (89/96)
+2025-03-14 13:24:42,094 - INFO - Running FAMA_FRENCH analysis for TXN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,094 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TXN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,096 - INFO - Retrieved 1257 rows of price data for TXN
+2025-03-14 13:24:42,102 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,102 - INFO - Successfully analyzed TXN
+2025-03-14 13:24:42,102 - INFO - Processing VRSK (90/96)
+2025-03-14 13:24:42,102 - INFO - Running FAMA_FRENCH analysis for VRSK from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,102 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'VRSK'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,103 - INFO - Retrieved 1257 rows of price data for VRSK
+2025-03-14 13:24:42,108 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,109 - INFO - Successfully analyzed VRSK
+2025-03-14 13:24:42,109 - INFO - Processing VRSN (91/96)
+2025-03-14 13:24:42,109 - INFO - Running FAMA_FRENCH analysis for VRSN from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,109 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'VRSN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,110 - INFO - Retrieved 1257 rows of price data for VRSN
+2025-03-14 13:24:42,116 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,116 - INFO - Successfully analyzed VRSN
+2025-03-14 13:24:42,116 - INFO - Processing VRTX (92/96)
+2025-03-14 13:24:42,116 - INFO - Running FAMA_FRENCH analysis for VRTX from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,116 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'VRTX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,117 - INFO - Retrieved 1257 rows of price data for VRTX
+2025-03-14 13:24:42,124 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,124 - INFO - Successfully analyzed VRTX
+2025-03-14 13:24:42,124 - INFO - Processing WBD (93/96)
+2025-03-14 13:24:42,124 - INFO - Running FAMA_FRENCH analysis for WBD from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,124 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'WBD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,125 - INFO - Retrieved 1257 rows of price data for WBD
+2025-03-14 13:24:42,131 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,131 - INFO - Successfully analyzed WBD
+2025-03-14 13:24:42,131 - INFO - Processing WDAY (94/96)
+2025-03-14 13:24:42,131 - INFO - Running FAMA_FRENCH analysis for WDAY from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,131 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'WDAY'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,133 - INFO - Retrieved 1257 rows of price data for WDAY
+2025-03-14 13:24:42,139 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,139 - INFO - Successfully analyzed WDAY
+2025-03-14 13:24:42,139 - INFO - Processing XEL (95/96)
+2025-03-14 13:24:42,139 - INFO - Running FAMA_FRENCH analysis for XEL from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,139 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'XEL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,140 - INFO - Retrieved 1257 rows of price data for XEL
+2025-03-14 13:24:42,146 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,146 - INFO - Successfully analyzed XEL
+2025-03-14 13:24:42,146 - INFO - Processing ZS (96/96)
+2025-03-14 13:24:42,146 - INFO - Running FAMA_FRENCH analysis for ZS from 2020-01-01 to 2025-03-14
+2025-03-14 13:24:42,146 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ZS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-14'
+        ORDER BY date
+        
+2025-03-14 13:24:42,148 - INFO - Retrieved 1257 rows of price data for ZS
+2025-03-14 13:24:42,154 - ERROR - Error storing fundamental analysis results: no such table: fundamental_analysis_ff
+2025-03-14 13:24:42,154 - INFO - Successfully analyzed ZS
+2025-03-14 13:24:42,154 - INFO - Analysis completed. Success: 96, Errors: 0
+2025-03-14 13:31:19,256 - INFO - Found 100 unique tickers to process
+2025-03-14 13:31:19,592 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-14 13:31:20,355 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-14 13:31:21,152 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-14 13:31:21,955 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-14 13:31:22,700 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-14 13:31:23,562 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-14 13:31:24,367 - INFO - Successfully stored 2263 price points for META
+2025-03-14 13:31:25,105 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-14 13:31:25,844 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-14 13:31:26,599 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-14 13:31:27,400 - INFO - Successfully stored 2263 price points for COST
+2025-03-14 13:31:28,187 - INFO - Successfully stored 2263 price points for PEP
+2025-03-14 13:31:28,908 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-14 13:31:29,646 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-14 13:31:30,444 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-14 13:31:31,199 - INFO - Successfully stored 2263 price points for AMD
+2025-03-14 13:31:32,137 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-14 13:31:33,085 - INFO - Successfully stored 2263 price points for INTC
+2025-03-14 13:31:33,875 - INFO - Successfully stored 2263 price points for INTU
+2025-03-14 13:31:34,714 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-14 13:31:35,469 - INFO - Successfully stored 2263 price points for TXN
+2025-03-14 13:31:36,284 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-14 13:31:37,158 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-14 13:31:38,032 - INFO - Successfully stored 2263 price points for HON
+2025-03-14 13:31:38,865 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-14 13:31:39,626 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-14 13:31:40,378 - INFO - Successfully stored 2263 price points for ADI
+2025-03-14 13:31:41,193 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-14 13:31:41,985 - INFO - Successfully stored 2263 price points for GILD
+2025-03-14 13:31:42,736 - INFO - Successfully stored 2263 price points for REGN
+2025-03-14 13:31:43,615 - INFO - Successfully stored 2263 price points for ADP
+2025-03-14 13:31:44,495 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-14 13:31:45,319 - INFO - Successfully stored 2263 price points for PANW
+2025-03-14 13:31:46,076 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-14 13:31:46,838 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-14 13:31:47,695 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-14 13:31:48,504 - INFO - Successfully stored 2263 price points for ASML
+2025-03-14 13:31:49,366 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-14 13:31:50,201 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-14 13:31:50,999 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-14 13:31:51,671 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-14 13:31:52,429 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-14 13:31:53,285 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-14 13:31:54,035 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-14 13:31:54,826 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-14 13:31:55,718 - INFO - Successfully stored 2263 price points for MELI
+2025-03-14 13:31:56,468 - INFO - Successfully stored 2263 price points for MNST
+2025-03-14 13:31:57,343 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-14 13:31:58,093 - INFO - Successfully stored 2263 price points for KDP
+2025-03-14 13:31:58,962 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-14 13:31:59,749 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-14 13:32:00,486 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-14 13:32:01,197 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-14 13:32:01,989 - INFO - Successfully stored 2263 price points for LULU
+2025-03-14 13:32:02,692 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-14 13:32:03,480 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-14 13:32:04,246 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-14 13:32:04,957 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-14 13:32:05,891 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-14 13:32:06,654 - INFO - Successfully stored 2263 price points for ROST
+2025-03-14 13:32:07,409 - INFO - Successfully stored 2263 price points for FAST
+2025-03-14 13:32:08,310 - INFO - Successfully stored 2263 price points for EXC
+2025-03-14 13:32:09,059 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-14 13:32:09,796 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-14 13:32:10,541 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-14 13:32:11,372 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-14 13:32:12,047 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-14 13:32:12,845 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-14 13:32:13,733 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-14 13:32:14,544 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-14 13:32:15,326 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-14 13:32:16,057 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-14 13:32:16,778 - INFO - Successfully stored 1709 price points for ZS
+2025-03-14 13:32:17,581 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-14 13:32:18,406 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-14 13:32:19,229 - INFO - Successfully stored 2263 price points for FANG
+2025-03-14 13:32:19,937 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-14 13:32:20,584 - INFO - Successfully stored 512 price points for GEHC
+2025-03-14 13:32:21,252 - INFO - Successfully stored 1020 price points for DASH
+2025-03-14 13:32:23,298 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-14 13:32:23,298 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-14 13:32:24,353 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-14 13:32:25,106 - INFO - Successfully stored 2263 price points for CCEP
+2025-03-14 13:32:26,668 - ERROR - $SPLK: possibly delisted; no timezone found
+2025-03-14 13:32:26,669 - WARNING - No data available for SPLK between 2016-01-01 and 2024-12-31
+2025-03-14 13:32:27,420 - INFO - Successfully stored 2263 price points for TTWO
+2025-03-14 13:32:28,152 - INFO - Successfully stored 2263 price points for VRSN
+2025-03-14 13:32:28,941 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-14 13:32:29,779 - INFO - Successfully stored 2263 price points for AEP
+2025-03-14 13:32:30,557 - INFO - Successfully stored 2263 price points for WBD
+2025-03-14 13:32:31,508 - INFO - Successfully stored 2263 price points for XEL
+2025-03-14 13:32:32,343 - INFO - Successfully stored 2263 price points for CSX
+2025-03-14 13:32:33,651 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-14 13:32:33,651 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-14 13:32:34,882 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-14 13:32:34,882 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-14 13:32:35,629 - INFO - Successfully stored 1810 price points for MDB
+2025-03-14 13:32:36,438 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-14 13:32:37,167 - INFO - Successfully stored 1077 price points for LCID
+2025-03-14 13:32:37,837 - INFO - Successfully stored 788 price points for RIVN
+2025-03-14 13:32:38,534 - INFO - Successfully stored 2082 price points for TTD
+2025-03-14 13:32:39,305 - INFO - Successfully stored 2263 price points for SMCI
+2025-03-14 13:32:39,934 - INFO - Successfully stored 1069 price points for PLTR
+2025-03-14 13:32:40,785 - INFO - Successfully stored 2263 price points for MSTR
+2025-03-14 13:32:41,581 - INFO - Successfully stored 2263 price points for SPY
+2025-03-14 13:32:42,399 - INFO - Successfully stored 2263 price points for ^NDX
+2025-03-14 13:32:42,900 - INFO - Price data fetch completed successfully
