@@ -1,0 +1,20 @@
+2025-03-14 11:59:42,495 - INFO - Retrieved price data for 153 stocks from 2020-01-01 to 2025-03-14
+2025-03-14 11:59:42,518 - INFO - Retrieved expected returns for 153 stocks using fama_french model
+2025-03-14 11:59:42,518 - INFO - Using 153 stocks with both price data and expected returns
+2025-03-14 11:59:42,525 - INFO - Starting Monte Carlo simulation with 10000 portfolios
+2025-03-14 11:59:42,736 - INFO - Completed 1000 portfolios in 0.21 seconds
+2025-03-14 11:59:42,797 - INFO - Completed 2000 portfolios in 0.27 seconds
+2025-03-14 11:59:42,858 - INFO - Completed 3000 portfolios in 0.33 seconds
+2025-03-14 11:59:42,920 - INFO - Completed 4000 portfolios in 0.40 seconds
+2025-03-14 11:59:43,013 - INFO - Completed 5000 portfolios in 0.49 seconds
+2025-03-14 11:59:43,083 - INFO - Completed 6000 portfolios in 0.56 seconds
+2025-03-14 11:59:43,185 - INFO - Completed 7000 portfolios in 0.66 seconds
+2025-03-14 11:59:43,247 - INFO - Completed 8000 portfolios in 0.72 seconds
+2025-03-14 11:59:43,330 - INFO - Completed 9000 portfolios in 0.81 seconds
+2025-03-14 11:59:43,389 - INFO - Monte Carlo simulation completed in 0.86 seconds
+2025-03-14 11:59:44,551 - INFO - Saved efficient frontier plot to results/efficient_frontier_20250314_115943.png
+2025-03-14 11:59:59,832 - ERROR - Error storing portfolio: no such column: portfolio_type
+2025-03-14 11:59:59,834 - ERROR - Error storing portfolio: no such column: portfolio_type
+2025-03-14 11:59:59,835 - ERROR - Error storing portfolio: no such column: portfolio_type
+2025-03-14 11:59:59,850 - INFO - Exported optimal portfolios to results/optimal_portfolios_20250314_115959.csv
+2025-03-14 11:59:59,853 - INFO - Monte Carlo simulation completed successfully
