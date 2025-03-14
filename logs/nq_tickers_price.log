@@ -7168,3 +7168,102 @@
 2025-02-15 10:25:57,566 - ERROR - 
 1 Failed download:
 2025-02-15 10:25:57,566 - ERROR - ['FOXA']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (1d 2017-03-30 -> 2017-03-31) (Yahoo error = "Data doesn\'t exist for startDate = 1490846400, endDate = 1490932800")')
+2025-03-14 11:36:05,342 - INFO - Found 180 unique tickers to process
+2025-03-14 11:36:09,163 - INFO - Successfully stored 2263 price points for TCOM
+2025-03-14 11:36:09,815 - ERROR - $LLTC: possibly delisted; no price data found  (1d 2016-01-01 -> 2024-12-31)
+2025-03-14 11:36:09,815 - WARNING - No data available for LLTC between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:10,545 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-14 11:36:11,326 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-14 11:36:12,164 - INFO - Successfully stored 2263 price points for MAT
+2025-03-14 11:36:12,943 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-14 11:36:13,733 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-14 11:36:14,563 - INFO - Successfully stored 2263 price points for NTAP
+2025-03-14 11:36:15,429 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-14 11:36:16,739 - INFO - Successfully stored 2263 price points for EA
+2025-03-14 11:36:17,462 - INFO - Successfully stored 2263 price points for INCY
+2025-03-14 11:36:18,282 - INFO - Successfully stored 2263 price points for FAST
+2025-03-14 11:36:19,104 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-14 11:36:19,962 - INFO - Successfully stored 2263 price points for NTES
+2025-03-14 11:36:21,329 - ERROR - $NLOK: possibly delisted; no timezone found
+2025-03-14 11:36:21,330 - WARNING - No data available for NLOK between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:22,262 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-14 11:36:23,142 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-14 11:36:23,865 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-14 11:36:25,188 - ERROR - $MYL: possibly delisted; no timezone found
+2025-03-14 11:36:25,189 - WARNING - No data available for MYL between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:25,992 - INFO - Successfully stored 2263 price points for MNST
+2025-03-14 11:36:26,719 - INFO - Successfully stored 2263 price points for HSIC
+2025-03-14 11:36:28,063 - ERROR - $CERN: possibly delisted; no timezone found
+2025-03-14 11:36:28,064 - WARNING - No data available for CERN between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:28,738 - INFO - Successfully stored 259 price points for CA
+2025-03-14 11:36:30,313 - ERROR - $ALXN: possibly delisted; no timezone found
+2025-03-14 11:36:30,313 - WARNING - No data available for ALXN between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:31,042 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-14 11:36:32,314 - ERROR - $VIAB: possibly delisted; no timezone found
+2025-03-14 11:36:32,315 - WARNING - No data available for VIAB between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:33,222 - INFO - Successfully stored 2263 price points for COST
+2025-03-14 11:36:34,164 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-14 11:36:35,107 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-14 11:36:36,012 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-14 11:36:36,885 - INFO - Successfully stored 2263 price points for ADI
+2025-03-14 11:36:37,750 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-14 11:36:39,323 - ERROR - $CELG: possibly delisted; no timezone found
+2025-03-14 11:36:39,324 - WARNING - No data available for CELG between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:40,230 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-14 11:36:41,423 - ERROR - $FB: possibly delisted; no timezone found
+2025-03-14 11:36:41,424 - WARNING - No data available for FB between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:42,210 - INFO - Successfully stored 2263 price points for ULTA
+2025-03-14 11:36:42,934 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-14 11:36:44,248 - ERROR - $LMCK: possibly delisted; no timezone found
+2025-03-14 11:36:44,249 - WARNING - No data available for LMCK between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:45,082 - INFO - Successfully stored 2263 price points for QRTEA
+2025-03-14 11:36:45,977 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-14 11:36:46,803 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-14 11:36:56,728 - ERROR - $XLNX: possibly delisted; no timezone found
+2025-03-14 11:36:56,729 - WARNING - No data available for XLNX between 2016-01-01 and 2024-12-31
+2025-03-14 11:36:57,528 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-14 11:36:58,611 - INFO - Successfully stored 2263 price points for ADP
+2025-03-14 11:36:59,422 - INFO - Successfully stored 2263 price points for GILD
+2025-03-14 11:37:00,200 - INFO - Successfully stored 2263 price points for INTU
+2025-03-14 11:37:01,016 - INFO - Successfully stored 1462 price points for FOXA
+2025-03-14 11:37:01,841 - INFO - Successfully stored 2263 price points for WDC
+2025-03-14 11:37:02,630 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-14 11:37:03,338 - INFO - Successfully stored 2263 price points for JD
+2025-03-14 11:37:05,164 - ERROR - $DISH: possibly delisted; no timezone found
+2025-03-14 11:37:05,165 - WARNING - No data available for DISH between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:05,871 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-14 11:37:06,715 - INFO - Successfully stored 2263 price points for MAR
+2025-03-14 11:37:07,579 - INFO - Successfully stored 2263 price points for ROST
+2025-03-14 11:37:08,879 - ERROR - $YHOO: possibly delisted; no timezone found
+2025-03-14 11:37:08,880 - WARNING - No data available for YHOO between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:09,686 - INFO - Successfully stored 2263 price points for REGN
+2025-03-14 11:37:10,541 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-14 11:37:11,429 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-14 11:37:13,077 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-14 11:37:13,078 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:14,694 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-14 11:37:14,694 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:15,639 - INFO - Successfully stored 2263 price points for CSX
+2025-03-14 11:37:16,234 - ERROR - $LMCA: possibly delisted; no price data found  (1d 2016-01-01 -> 2024-12-31)
+2025-03-14 11:37:16,234 - WARNING - No data available for LMCA between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:17,258 - INFO - Successfully stored 2263 price points for WBA
+2025-03-14 11:37:18,188 - INFO - Successfully stored 2263 price points for MU
+2025-03-14 11:37:18,967 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-14 11:37:19,728 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-14 11:37:20,543 - INFO - Successfully stored 2263 price points for AAL
+2025-03-14 11:37:21,301 - INFO - Successfully stored 2263 price points for STX
+2025-03-14 11:37:22,212 - INFO - Successfully stored 2263 price points for EXPE
+2025-03-14 11:37:23,023 - INFO - Successfully stored 2263 price points for AKAM
+2025-03-14 11:37:23,849 - INFO - Successfully stored 2263 price points for NCLH
+2025-03-14 11:37:24,842 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-14 11:37:25,721 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-14 11:37:28,910 - ERROR - $ENDP: possibly delisted; no timezone found
+2025-03-14 11:37:28,911 - WARNING - No data available for ENDP between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:29,702 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-14 11:37:31,375 - ERROR - $MXIM: possibly delisted; no timezone found
+2025-03-14 11:37:31,376 - WARNING - No data available for MXIM between 2016-01-01 and 2024-12-31
+2025-03-14 11:37:32,251 - INFO - Successfully stored 1461 price points for FOX
+2025-03-14 11:37:33,154 - INFO - Successfully stored 2263 price points for LBTYA
+2025-03-14 11:37:33,910 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-14 11:37:34,825 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-14 11:37:35,700 - INFO - Successfully stored 2224 price points for SRCL
