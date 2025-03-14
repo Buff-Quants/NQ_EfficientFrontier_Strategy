@@ -1,0 +1,38 @@
+2025-03-14 16:43:57,733 - INFO - Connected to database for technical signals update.
+2025-03-14 16:43:58,022 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:44:04,670 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:49:32,304 - INFO - Connected to database for technical signals update.
+2025-03-14 16:49:32,589 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:49:44,068 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:49:44,402 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 16:53:17,056 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 16:53:32,118 - ERROR - Error loading price or signals data: name 'sqlite3' is not defined
+2025-03-14 16:53:39,152 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-14 16:53:39,152 - INFO - NumExpr defaulting to 16 threads.
+2025-03-14 16:53:40,359 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 16:53:41,374 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 16:57:34,324 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:00:54,953 - INFO - Connected to database for technical signals update.
+2025-03-14 17:00:55,220 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 17:01:01,541 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 17:01:08,609 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:01:08,616 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 17:01:11,812 - INFO - Connected to database for technical signals update.
+2025-03-14 17:01:12,086 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 17:01:18,598 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 17:01:26,985 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:02:17,447 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:05:53,581 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:05:53,590 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 17:06:03,838 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:14:34,411 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:14:34,442 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 17:15:04,799 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:15:29,101 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 17:15:29,110 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 17:15:39,846 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date

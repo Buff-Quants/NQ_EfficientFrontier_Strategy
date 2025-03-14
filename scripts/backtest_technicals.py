@@ -1,3 +1,14 @@
+# backtest_technicals.py
+
+'''
+This script contains functions to backtest a technical trading strategy using vectorbt.
+The backtest_trading_strategy function loads price data from the database, applies the technical strategy,
+and builds a portfolio using vectorbt's Portfolio.from_signals. It then extracts performance metrics.
+The update_backtesting_results function inserts the backtesting results into the SQL table backtesting_results.
+The optimize_sma_windows function optimizes the SMA window parameters for a given DataFrame of price data.
+The deep_dive_analysis function prints detailed portfolio statistics and displays an interactive Plotly performance plot.
+'''
+
 import os
 import sqlite3
 import pandas as pd

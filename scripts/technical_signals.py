@@ -1,3 +1,23 @@
+# technical_signals.py
+
+'''
+This script contains the original technical indicator functions and a function to store the computed signals in a database.
+
+The apply_trading_strategy function applies the technical indicator functions to compute trading signals for a given DataFrame of price data.
+The update_technical_signals function loads raw price data from the database, applies the trading strategy, and stores the computed technical signals in the 'technical_signals' table.
+
+The technical indicator functions include:
+- Simple Moving Average (SMA) signals
+- Relative Strength Index (RSI)
+- Bollinger Bands signals
+- Moving Average Convergence Divergence (MACD)
+- On-Balance Volume (OBV) 
+- Stochastic Oscillator
+- Average Directional Index (ADX)
+
+The apply_trading_strategy function combines the signals from these indicators to generate an overall trading signal.
+'''
+
 import os
 import sqlite3
 import pandas as pd

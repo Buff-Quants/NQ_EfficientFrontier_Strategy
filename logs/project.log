@@ -22,3 +22,44 @@
 2025-03-14 13:58:31,203 - INFO - Connected to database for technical signals update.
 2025-03-14 13:58:31,457 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
 2025-03-14 13:58:37,698 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 15:53:10,514 - INFO - Connected to database for technical signals update.
+2025-03-14 15:53:10,828 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 15:53:17,449 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 15:53:22,463 - INFO - Connected to database for technical signals update.
+2025-03-14 15:53:22,723 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 15:53:29,099 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 15:54:14,247 - INFO - Connected to database for technical signals update.
+2025-03-14 15:54:14,501 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 15:54:20,757 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:25:49,919 - INFO - Connected to database for technical signals update.
+2025-03-14 16:25:50,692 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:25:58,047 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:25:58,196 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 16:43:07,470 - INFO - Connected to database for technical signals update.
+2025-03-14 16:43:07,756 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:43:14,218 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:43:14,270 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 16:50:47,534 - INFO - Connected to database for technical signals update.
+2025-03-14 16:50:47,809 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:50:53,824 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:51:00,355 - INFO - Connected to database for technical signals update.
+2025-03-14 16:51:00,616 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:51:06,675 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:52:38,306 - INFO - Connected to database for technical signals update.
+2025-03-14 16:52:38,564 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:52:44,785 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:52:48,422 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 16:52:48,457 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 16:55:02,923 - INFO - Connected to database for technical signals update.
+2025-03-14 16:55:03,201 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:55:09,448 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:55:13,738 - INFO - Connected to database for technical signals update.
+2025-03-14 16:55:14,010 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:55:20,274 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:56:04,169 - INFO - Connected to database for technical signals update.
+2025-03-14 16:56:04,565 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 16:56:10,844 - INFO - Inserted 208832 records into technical_signals.
+2025-03-14 16:56:14,415 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
