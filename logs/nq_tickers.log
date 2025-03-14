@@ -6486,3 +6486,6 @@
 2025-03-14 13:32:41,581 - INFO - Successfully stored 2263 price points for SPY
 2025-03-14 13:32:42,399 - INFO - Successfully stored 2263 price points for ^NDX
 2025-03-14 13:32:42,900 - INFO - Price data fetch completed successfully
+2025-03-14 13:40:47,223 - INFO - Connected to database for technical signals update.
+2025-03-14 13:40:47,764 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 13:40:53,821 - INFO - Inserted 208636 records into technical_signals.
