@@ -1,14 +1,3 @@
-## NEED TO PUT SPY DATA INTO SQL BEFORE THIS WORKS ##
-# ALSO WOULD LIKE TO COMPARE TO NASDAQ-100 FUTURES ## 
-
-'''
-THIS SCRIPT COMPUTES 7 TEHCNICAL INDICATORS, USES ALL 7 TO GENERATE BUY SIGNALS, WHEREAS ONLY 1 SELL SIGNAL IS NEEDED TO SELL 
-THE STRATEGY IS THEN BACKTESTED ON NASDAQ-100 STOCKS, AND THE TOP 25 STOCKS ARE RANKED BY PROFIT GAINED 
-THE SECTOR OF EACH STOCK IS THEN DETERMINED USING YFINANCE 
-THE TOP 25 STOCKS ARE THEN PRINTED ALONG WITH THE SECTOR COUNTS FOR THE TOP 25 AND OVERALL 
-THE SECTOR COUNTS ARE PRINTED TO SHOW WHICH SECTORS ARE PERFORMING WELL 
-'''
-
 import os
 import sqlite3
 import pandas as pd
@@ -16,49 +5,34 @@ import numpy as np
 import matplotlib.pyplot as plt
 import logging
 from math import floor
-import yfinance as yf
+import yfinance as yf  # Used only for sector info
 
 # Set up logging
 logging.basicConfig(filename='logs/project.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 ##############################################
-# Indicator Functions – using 'close' price
+# Technical Indicator Functions – using 'close'
 ##############################################
 
 def compute_sma_signals(df, short_window=5, long_window=20):
-    """
-    Compute 5-day and 20-day SMAs and their ratio.
-    """
     df['SMA_short'] = df['close'].rolling(window=short_window).mean()
     df['SMA_long'] = df['close'].rolling(window=long_window).mean()
-    # If SMA_long/SMA_short < 1, then short-term SMA is above long-term SMA.
     df['SMA_Ratio'] = df['SMA_long'] / df['SMA_short']
     return df
 
 def compute_volume_sma_ratio(df, short_window=5, long_window=20):
-    """
-    Compute short-term and long-term volume moving averages and their ratio.
-    """
     df['vol_SMA_short'] = df['volume'].rolling(window=short_window).mean()
     df['vol_SMA_long'] = df['volume'].rolling(window=long_window).mean()
-    # Ratio: if vol_SMA_long / vol_SMA_short < 1, then volume is trending lower.
     df['SMA_Volume_Ratio'] = df['vol_SMA_long'] / df['vol_SMA_short']
     return df
 
 def compute_atr_and_ratio(df, window=14):
-    """
-    Compute the ATR as the rolling mean of the true range (using absolute daily change)
-    and then compute ATR_Ratio as ATR / ATR.shift(1).
-    """
     df['ATR'] = df['close'].diff().abs().rolling(window=window).mean()
     df['ATR_Ratio'] = df['ATR'] / df['ATR'].shift(1)
     return df
 
 def compute_rsi(df, window=20):
-    """
-    Compute RSI with the specified window (here 20-day for RSI_20).
-    """
     delta = df['close'].diff()
     gain = delta.clip(lower=0)
     loss = (-delta).clip(lower=0)
@@ -69,9 +43,6 @@ def compute_rsi(df, window=20):
     return df
 
 def compute_bollinger_bands(df, window=20):
-    """
-    Compute Bollinger Bands using a 20-day window.
-    """
     df['BB_MA'] = df['close'].rolling(window=window).mean()
     df['BB_std'] = df['close'].rolling(window=window).std()
     df['upperband'] = df['BB_MA'] + 2 * df['BB_std']
@@ -79,9 +50,6 @@ def compute_bollinger_bands(df, window=20):
     return df
 
 def compute_macd(df, span_short=12, span_long=26, span_signal=9):
-    """
-    Compute MACD and its signal line.
-    """
     df['EMA_short'] = df['close'].ewm(span=span_short, adjust=False).mean()
     df['EMA_long'] = df['close'].ewm(span=span_long, adjust=False).mean()
     df['MACD_Value'] = df['EMA_short'] - df['EMA_long']
@@ -89,9 +57,6 @@ def compute_macd(df, span_short=12, span_long=26, span_signal=9):
     return df
 
 def compute_stochastic(df, window=20, smooth_window=3):
-    """
-    Compute the stochastic oscillator (%K and %D) using a 20-day window.
-    """
     df['lowest_low'] = df['close'].rolling(window=window).min()
     df['highest_high'] = df['close'].rolling(window=window).max()
     df['20Day_%K'] = 100 * ((df['close'] - df['lowest_low']) / (df['highest_high'] - df['lowest_low']))
@@ -99,14 +64,11 @@ def compute_stochastic(df, window=20, smooth_window=3):
     return df
 
 def compute_all_indicators(df):
-    """
-    Compute all required technical indicators and add them as columns.
-    """
     df = df.sort_values(by='date').reset_index(drop=True)
     df = compute_sma_signals(df)
     df = compute_volume_sma_ratio(df)
     df = compute_atr_and_ratio(df)
-    df = compute_rsi(df)         # RSI_20
+    df = compute_rsi(df)
     df = compute_bollinger_bands(df)
     df = compute_macd(df)
     df = compute_stochastic(df)
@@ -119,36 +81,12 @@ def compute_all_indicators(df):
 def trading_strategy(prices, SMA_Ratio, SMA_Volume_Ratio, ATR_Ratio,
                      Day20_K, Day20_D, RSI_20, MACD_Value, MACD_Signal,
                      upperband, lowerband):
-    """
-    For each time point:
-      - All BUY conditions must be true to buy.
-      - If any SELL condition is met, then sell.
-    BUY conditions:
-      SMA_Ratio < 1,
-      SMA_Volume_Ratio < 1,
-      ATR_Ratio < 1,
-      20Day_%K < 30,
-      20Day_%D < 30,
-      RSI_20 < 30,
-      MACD_Value > MACD_Signal,
-      price < lowerband.
-    SELL conditions:
-      Any one of:
-      SMA_Ratio > 1,
-      SMA_Volume_Ratio > 1,
-      ATR_Ratio > 1,
-      20Day_%K > 70,
-      20Day_%D > 70,
-      RSI_20 > 70,
-      MACD_Value < MACD_Signal,
-      price > upperband.
-    """
     buy_price = []
     sell_price = []
     trading_signal = []
-    signal = 0  # 0 = no position, 1 = long, -1 = sold/exit
+    signal = 0  # 0 = no position, 1 = buy/long, -1 = sell/exit
     for i in range(len(prices)):
-        # Buy: all buy conditions must be met
+        # All BUY conditions must be true to buy:
         if (SMA_Ratio[i] < 1) and (SMA_Volume_Ratio[i] < 1) and (ATR_Ratio[i] < 1) and \
            (Day20_K[i] < 30) and (Day20_D[i] < 30) and (RSI_20[i] < 30) and \
            (MACD_Value[i] > MACD_Signal[i]) and (prices[i] < lowerband[i]):
@@ -161,7 +99,7 @@ def trading_strategy(prices, SMA_Ratio, SMA_Volume_Ratio, ATR_Ratio,
                 buy_price.append(np.nan)
                 sell_price.append(np.nan)
                 trading_signal.append(0)
-        # Sell: if any sell condition is met
+        # Any one SELL condition triggers a sell:
         elif (SMA_Ratio[i] > 1) or (SMA_Volume_Ratio[i] > 1) or (ATR_Ratio[i] > 1) or \
              (Day20_K[i] > 70) or (Day20_D[i] > 70) or (RSI_20[i] > 70) or \
              (MACD_Value[i] < MACD_Signal[i]) or (prices[i] > upperband[i]):
@@ -181,14 +119,10 @@ def trading_strategy(prices, SMA_Ratio, SMA_Volume_Ratio, ATR_Ratio,
     return buy_price, sell_price, trading_signal
 
 ##############################################
-# Database Update – Inserting Technical Signals
+# Database Update – Insert Technical Signals
 ##############################################
 
 def update_technical_signals(db_path):
-    """
-    Reads price data from the SQL table, computes technical indicators,
-    and inserts calculated technical values into the technical_signals table.
-    """
     try:
         conn = sqlite3.connect(db_path)
         logging.info("Connected to database for technical signals update.")
@@ -196,25 +130,20 @@ def update_technical_signals(db_path):
         logging.error(f"Database connection error: {e}")
         return
     
-    # Read price data: ticker, date, close, volume
+    # Read price data from SQL; columns: ticker, date, close, volume
     price_query = "SELECT ticker, date, close, volume FROM nasdaq_100_daily_prices"
     price_df = pd.read_sql_query(price_query, conn, parse_dates=['date'])
     logging.info("Loaded daily price data from nasdaq_100_daily_prices.")
     
     technical_records = []
-    
-    # Process each ticker individually
     for ticker, group in price_df.groupby('ticker'):
         group = group.sort_values(by='date').reset_index(drop=True)
         group = compute_all_indicators(group)
-        # Insert only rows where we have full indicator data (drop initial NaNs)
-        group = group.dropna(subset=['SMA_long', 'RSI_20', 'MACD_Value', 'ATR', '20Day_%K'])
+        # Insert only rows with complete indicator data
+        group = group.dropna(subset=['SMA_Ratio', 'SMA_Volume_Ratio', 'ATR_Ratio', '20Day_%K', '20Day_%D', 'RSI_20', 'MACD_Value'])
         for _, row in group.iterrows():
-            # For technical_signals table, we store: ticker, signal_date, sma (20-day SMA), rsi (RSI_20),
-            # macd (MACD_Value), atr, and overall signal (we use a simple overall_signal based on our trading strategy)
-            # Here, we’ll also store our computed indicator values if needed.
-            # For overall signal, we can store 1 for buy, -1 for sell, 0 otherwise.
-            overall_signal = int(row.get('overall_signal', 0))
+            # For technical_signals, we store: ticker, signal_date, sma (20-day), rsi (RSI_20), macd (MACD_Value), atr, and overall signal.
+            overall_signal = 0  # (if desired, you can store the strategy’s overall signal later)
             record = (
                 ticker,
                 row['date'].strftime('%Y-%m-%d'),
@@ -243,59 +172,54 @@ def update_technical_signals(db_path):
         conn.close()
 
 ##############################################
-# Backtesting & Trading Strategy Statistics
+# Benchmark & Backtesting – using SQL benchmark data
 ##############################################
 
-def benchmark_stats(starting_date, total_investment_value, spy_df):
+def benchmark_stats_from_sql(conn, benchmark_ticker: str, starting_date: str, total_investment_value: float):
     """
-    Given SPY data (from SPY.csv), compute benchmark returns.
+    Query benchmark data (e.g., SPY) from the SQL table and compute benchmark returns.
     """
-    SPY = spy_df['Adj Close']
-    benchmark = pd.DataFrame(np.diff(SPY)).rename(columns = {0:'benchmark_returns'})
-    total_stocks = floor(total_investment_value / SPY.iloc[0])
-    benchmark_investment_return = []
-    for i in range(len(benchmark['benchmark_returns'])):
-        returns = total_stocks * benchmark['benchmark_returns'].iloc[i]
-        benchmark_investment_return.append(returns)
-    benchmark_investment_return_df = pd.DataFrame(benchmark_investment_return).rename(columns = {0:'investment_returns'})
-    return benchmark_investment_return_df
+    query = f"""
+        SELECT date, close FROM nasdaq_100_daily_prices 
+        WHERE ticker = ? AND date >= ?
+        ORDER BY date
+    """
+    bench_df = pd.read_sql_query(query, conn, params=(benchmark_ticker, starting_date), parse_dates=['date'])
+    bench_df = bench_df.sort_values(by='date').reset_index(drop=True)
+    # Compute daily returns (difference)
+    bench_df['benchmark_returns'] = bench_df['close'].diff()
+    bench_df = bench_df.dropna()
+    total_stocks = floor(total_investment_value / bench_df['close'].iloc[0])
+    benchmark_investment_return = total_stocks * bench_df['benchmark_returns']
+    return benchmark_investment_return.sum(), floor((total_stocks * bench_df['benchmark_returns'].sum() / total_investment_value) * 100)
 
-def backtest_trading_strategy(db_path, spy_csv_path):
+def backtest_trading_strategy(db_path, starting_date='2000-01-01', investment_value=100000):
     """
-    For each NASDAQ 100 stock (from the SQL daily prices), compute the trading strategy
-    and compare its performance to a SPY benchmark.
-    Returns a DataFrame with profit stats.
+    Backtest the trading strategy for all NASDAQ 100 stocks (from SQL) and compare performance
+    to benchmark indexes (e.g. SPY) also fetched from SQL.
     """
-    # Load SPY data for benchmark stats
-    df_spy = pd.read_csv(spy_csv_path)
-    benchmark = benchmark_stats('2000-01-01', 100000, df_spy)
-    total_benchmark_investment_returns = round(sum(benchmark['investment_returns']), 2)
-    benchmark_profit_percentage = floor((total_benchmark_investment_returns / 100000) * 100)
-    print(f"Benchmark Stats from date 2000-01-01 to present using $100000 investment:")
-    print(f"Benchmark profit dollar amount: ${total_benchmark_investment_returns}")
-    print(f"Benchmark profit percentage: {benchmark_profit_percentage}%")
-    print()
-
-    # Load price data from SQL
     conn = sqlite3.connect(db_path)
+    # Compute benchmark stats from SQL for SPY (you could also do for '^NDX' if desired)
+    bench_return, bench_profit_pct = benchmark_stats_from_sql(conn, 'SPY', starting_date, investment_value)
+    print(f"Benchmark (SPY) profit: ${bench_return} and profit percentage: {bench_profit_pct}%")
+    
+    # Load price data for NASDAQ-100 stocks from SQL
     stocks = pd.read_sql_query("SELECT ticker, date, close, volume FROM nasdaq_100_daily_prices", conn, parse_dates=['date'])
     conn.close()
     
     returns_df = pd.DataFrame(columns=['Ticker', 'Profit Gained', 'Profit Percentage', 'Benchmark Profit Comparison'])
     
     for stock_ticker in stocks['ticker'].unique():
-        stock = stocks[(stocks['ticker'] == stock_ticker) & (stocks['date'] >= '2000-01-01')].copy()
+        stock = stocks[(stocks['ticker'] == stock_ticker) & (stocks['date'] >= starting_date)].copy()
         if stock.empty:
             continue
         stock = stock.sort_values(by='date').reset_index(drop=True)
         stock = compute_all_indicators(stock)
-        # Drop rows with insufficient indicator data
+        # Drop rows with missing data for required indicators
         stock = stock.dropna(subset=['SMA_Ratio', 'SMA_Volume_Ratio', 'ATR_Ratio', '20Day_%K', '20Day_%D', 'RSI_20', 'MACD_Value', 'MACD_Signal', 'upperband', 'lowerband'])
-        
-        # Skip if after dropping there is not enough data
         if stock.empty:
             continue
-
+        
         # Create Trading Strategy signals
         buy_price, sell_price, trading_signal = trading_strategy(
             prices = stock['close'].values,
@@ -314,8 +238,7 @@ def backtest_trading_strategy(db_path, spy_csv_path):
         stock['sell_price'] = sell_price
         stock['trading_signal'] = trading_signal
 
-        # Create Trading Position:
-        # Initialize position as a list; assume first position is neutral (0) then update based on signals.
+        # Create Trading Position based on signals:
         position = [0] * len(stock)
         for i in range(len(stock)):
             if trading_signal[i] == 1:
@@ -333,15 +256,11 @@ def backtest_trading_strategy(db_path, spy_csv_path):
             trading_strategy_ret.append(stock['returns'].iloc[i] * stock['trading_position'].iloc[i-1])
         trading_strategy_ret_df = pd.DataFrame(trading_strategy_ret, columns=['trading_returns'])
         
-        # Compute investment return given an initial investment of $100000
-        investment_value = 100000
         number_of_stocks = floor(investment_value / stock['close'].iloc[0])
-        trading_investment_ret = []
-        for ret in trading_strategy_ret_df['trading_returns']:
-            trading_investment_ret.append(number_of_stocks * ret)
-        total_investment_ret = round(sum(trading_investment_ret), 2)
+        trading_investment_ret = trading_strategy_ret_df['trading_returns'] * number_of_stocks
+        total_investment_ret = round(trading_investment_ret.sum(), 2)
         profit_percentage = floor((total_investment_ret / investment_value) * 100)
-        benchmark_comparison = profit_percentage - benchmark_profit_percentage
+        benchmark_comparison = profit_percentage - bench_profit_pct
         
         returns_df = returns_df.append({
             'Ticker': stock_ticker,
@@ -357,16 +276,13 @@ def backtest_trading_strategy(db_path, spy_csv_path):
 ##############################################
 
 if __name__ == "__main__":
-    # Define database path and SPY csv path
     db_path = os.path.join("database", "data.db")
-    spy_csv_path = "SPY.csv"  # Ensure SPY.csv is in your working directory
     
     # Step 1: Update technical_signals table with computed technical values.
     update_technical_signals(db_path)
     
-    # Step 2: Backtest the trading strategy for all NASDAQ 100 stocks.
-    returns_df = backtest_trading_strategy(db_path, spy_csv_path)
-    
+    # Step 2: Backtest the trading strategy for all stocks using SQL benchmark data.
+    returns_df = backtest_trading_strategy(db_path, starting_date='2000-01-01', investment_value=100000)
     print("Backtesting Results:")
     print(returns_df)
     

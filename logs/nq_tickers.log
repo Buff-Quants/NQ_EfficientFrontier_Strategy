@@ -4877,3 +4877,220 @@
 2025-02-15 10:39:00,374 - WARNING - No historical data found for ticker BIIB on 2021-09-30
 2025-02-15 10:39:01,277 - ERROR - $AVGO: possibly delisted; no price data found  (1d 2021-09-30 00:00:00 -> 2021-10-01 00:00:00)
 2025-02-15 10:39:01,277 - WARNING - No historical data found for ticker AVGO on 2021-09-30
+2025-03-14 11:37:53,337 - INFO - Successfully stored 100 tickers for 2025-03-14
+2025-03-14 11:37:53,339 - INFO - Ticker fetch process completed successfully
+2025-03-14 11:38:02,136 - INFO - Found 180 unique tickers to process
+2025-03-14 11:38:02,761 - INFO - Successfully stored 2263 price points for TCOM
+2025-03-14 11:38:03,361 - ERROR - $LLTC: possibly delisted; no price data found  (1d 2016-01-01 -> 2024-12-31)
+2025-03-14 11:38:03,361 - WARNING - No data available for LLTC between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:04,193 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-14 11:38:04,968 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-14 11:38:05,948 - INFO - Successfully stored 2263 price points for MAT
+2025-03-14 11:38:06,690 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-14 11:38:07,474 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-14 11:38:08,292 - INFO - Successfully stored 2263 price points for NTAP
+2025-03-14 11:38:09,022 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-14 11:38:09,843 - INFO - Successfully stored 2263 price points for EA
+2025-03-14 11:38:10,696 - INFO - Successfully stored 2263 price points for INCY
+2025-03-14 11:38:11,481 - INFO - Successfully stored 2263 price points for FAST
+2025-03-14 11:38:12,315 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-14 11:38:13,037 - INFO - Successfully stored 2263 price points for NTES
+2025-03-14 11:38:15,144 - ERROR - $NLOK: possibly delisted; no timezone found
+2025-03-14 11:38:15,144 - WARNING - No data available for NLOK between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:15,921 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-14 11:38:16,737 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-14 11:38:17,672 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-14 11:38:18,987 - ERROR - $MYL: possibly delisted; no timezone found
+2025-03-14 11:38:18,988 - WARNING - No data available for MYL between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:19,858 - INFO - Successfully stored 2263 price points for MNST
+2025-03-14 11:38:20,691 - INFO - Successfully stored 2263 price points for HSIC
+2025-03-14 11:38:22,842 - ERROR - $CERN: possibly delisted; no timezone found
+2025-03-14 11:38:22,842 - WARNING - No data available for CERN between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:23,502 - INFO - Successfully stored 259 price points for CA
+2025-03-14 11:38:25,253 - ERROR - $ALXN: possibly delisted; no timezone found
+2025-03-14 11:38:25,253 - WARNING - No data available for ALXN between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:25,974 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-14 11:38:28,347 - ERROR - $VIAB: possibly delisted; no timezone found
+2025-03-14 11:38:28,347 - WARNING - No data available for VIAB between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:29,474 - INFO - Successfully stored 2263 price points for COST
+2025-03-14 11:38:30,242 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-14 11:38:30,927 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-14 11:38:31,751 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-14 11:38:32,577 - INFO - Successfully stored 2263 price points for ADI
+2025-03-14 11:38:33,466 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-14 11:38:34,775 - ERROR - $CELG: possibly delisted; no timezone found
+2025-03-14 11:38:34,775 - WARNING - No data available for CELG between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:35,505 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-14 11:38:36,868 - ERROR - $FB: possibly delisted; no timezone found
+2025-03-14 11:38:36,870 - WARNING - No data available for FB between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:37,588 - INFO - Successfully stored 2263 price points for ULTA
+2025-03-14 11:38:38,366 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-14 11:38:39,578 - ERROR - $LMCK: possibly delisted; no timezone found
+2025-03-14 11:38:39,578 - WARNING - No data available for LMCK between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:40,359 - INFO - Successfully stored 2263 price points for QRTEA
+2025-03-14 11:38:41,080 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-14 11:38:41,870 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-14 11:38:43,139 - ERROR - $XLNX: possibly delisted; no timezone found
+2025-03-14 11:38:43,139 - WARNING - No data available for XLNX between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:43,996 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-14 11:38:44,764 - INFO - Successfully stored 2263 price points for ADP
+2025-03-14 11:38:45,650 - INFO - Successfully stored 2263 price points for GILD
+2025-03-14 11:38:46,478 - INFO - Successfully stored 2263 price points for INTU
+2025-03-14 11:38:47,386 - INFO - Successfully stored 1462 price points for FOXA
+2025-03-14 11:38:48,115 - INFO - Successfully stored 2263 price points for WDC
+2025-03-14 11:38:48,950 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-14 11:38:49,710 - INFO - Successfully stored 2263 price points for JD
+2025-03-14 11:38:54,249 - ERROR - $DISH: possibly delisted; no timezone found
+2025-03-14 11:38:54,250 - WARNING - No data available for DISH between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:54,942 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-14 11:38:55,733 - INFO - Successfully stored 2263 price points for MAR
+2025-03-14 11:38:56,648 - INFO - Successfully stored 2263 price points for ROST
+2025-03-14 11:38:57,923 - ERROR - $YHOO: possibly delisted; no timezone found
+2025-03-14 11:38:57,924 - WARNING - No data available for YHOO between 2016-01-01 and 2024-12-31
+2025-03-14 11:38:58,741 - INFO - Successfully stored 2263 price points for REGN
+2025-03-14 11:38:59,484 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-14 11:39:00,345 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-14 11:39:02,412 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-14 11:39:02,413 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:04,539 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-14 11:39:04,539 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:05,479 - INFO - Successfully stored 2263 price points for CSX
+2025-03-14 11:39:06,053 - ERROR - $LMCA: possibly delisted; no price data found  (1d 2016-01-01 -> 2024-12-31)
+2025-03-14 11:39:06,053 - WARNING - No data available for LMCA between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:06,949 - INFO - Successfully stored 2263 price points for WBA
+2025-03-14 11:39:07,825 - INFO - Successfully stored 2263 price points for MU
+2025-03-14 11:39:08,602 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-14 11:39:09,410 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-14 11:39:10,178 - INFO - Successfully stored 2263 price points for AAL
+2025-03-14 11:39:11,019 - INFO - Successfully stored 2263 price points for STX
+2025-03-14 11:39:11,784 - INFO - Successfully stored 2263 price points for EXPE
+2025-03-14 11:39:12,624 - INFO - Successfully stored 2263 price points for AKAM
+2025-03-14 11:39:13,401 - INFO - Successfully stored 2263 price points for NCLH
+2025-03-14 11:39:14,219 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-14 11:39:15,021 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-14 11:39:16,335 - ERROR - $ENDP: possibly delisted; no timezone found
+2025-03-14 11:39:16,335 - WARNING - No data available for ENDP between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:17,160 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-14 11:39:18,404 - ERROR - $MXIM: possibly delisted; no timezone found
+2025-03-14 11:39:18,405 - WARNING - No data available for MXIM between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:19,178 - INFO - Successfully stored 1461 price points for FOX
+2025-03-14 11:39:19,949 - INFO - Successfully stored 2263 price points for LBTYA
+2025-03-14 11:39:20,753 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-14 11:39:21,547 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-14 11:39:22,354 - INFO - Successfully stored 2224 price points for SRCL
+2025-03-14 11:39:23,615 - ERROR - $BBBY: possibly delisted; no timezone found
+2025-03-14 11:39:23,616 - WARNING - No data available for BBBY between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:24,460 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-14 11:39:25,234 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-14 11:39:25,952 - INFO - Successfully stored 2263 price points for CHKP
+2025-03-14 11:39:27,336 - ERROR - $DISCA: possibly delisted; no timezone found
+2025-03-14 11:39:27,336 - WARNING - No data available for DISCA between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:28,167 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-14 11:39:28,902 - INFO - Successfully stored 2263 price points for LBTYK
+2025-03-14 11:39:30,215 - ERROR - $CTXS: possibly delisted; no timezone found
+2025-03-14 11:39:30,215 - WARNING - No data available for CTXS between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:30,978 - INFO - Successfully stored 2263 price points for EBAY
+2025-03-14 11:39:31,796 - INFO - Successfully stored 2263 price points for SBAC
+2025-03-14 11:39:32,615 - INFO - Successfully stored 2263 price points for INTC
+2025-03-14 11:39:33,560 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-14 11:39:34,492 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-14 11:39:35,216 - INFO - Successfully stored 748 price points for ESRX
+2025-03-14 11:39:36,101 - INFO - Successfully stored 2263 price points for TXN
+2025-03-14 11:39:37,875 - ERROR - $DISCK: possibly delisted; no timezone found
+2025-03-14 11:39:37,876 - WARNING - No data available for DISCK between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:38,751 - INFO - Successfully stored 2263 price points for VOD
+2025-03-14 11:39:39,667 - INFO - Successfully stored 2263 price points for BMRN
+2025-03-14 11:39:40,647 - INFO - Successfully stored 2263 price points for KHC
+2025-03-14 11:39:41,344 - INFO - Successfully stored 2263 price points for BIDU
+2025-03-14 11:39:42,155 - INFO - Successfully stored 2263 price points for TRIP
+2025-03-14 11:39:43,068 - INFO - Successfully stored 2263 price points for TSCO
+2025-03-14 11:39:43,982 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-14 11:39:44,612 - ERROR - $WFM: possibly delisted; no price data found  (1d 2016-01-01 -> 2024-12-31)
+2025-03-14 11:39:44,612 - WARNING - No data available for WFM between 2016-01-01 and 2024-12-31
+2025-03-14 11:39:45,519 - INFO - Successfully stored 2263 price points for XRAY
+2025-03-14 11:39:46,348 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-14 11:39:47,248 - INFO - Successfully stored 2263 price points for HAS
+2025-03-14 11:39:48,018 - WARNING - Attempt 1 failed for SHPG: Length mismatch: Expected axis has 2 elements, new values have 1 elements
+2025-03-14 11:39:49,028 - WARNING - Attempt 2 failed for SHPG: Length mismatch: Expected axis has 2 elements, new values have 1 elements
+2025-03-14 11:39:50,042 - ERROR - Failed to fetch data for SHPG after 3 attempts: Length mismatch: Expected axis has 2 elements, new values have 1 elements
+2025-03-14 11:39:50,757 - INFO - Successfully stored 2263 price points for HOLX
+2025-03-14 11:39:51,607 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-14 11:39:52,403 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-14 11:39:53,288 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-14 11:39:54,121 - INFO - Successfully stored 2263 price points for JBHT
+2025-03-14 11:39:55,012 - INFO - Successfully stored 2263 price points for WYNN
+2025-03-14 11:39:55,778 - INFO - Successfully stored 2263 price points for MELI
+2025-03-14 11:39:56,577 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-14 11:39:57,374 - INFO - Successfully stored 2263 price points for TTWO
+2025-03-14 11:39:58,152 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-14 11:39:58,948 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-14 11:39:59,722 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-14 11:40:00,762 - INFO - Successfully stored 2263 price points for ASML
+2025-03-14 11:40:01,605 - INFO - Successfully stored 2263 price points for PEP
+2025-03-14 11:40:02,489 - INFO - Successfully stored 2263 price points for XEL
+2025-03-14 11:40:03,805 - ERROR - $WLTW: possibly delisted; no timezone found
+2025-03-14 11:40:03,805 - WARNING - No data available for WLTW between 2016-01-01 and 2024-12-31
+2025-03-14 11:40:04,575 - INFO - Successfully stored 2263 price points for AMD
+2025-03-14 11:40:05,428 - INFO - Successfully stored 2263 price points for UAL
+2025-03-14 11:40:06,131 - INFO - Successfully stored 2263 price points for LULU
+2025-03-14 11:40:07,002 - INFO - Successfully stored 2263 price points for VRSN
+2025-03-14 11:40:08,532 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-14 11:40:08,533 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-14 11:40:09,364 - INFO - Successfully stored 2263 price points for EXC
+2025-03-14 11:40:10,681 - ERROR - $SPLK: possibly delisted; no timezone found
+2025-03-14 11:40:10,681 - WARNING - No data available for SPLK between 2016-01-01 and 2024-12-31
+2025-03-14 11:40:11,482 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-14 11:40:12,278 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-14 11:40:13,257 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-14 11:40:14,281 - INFO - Successfully stored 2263 price points for CDW
+2025-03-14 11:40:15,036 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-14 11:40:15,768 - INFO - Successfully stored 1680 price points for DOCU
+2025-03-14 11:40:16,537 - INFO - Successfully stored 1435 price points for ZM
+2025-03-14 11:40:17,313 - INFO - Successfully stored 1525 price points for MRNA
+2025-03-14 11:40:18,013 - INFO - Successfully stored 1618 price points for PDD
+2025-03-14 11:40:18,741 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-14 11:40:19,511 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-14 11:40:20,284 - INFO - Successfully stored 1324 price points for PTON
+2025-03-14 11:40:21,125 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-14 11:40:21,917 - INFO - Successfully stored 1945 price points for OKTA
+2025-03-14 11:40:22,716 - INFO - Successfully stored 2263 price points for KDP
+2025-03-14 11:40:23,686 - INFO - Successfully stored 2263 price points for AEP
+2025-03-14 11:40:24,529 - INFO - Successfully stored 2263 price points for HON
+2025-03-14 11:40:25,347 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-14 11:40:26,102 - INFO - Successfully stored 1077 price points for LCID
+2025-03-14 11:40:26,882 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-14 11:40:28,144 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-14 11:40:28,842 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-14 11:40:29,651 - INFO - Successfully stored 1709 price points for ZS
+2025-03-14 11:40:30,454 - INFO - Successfully stored 2263 price points for PANW
+2025-03-14 11:40:31,268 - INFO - Successfully stored 2263 price points for AZN
+2025-03-14 11:40:31,901 - INFO - Successfully stored 741 price points for CEG
+2025-03-14 11:40:32,624 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-14 11:40:33,379 - INFO - Successfully stored 2263 price points for META
+2025-03-14 11:40:34,103 - INFO - Successfully stored 2263 price points for WBD
+2025-03-14 11:40:34,951 - INFO - Successfully stored 2263 price points for BKR
+2025-03-14 11:40:35,791 - INFO - Successfully stored 797 price points for GFS
+2025-03-14 11:40:36,512 - INFO - Successfully stored 788 price points for RIVN
+2025-03-14 11:40:37,253 - INFO - Successfully stored 2263 price points for FANG
+2025-03-14 11:40:38,096 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-14 11:40:38,792 - INFO - Successfully stored 512 price points for GEHC
+2025-03-14 11:40:39,547 - INFO - Successfully stored 2263 price points for ON
+2025-03-14 11:40:40,421 - INFO - Successfully stored 2082 price points for TTD
+2025-03-14 11:40:41,220 - INFO - Successfully stored 1020 price points for DASH
+2025-03-14 11:40:42,076 - INFO - Successfully stored 1810 price points for MDB
+2025-03-14 11:40:42,901 - INFO - Successfully stored 2263 price points for CCEP
+2025-03-14 11:40:43,710 - INFO - Successfully stored 2263 price points for ROP
+2025-03-14 11:40:44,485 - INFO - Successfully stored 2263 price points for LIN
+2025-03-14 11:40:45,129 - INFO - Successfully stored 326 price points for ARM
+2025-03-14 11:40:45,871 - INFO - Successfully stored 2263 price points for SMCI
+2025-03-14 11:40:46,534 - INFO - Successfully stored 1069 price points for PLTR
+2025-03-14 11:40:47,376 - INFO - Successfully stored 2263 price points for AXON
+2025-03-14 11:40:48,044 - INFO - Successfully stored 934 price points for APP
+2025-03-14 11:40:48,862 - INFO - Successfully stored 2263 price points for MSTR
+2025-03-14 11:40:49,363 - INFO - Price data fetch completed successfully
+2025-03-14 11:49:09,872 - INFO - Connected to database for technical signals update.
+2025-03-14 11:49:11,396 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 11:49:33,328 - INFO - Inserted 782171 records into technical_signals.
+2025-03-14 11:53:46,168 - INFO - Connected to database for technical signals update.
+2025-03-14 11:53:47,488 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-14 11:54:12,008 - INFO - Inserted 782017 records into technical_signals.
