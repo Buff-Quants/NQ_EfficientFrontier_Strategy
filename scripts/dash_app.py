@@ -50,7 +50,6 @@ if backtest_results_df is None:
 
 # ---------------------------------------------------------------------
 # Load Price Data and Signals Directly from the Database
-# (We do this here since load_price_data / load_signal_data are not declared)
 # ---------------------------------------------------------------------
 try:
     conn = sqlite3.connect(DB_PATH)
@@ -61,11 +60,13 @@ try:
     # Pivot to wide format (date index, tickers as columns)
     price_pivot = price_df.pivot(index='date', columns='ticker', values='close').sort_index()
 
+    # NOTE: Here we alias signal_date as date to match the pivot logic
     signals_df = pd.read_sql_query(
-        "SELECT date, ticker, signal FROM technical_signals",
+        "SELECT signal_date AS date, ticker, signal FROM technical_signals",
         conn, parse_dates=['date']
     )
     conn.close()
+
     signals_pivot = signals_df.pivot(index='date', columns='ticker', values='signal').sort_index().fillna(0)
 except Exception as e:
     logging.error(f"Error loading price or signals data: {e}")
