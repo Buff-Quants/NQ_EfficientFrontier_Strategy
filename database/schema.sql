@@ -8,22 +8,6 @@ CREATE TABLE IF NOT EXISTS backtesting_results (
     max_drawdown REAL
 );
 
--- Table: fundamental_analysis_capm
-CREATE TABLE IF NOT EXISTS fundamental_analysis_capm (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    ticker TEXT NOT NULL,
-    expected_return REAL NOT NULL,
-    calculation_date TEXT NOT NULL
-);
-
--- Table: fundamental_analysis_ff
-CREATE TABLE IF NOT EXISTS fundamental_analysis_ff (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    ticker TEXT NOT NULL,
-    expected_return_ff REAL NOT NULL,
-    calculation_date TEXT NOT NULL
-);
-
 -- Table: fundamental_results
 CREATE TABLE IF NOT EXISTS fundamental_results (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -88,12 +72,6 @@ CREATE INDEX IF NOT EXISTS idx_prices_ticker_date
 
 CREATE INDEX IF NOT EXISTS idx_tickers_date 
     ON nasdaq_100_tickers (date, ticker);
-
-CREATE INDEX IF NOT EXISTS idx_capm_ticker_date 
-    ON fundamental_analysis_capm (ticker, calculation_date);
-
-CREATE INDEX IF NOT EXISTS idx_ff_ticker_date 
-    ON fundamental_analysis_ff (ticker, calculation_date);
 
 CREATE INDEX IF NOT EXISTS idx_signals_ticker_date 
     ON technical_signals (ticker, signal_date);

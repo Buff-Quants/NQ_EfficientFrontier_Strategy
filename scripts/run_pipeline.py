@@ -40,12 +40,12 @@ def main():
     conn.close()
     
     # Step 2: Fetch tickers and store them in the database
-    #logging.info("Fetching tickers...")
-    #fetch_tickers_main()  # This writes tickers into nasdaq_100_tickers
+    logging.info("Fetching tickers...")
+    fetch_tickers_main()  # This writes tickers into nasdaq_100_tickers
     
     # Step 3: Fetch price data for tickers and baseline indices
-    #logging.info("Fetching price data...")
-    #fetch_price_main()  # This writes price data into nasdaq_100_daily_prices
+    logging.info("Fetching price data...")
+    fetch_price_main()  # This writes price data into nasdaq_100_daily_prices
     
     # Step 4: Clean up duplicate entries in fundamental analysis tables
     logging.info("Cleaning up duplicate entries...")

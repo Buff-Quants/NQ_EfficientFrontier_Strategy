@@ -2577,3 +2577,1826 @@
 2025-03-15 10:39:48,299 - INFO - Successfully stored 1329 price points for DDOG
 2025-03-15 10:39:49,091 - INFO - Successfully stored 2263 price points for IDXX
 2025-03-15 10:39:49,993 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-15 11:04:16,891 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-15 11:04:16,891 - INFO - NumExpr defaulting to 16 threads.
+2025-03-15 11:04:21,756 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:04:21,756 - INFO - Setting up database schema...
+2025-03-15 11:04:21,761 - INFO - Connected to database.
+2025-03-15 11:04:21,905 - INFO - Database schema created/updated successfully.
+2025-03-15 11:04:21,906 - INFO - Cleaning up duplicate entries...
+2025-03-15 11:04:21,908 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_capm
+2025-03-15 11:04:21,908 - INFO - Cleanup completed for fundamental_analysis_capm
+2025-03-15 11:04:21,908 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_ff
+2025-03-15 11:04:21,908 - INFO - Cleanup completed for fundamental_analysis_ff
+2025-03-15 11:04:21,934 - INFO - Database vacuumed successfully.
+2025-03-15 11:04:21,936 - INFO - Database cleanup completed successfully.
+2025-03-15 11:04:21,936 - INFO - Running fundamental analysis...
+2025-03-15 11:04:21,948 - INFO - Found 0 tickers to analyze
+2025-03-15 11:04:21,948 - INFO - Analysis completed. Success: 0, Errors: 0
+2025-03-15 11:04:21,949 - INFO - Computing technical signals...
+2025-03-15 11:04:21,949 - INFO - Connected to database for technical signals update.
+2025-03-15 11:04:21,955 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 11:04:21,958 - INFO - Inserted 0 records into technical_signals.
+2025-03-15 11:04:21,958 - INFO - Running backtesting analysis...
+2025-03-15 11:04:21,960 - INFO - Backtesting completed.
+2025-03-15 11:04:21,960 - INFO - === Data Pipeline Completed Successfully ===
+2025-03-15 11:07:10,822 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:07:10,822 - INFO - Setting up database schema...
+2025-03-15 11:07:10,823 - INFO - Connected to database.
+2025-03-15 11:07:10,824 - INFO - Database schema created/updated successfully.
+2025-03-15 11:07:10,824 - INFO - Cleaning up duplicate entries...
+2025-03-15 11:07:10,824 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_capm
+2025-03-15 11:07:10,825 - INFO - Cleanup completed for fundamental_analysis_capm
+2025-03-15 11:07:10,825 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_ff
+2025-03-15 11:07:10,825 - INFO - Cleanup completed for fundamental_analysis_ff
+2025-03-15 11:07:10,838 - INFO - Database vacuumed successfully.
+2025-03-15 11:07:10,838 - INFO - Database cleanup completed successfully.
+2025-03-15 11:07:10,838 - INFO - Running fundamental analysis...
+2025-03-15 11:07:10,841 - INFO - Found 0 tickers to analyze
+2025-03-15 11:07:10,841 - INFO - Analysis completed. Success: 0, Errors: 0
+2025-03-15 11:07:10,841 - INFO - Computing technical signals...
+2025-03-15 11:07:10,841 - INFO - Connected to database for technical signals update.
+2025-03-15 11:07:10,842 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 11:07:10,843 - INFO - Inserted 0 records into technical_signals.
+2025-03-15 11:07:10,843 - INFO - Running backtesting analysis...
+2025-03-15 11:07:10,844 - INFO - Backtesting completed.
+2025-03-15 11:07:10,845 - INFO - === Data Pipeline Completed Successfully ===
+2025-03-15 11:07:32,684 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:07:32,684 - INFO - Setting up database schema...
+2025-03-15 11:07:32,685 - INFO - Connected to database.
+2025-03-15 11:07:32,791 - INFO - Database schema created/updated successfully.
+2025-03-15 11:07:32,791 - INFO - Cleaning up duplicate entries...
+2025-03-15 11:07:32,793 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_capm
+2025-03-15 11:07:32,793 - INFO - Cleanup completed for fundamental_analysis_capm
+2025-03-15 11:07:32,793 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_ff
+2025-03-15 11:07:32,793 - INFO - Cleanup completed for fundamental_analysis_ff
+2025-03-15 11:07:32,802 - INFO - Database vacuumed successfully.
+2025-03-15 11:07:32,802 - INFO - Database cleanup completed successfully.
+2025-03-15 11:07:32,802 - INFO - Running fundamental analysis...
+2025-03-15 11:07:32,804 - INFO - Found 0 tickers to analyze
+2025-03-15 11:07:32,804 - INFO - Analysis completed. Success: 0, Errors: 0
+2025-03-15 11:07:32,805 - INFO - Computing technical signals...
+2025-03-15 11:07:32,805 - INFO - Connected to database for technical signals update.
+2025-03-15 11:07:32,806 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 11:07:32,806 - INFO - Inserted 0 records into technical_signals.
+2025-03-15 11:07:32,806 - INFO - Running backtesting analysis...
+2025-03-15 11:07:32,808 - INFO - Backtesting completed.
+2025-03-15 11:07:32,808 - INFO - === Data Pipeline Completed Successfully ===
+2025-03-15 11:07:51,444 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:07:51,444 - INFO - Setting up database schema...
+2025-03-15 11:07:51,444 - INFO - Connected to database.
+2025-03-15 11:07:51,445 - INFO - Database schema created/updated successfully.
+2025-03-15 11:07:51,445 - INFO - Fetching tickers...
+2025-03-15 11:07:51,454 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 11:07:51,454 - INFO - Ticker fetch process completed successfully
+2025-03-15 11:07:51,454 - INFO - Fetching price data...
+2025-03-15 11:07:51,455 - INFO - Found 100 unique tickers to process
+2025-03-15 11:07:52,143 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 11:07:53,101 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 11:07:53,930 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 11:07:54,670 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 11:07:55,562 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 11:07:56,274 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 11:07:57,061 - INFO - Successfully stored 2263 price points for META
+2025-03-15 11:07:57,768 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 11:07:58,650 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 11:07:59,470 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 11:08:00,287 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 11:08:01,156 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 11:08:01,966 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 11:08:02,661 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 11:08:15,316 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-15 11:08:15,316 - INFO - NumExpr defaulting to 16 threads.
+2025-03-15 11:08:18,231 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:08:18,231 - INFO - Setting up database schema...
+2025-03-15 11:08:18,231 - INFO - Connected to database.
+2025-03-15 11:08:18,477 - INFO - Database schema created/updated successfully.
+2025-03-15 11:08:18,477 - INFO - Fetching tickers...
+2025-03-15 11:08:18,503 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 11:08:18,503 - INFO - Ticker fetch process completed successfully
+2025-03-15 11:08:18,503 - INFO - Fetching price data...
+2025-03-15 11:08:18,505 - INFO - Found 100 unique tickers to process
+2025-03-15 11:08:19,040 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 11:08:19,808 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 11:08:20,627 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 11:08:21,381 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 11:08:22,279 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 11:08:23,010 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 11:08:23,730 - INFO - Successfully stored 2263 price points for META
+2025-03-15 11:08:24,564 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 11:08:25,413 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 11:08:26,171 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 11:08:26,981 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 11:08:27,873 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 11:08:28,748 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 11:08:29,618 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 11:08:30,420 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 11:08:31,130 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 11:08:31,848 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 11:08:32,606 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 11:08:33,480 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 11:08:34,242 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 11:08:35,206 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 11:08:35,960 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 11:08:36,729 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 11:08:37,718 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 11:08:38,576 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 11:08:39,305 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 11:08:40,043 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 11:08:40,749 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 11:08:41,545 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 11:08:42,372 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 11:08:43,130 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 11:08:43,905 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 11:08:44,700 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 11:08:45,441 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 11:08:46,184 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 11:08:46,970 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 11:08:47,748 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 11:08:48,525 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 11:08:49,243 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 11:08:50,110 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 11:08:50,760 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 11:08:51,474 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 11:08:52,215 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 11:08:52,962 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 11:08:53,798 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 11:08:54,599 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 11:08:55,335 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 11:08:56,158 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 11:08:56,994 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 11:08:57,789 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 11:08:58,473 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 11:08:59,264 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 11:08:59,962 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 11:09:00,678 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 11:09:01,373 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 11:09:02,180 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 11:09:02,958 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 11:09:03,747 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 11:09:04,480 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 11:09:05,291 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 11:09:06,048 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 11:09:06,866 - INFO - Successfully stored 2263 price points for EXC
+2025-03-15 11:09:07,733 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-15 11:09:08,555 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-15 11:09:09,365 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-15 11:09:10,175 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-15 11:09:10,910 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-15 11:09:11,703 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-15 11:09:12,461 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-15 11:09:13,175 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-15 11:09:13,911 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-15 11:09:14,612 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-15 11:09:15,349 - INFO - Successfully stored 1709 price points for ZS
+2025-03-15 11:09:16,144 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-15 11:09:16,860 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-15 11:09:17,651 - INFO - Successfully stored 2263 price points for FANG
+2025-03-15 11:09:18,524 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-15 11:09:19,176 - INFO - Successfully stored 512 price points for GEHC
+2025-03-15 11:09:19,895 - INFO - Successfully stored 1020 price points for DASH
+2025-03-15 11:09:21,395 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-15 11:09:21,395 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-15 11:09:40,729 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-15 11:09:40,730 - INFO - NumExpr defaulting to 16 threads.
+2025-03-15 11:09:44,787 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:09:44,788 - INFO - Setting up database schema...
+2025-03-15 11:09:44,788 - INFO - Connected to database.
+2025-03-15 11:09:44,896 - INFO - Database schema created/updated successfully.
+2025-03-15 11:09:44,896 - INFO - Fetching tickers...
+2025-03-15 11:09:44,905 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 11:09:44,905 - INFO - Ticker fetch process completed successfully
+2025-03-15 11:09:44,905 - INFO - Fetching price data...
+2025-03-15 11:09:44,906 - INFO - Found 100 unique tickers to process
+2025-03-15 11:09:45,596 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 11:09:46,428 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 11:09:47,205 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 11:09:47,942 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 11:09:48,680 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 11:09:49,466 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 11:09:50,238 - INFO - Successfully stored 2263 price points for META
+2025-03-15 11:09:51,105 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 11:09:51,912 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 11:09:52,654 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 11:09:53,433 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 11:09:54,348 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 11:09:55,258 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 11:09:56,150 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 11:09:57,074 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 11:09:57,926 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 11:09:58,651 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 11:09:59,382 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 11:10:00,226 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 11:10:01,059 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 11:10:01,902 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 11:10:02,701 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 11:10:03,516 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 11:10:04,394 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 11:10:05,220 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 11:10:05,938 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 11:10:06,781 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 11:10:07,673 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 11:10:08,399 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 11:10:09,078 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 11:10:09,834 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 11:10:10,544 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 11:10:11,350 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 11:10:12,272 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 11:10:13,037 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 11:10:13,805 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 11:10:14,517 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 11:10:15,201 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 11:10:16,004 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 11:10:16,803 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 11:10:17,443 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 11:10:18,277 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 11:10:19,115 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 11:10:19,896 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 11:10:20,689 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 11:10:21,483 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 11:10:22,190 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 11:10:23,061 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 11:10:23,820 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 11:10:24,678 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 11:10:25,420 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 11:10:26,214 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 11:10:27,005 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 11:10:27,746 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 11:10:28,565 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 11:10:29,381 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 11:10:30,193 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 11:10:30,993 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 11:10:31,839 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 11:10:32,933 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 11:10:33,836 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 11:10:34,854 - INFO - Successfully stored 2263 price points for EXC
+2025-03-15 11:10:35,646 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-15 11:10:36,404 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-15 11:10:37,209 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-15 11:10:38,092 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-15 11:10:38,781 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-15 11:10:39,572 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-15 11:10:40,497 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-15 11:10:41,213 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-15 11:10:41,958 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-15 11:10:42,682 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-15 11:10:43,460 - INFO - Successfully stored 1709 price points for ZS
+2025-03-15 11:10:44,234 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-15 11:10:45,069 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-15 11:10:45,961 - INFO - Successfully stored 2263 price points for FANG
+2025-03-15 11:10:46,780 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-15 11:10:47,464 - INFO - Successfully stored 512 price points for GEHC
+2025-03-15 11:10:48,200 - INFO - Successfully stored 1020 price points for DASH
+2025-03-15 11:10:49,866 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-15 11:10:49,866 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-15 11:10:50,727 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-15 11:10:51,585 - INFO - Successfully stored 2263 price points for CCEP
+2025-03-15 11:10:52,885 - ERROR - $SPLK: possibly delisted; no timezone found
+2025-03-15 11:10:52,886 - WARNING - No data available for SPLK between 2016-01-01 and 2024-12-31
+2025-03-15 11:10:53,656 - INFO - Successfully stored 2263 price points for TTWO
+2025-03-15 11:10:54,405 - INFO - Successfully stored 2263 price points for VRSN
+2025-03-15 11:10:55,236 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-15 11:10:56,064 - INFO - Successfully stored 2263 price points for AEP
+2025-03-15 11:10:56,752 - INFO - Successfully stored 2263 price points for WBD
+2025-03-15 11:10:57,541 - INFO - Successfully stored 2263 price points for XEL
+2025-03-15 11:10:58,308 - INFO - Successfully stored 2263 price points for CSX
+2025-03-15 11:10:59,719 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-15 11:10:59,719 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-15 11:11:01,058 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-15 11:11:01,060 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-15 11:11:01,824 - INFO - Successfully stored 1810 price points for MDB
+2025-03-15 11:11:02,536 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-15 11:11:03,190 - INFO - Successfully stored 1077 price points for LCID
+2025-03-15 11:11:03,902 - INFO - Successfully stored 788 price points for RIVN
+2025-03-15 11:11:04,614 - INFO - Successfully stored 2082 price points for TTD
+2025-03-15 11:11:05,563 - INFO - Successfully stored 2263 price points for SMCI
+2025-03-15 11:11:06,266 - INFO - Successfully stored 1069 price points for PLTR
+2025-03-15 11:11:06,991 - INFO - Successfully stored 2263 price points for MSTR
+2025-03-15 11:11:07,921 - INFO - Successfully stored 2263 price points for SPY
+2025-03-15 11:11:08,786 - INFO - Successfully stored 2263 price points for ^NDX
+2025-03-15 11:11:09,288 - INFO - Price data fetch completed successfully
+2025-03-15 11:11:09,289 - INFO - Cleaning up duplicate entries...
+2025-03-15 11:11:09,294 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_capm
+2025-03-15 11:11:09,294 - INFO - Cleanup completed for fundamental_analysis_capm
+2025-03-15 11:11:09,294 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_ff
+2025-03-15 11:11:09,294 - INFO - Cleanup completed for fundamental_analysis_ff
+2025-03-15 11:11:09,585 - INFO - Database vacuumed successfully.
+2025-03-15 11:11:09,585 - INFO - Database cleanup completed successfully.
+2025-03-15 11:11:09,585 - INFO - Running fundamental analysis...
+2025-03-15 11:11:09,598 - INFO - Found 98 tickers to analyze
+2025-03-15 11:11:09,598 - INFO - Processing AAPL (1/98)
+2025-03-15 11:11:09,598 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:09,598 - INFO - Executing SQL for price data for AAPL
+2025-03-15 11:11:09,600 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-15 11:11:09,609 - INFO - Downloading market data from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:09,836 - INFO - Downloading risk-free rate data
+2025-03-15 11:11:10,012 - INFO - Downloading Fama-French factor proxies
+2025-03-15 11:11:10,767 - INFO - Stored fundamental analysis results for AAPL
+2025-03-15 11:11:10,767 - INFO - Successfully analyzed AAPL
+2025-03-15 11:11:10,767 - INFO - Processing ABNB (2/98)
+2025-03-15 11:11:10,767 - INFO - Running FAMA_FRENCH analysis for ABNB from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,767 - INFO - Executing SQL for price data for ABNB
+2025-03-15 11:11:10,770 - INFO - Retrieved 1019 rows of price data for ABNB
+2025-03-15 11:11:10,788 - INFO - Stored fundamental analysis results for ABNB
+2025-03-15 11:11:10,788 - INFO - Successfully analyzed ABNB
+2025-03-15 11:11:10,788 - INFO - Processing ADBE (3/98)
+2025-03-15 11:11:10,788 - INFO - Running FAMA_FRENCH analysis for ADBE from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,788 - INFO - Executing SQL for price data for ADBE
+2025-03-15 11:11:10,790 - INFO - Retrieved 1257 rows of price data for ADBE
+2025-03-15 11:11:10,810 - INFO - Stored fundamental analysis results for ADBE
+2025-03-15 11:11:10,810 - INFO - Successfully analyzed ADBE
+2025-03-15 11:11:10,810 - INFO - Processing ADI (4/98)
+2025-03-15 11:11:10,810 - INFO - Running FAMA_FRENCH analysis for ADI from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,810 - INFO - Executing SQL for price data for ADI
+2025-03-15 11:11:10,812 - INFO - Retrieved 1257 rows of price data for ADI
+2025-03-15 11:11:10,831 - INFO - Stored fundamental analysis results for ADI
+2025-03-15 11:11:10,831 - INFO - Successfully analyzed ADI
+2025-03-15 11:11:10,831 - INFO - Processing ADP (5/98)
+2025-03-15 11:11:10,831 - INFO - Running FAMA_FRENCH analysis for ADP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,831 - INFO - Executing SQL for price data for ADP
+2025-03-15 11:11:10,833 - INFO - Retrieved 1257 rows of price data for ADP
+2025-03-15 11:11:10,848 - INFO - Stored fundamental analysis results for ADP
+2025-03-15 11:11:10,848 - INFO - Successfully analyzed ADP
+2025-03-15 11:11:10,849 - INFO - Processing ADSK (6/98)
+2025-03-15 11:11:10,849 - INFO - Running FAMA_FRENCH analysis for ADSK from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,849 - INFO - Executing SQL for price data for ADSK
+2025-03-15 11:11:10,851 - INFO - Retrieved 1257 rows of price data for ADSK
+2025-03-15 11:11:10,867 - INFO - Stored fundamental analysis results for ADSK
+2025-03-15 11:11:10,867 - INFO - Successfully analyzed ADSK
+2025-03-15 11:11:10,868 - INFO - Processing AEP (7/98)
+2025-03-15 11:11:10,868 - INFO - Running FAMA_FRENCH analysis for AEP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,868 - INFO - Executing SQL for price data for AEP
+2025-03-15 11:11:10,870 - INFO - Retrieved 1257 rows of price data for AEP
+2025-03-15 11:11:10,888 - INFO - Stored fundamental analysis results for AEP
+2025-03-15 11:11:10,888 - INFO - Successfully analyzed AEP
+2025-03-15 11:11:10,888 - INFO - Processing ALGN (8/98)
+2025-03-15 11:11:10,888 - INFO - Running FAMA_FRENCH analysis for ALGN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,888 - INFO - Executing SQL for price data for ALGN
+2025-03-15 11:11:10,891 - INFO - Retrieved 1257 rows of price data for ALGN
+2025-03-15 11:11:10,909 - INFO - Stored fundamental analysis results for ALGN
+2025-03-15 11:11:10,909 - INFO - Successfully analyzed ALGN
+2025-03-15 11:11:10,909 - INFO - Processing AMAT (9/98)
+2025-03-15 11:11:10,909 - INFO - Running FAMA_FRENCH analysis for AMAT from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,909 - INFO - Executing SQL for price data for AMAT
+2025-03-15 11:11:10,910 - INFO - Retrieved 1257 rows of price data for AMAT
+2025-03-15 11:11:10,925 - INFO - Stored fundamental analysis results for AMAT
+2025-03-15 11:11:10,925 - INFO - Successfully analyzed AMAT
+2025-03-15 11:11:10,925 - INFO - Processing AMD (10/98)
+2025-03-15 11:11:10,925 - INFO - Running FAMA_FRENCH analysis for AMD from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,927 - INFO - Executing SQL for price data for AMD
+2025-03-15 11:11:10,928 - INFO - Retrieved 1257 rows of price data for AMD
+2025-03-15 11:11:10,945 - INFO - Stored fundamental analysis results for AMD
+2025-03-15 11:11:10,945 - INFO - Successfully analyzed AMD
+2025-03-15 11:11:10,945 - INFO - Processing AMGN (11/98)
+2025-03-15 11:11:10,945 - INFO - Running FAMA_FRENCH analysis for AMGN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,945 - INFO - Executing SQL for price data for AMGN
+2025-03-15 11:11:10,947 - INFO - Retrieved 1257 rows of price data for AMGN
+2025-03-15 11:11:10,963 - INFO - Stored fundamental analysis results for AMGN
+2025-03-15 11:11:10,963 - INFO - Successfully analyzed AMGN
+2025-03-15 11:11:10,963 - INFO - Processing AMZN (12/98)
+2025-03-15 11:11:10,963 - INFO - Running FAMA_FRENCH analysis for AMZN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,963 - INFO - Executing SQL for price data for AMZN
+2025-03-15 11:11:10,965 - INFO - Retrieved 1257 rows of price data for AMZN
+2025-03-15 11:11:10,981 - INFO - Stored fundamental analysis results for AMZN
+2025-03-15 11:11:10,981 - INFO - Successfully analyzed AMZN
+2025-03-15 11:11:10,981 - INFO - Processing ANSS (13/98)
+2025-03-15 11:11:10,981 - INFO - Running FAMA_FRENCH analysis for ANSS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:10,981 - INFO - Executing SQL for price data for ANSS
+2025-03-15 11:11:10,984 - INFO - Retrieved 1257 rows of price data for ANSS
+2025-03-15 11:11:11,002 - INFO - Stored fundamental analysis results for ANSS
+2025-03-15 11:11:11,002 - INFO - Successfully analyzed ANSS
+2025-03-15 11:11:11,002 - INFO - Processing ASML (14/98)
+2025-03-15 11:11:11,002 - INFO - Running FAMA_FRENCH analysis for ASML from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,002 - INFO - Executing SQL for price data for ASML
+2025-03-15 11:11:11,004 - INFO - Retrieved 1257 rows of price data for ASML
+2025-03-15 11:11:11,020 - INFO - Stored fundamental analysis results for ASML
+2025-03-15 11:11:11,020 - INFO - Successfully analyzed ASML
+2025-03-15 11:11:11,020 - INFO - Processing AVGO (15/98)
+2025-03-15 11:11:11,020 - INFO - Running FAMA_FRENCH analysis for AVGO from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,020 - INFO - Executing SQL for price data for AVGO
+2025-03-15 11:11:11,023 - INFO - Retrieved 1257 rows of price data for AVGO
+2025-03-15 11:11:11,052 - INFO - Stored fundamental analysis results for AVGO
+2025-03-15 11:11:11,052 - INFO - Successfully analyzed AVGO
+2025-03-15 11:11:11,052 - INFO - Processing BIIB (16/98)
+2025-03-15 11:11:11,052 - INFO - Running FAMA_FRENCH analysis for BIIB from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,052 - INFO - Executing SQL for price data for BIIB
+2025-03-15 11:11:11,054 - INFO - Retrieved 1257 rows of price data for BIIB
+2025-03-15 11:11:11,072 - INFO - Stored fundamental analysis results for BIIB
+2025-03-15 11:11:11,072 - INFO - Successfully analyzed BIIB
+2025-03-15 11:11:11,072 - INFO - Processing BKNG (17/98)
+2025-03-15 11:11:11,072 - INFO - Running FAMA_FRENCH analysis for BKNG from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,072 - INFO - Executing SQL for price data for BKNG
+2025-03-15 11:11:11,074 - INFO - Retrieved 1257 rows of price data for BKNG
+2025-03-15 11:11:11,091 - INFO - Stored fundamental analysis results for BKNG
+2025-03-15 11:11:11,091 - INFO - Successfully analyzed BKNG
+2025-03-15 11:11:11,091 - INFO - Processing CCEP (18/98)
+2025-03-15 11:11:11,091 - INFO - Running FAMA_FRENCH analysis for CCEP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,091 - INFO - Executing SQL for price data for CCEP
+2025-03-15 11:11:11,093 - INFO - Retrieved 1257 rows of price data for CCEP
+2025-03-15 11:11:11,108 - INFO - Stored fundamental analysis results for CCEP
+2025-03-15 11:11:11,108 - INFO - Successfully analyzed CCEP
+2025-03-15 11:11:11,108 - INFO - Processing CDNS (19/98)
+2025-03-15 11:11:11,108 - INFO - Running FAMA_FRENCH analysis for CDNS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,108 - INFO - Executing SQL for price data for CDNS
+2025-03-15 11:11:11,109 - INFO - Retrieved 1257 rows of price data for CDNS
+2025-03-15 11:11:11,126 - INFO - Stored fundamental analysis results for CDNS
+2025-03-15 11:11:11,126 - INFO - Successfully analyzed CDNS
+2025-03-15 11:11:11,126 - INFO - Processing CHTR (20/98)
+2025-03-15 11:11:11,126 - INFO - Running FAMA_FRENCH analysis for CHTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,126 - INFO - Executing SQL for price data for CHTR
+2025-03-15 11:11:11,128 - INFO - Retrieved 1257 rows of price data for CHTR
+2025-03-15 11:11:11,145 - INFO - Stored fundamental analysis results for CHTR
+2025-03-15 11:11:11,145 - INFO - Successfully analyzed CHTR
+2025-03-15 11:11:11,145 - INFO - Processing CMCSA (21/98)
+2025-03-15 11:11:11,145 - INFO - Running FAMA_FRENCH analysis for CMCSA from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,145 - INFO - Executing SQL for price data for CMCSA
+2025-03-15 11:11:11,148 - INFO - Retrieved 1257 rows of price data for CMCSA
+2025-03-15 11:11:11,165 - INFO - Stored fundamental analysis results for CMCSA
+2025-03-15 11:11:11,165 - INFO - Successfully analyzed CMCSA
+2025-03-15 11:11:11,165 - INFO - Processing COST (22/98)
+2025-03-15 11:11:11,165 - INFO - Running FAMA_FRENCH analysis for COST from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,165 - INFO - Executing SQL for price data for COST
+2025-03-15 11:11:11,166 - INFO - Retrieved 1257 rows of price data for COST
+2025-03-15 11:11:11,183 - INFO - Stored fundamental analysis results for COST
+2025-03-15 11:11:11,183 - INFO - Successfully analyzed COST
+2025-03-15 11:11:11,184 - INFO - Processing CPRT (23/98)
+2025-03-15 11:11:11,184 - INFO - Running FAMA_FRENCH analysis for CPRT from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,184 - INFO - Executing SQL for price data for CPRT
+2025-03-15 11:11:11,185 - INFO - Retrieved 1257 rows of price data for CPRT
+2025-03-15 11:11:11,201 - INFO - Stored fundamental analysis results for CPRT
+2025-03-15 11:11:11,201 - INFO - Successfully analyzed CPRT
+2025-03-15 11:11:11,201 - INFO - Processing CRWD (24/98)
+2025-03-15 11:11:11,201 - INFO - Running FAMA_FRENCH analysis for CRWD from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,201 - INFO - Executing SQL for price data for CRWD
+2025-03-15 11:11:11,203 - INFO - Retrieved 1257 rows of price data for CRWD
+2025-03-15 11:11:11,218 - INFO - Stored fundamental analysis results for CRWD
+2025-03-15 11:11:11,218 - INFO - Successfully analyzed CRWD
+2025-03-15 11:11:11,218 - INFO - Processing CSCO (25/98)
+2025-03-15 11:11:11,218 - INFO - Running FAMA_FRENCH analysis for CSCO from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,218 - INFO - Executing SQL for price data for CSCO
+2025-03-15 11:11:11,220 - INFO - Retrieved 1257 rows of price data for CSCO
+2025-03-15 11:11:11,237 - INFO - Stored fundamental analysis results for CSCO
+2025-03-15 11:11:11,237 - INFO - Successfully analyzed CSCO
+2025-03-15 11:11:11,237 - INFO - Processing CSGP (26/98)
+2025-03-15 11:11:11,237 - INFO - Running FAMA_FRENCH analysis for CSGP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,237 - INFO - Executing SQL for price data for CSGP
+2025-03-15 11:11:11,239 - INFO - Retrieved 1257 rows of price data for CSGP
+2025-03-15 11:11:11,257 - INFO - Stored fundamental analysis results for CSGP
+2025-03-15 11:11:11,257 - INFO - Successfully analyzed CSGP
+2025-03-15 11:11:11,257 - INFO - Processing CSX (27/98)
+2025-03-15 11:11:11,257 - INFO - Running FAMA_FRENCH analysis for CSX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,257 - INFO - Executing SQL for price data for CSX
+2025-03-15 11:11:11,258 - INFO - Retrieved 1257 rows of price data for CSX
+2025-03-15 11:11:11,275 - INFO - Stored fundamental analysis results for CSX
+2025-03-15 11:11:11,275 - INFO - Successfully analyzed CSX
+2025-03-15 11:11:11,275 - INFO - Processing CTAS (28/98)
+2025-03-15 11:11:11,275 - INFO - Running FAMA_FRENCH analysis for CTAS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,275 - INFO - Executing SQL for price data for CTAS
+2025-03-15 11:11:11,277 - INFO - Retrieved 1257 rows of price data for CTAS
+2025-03-15 11:11:11,296 - INFO - Stored fundamental analysis results for CTAS
+2025-03-15 11:11:11,297 - INFO - Successfully analyzed CTAS
+2025-03-15 11:11:11,297 - INFO - Processing CTSH (29/98)
+2025-03-15 11:11:11,297 - INFO - Running FAMA_FRENCH analysis for CTSH from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,297 - INFO - Executing SQL for price data for CTSH
+2025-03-15 11:11:11,299 - INFO - Retrieved 1257 rows of price data for CTSH
+2025-03-15 11:11:11,317 - INFO - Stored fundamental analysis results for CTSH
+2025-03-15 11:11:11,317 - INFO - Successfully analyzed CTSH
+2025-03-15 11:11:11,317 - INFO - Processing DASH (30/98)
+2025-03-15 11:11:11,317 - INFO - Running FAMA_FRENCH analysis for DASH from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,317 - INFO - Executing SQL for price data for DASH
+2025-03-15 11:11:11,320 - INFO - Retrieved 1020 rows of price data for DASH
+2025-03-15 11:11:11,340 - INFO - Stored fundamental analysis results for DASH
+2025-03-15 11:11:11,341 - INFO - Successfully analyzed DASH
+2025-03-15 11:11:11,341 - INFO - Processing DDOG (31/98)
+2025-03-15 11:11:11,341 - INFO - Running FAMA_FRENCH analysis for DDOG from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,341 - INFO - Executing SQL for price data for DDOG
+2025-03-15 11:11:11,343 - INFO - Retrieved 1257 rows of price data for DDOG
+2025-03-15 11:11:11,366 - INFO - Stored fundamental analysis results for DDOG
+2025-03-15 11:11:11,366 - INFO - Successfully analyzed DDOG
+2025-03-15 11:11:11,366 - INFO - Processing DLTR (32/98)
+2025-03-15 11:11:11,366 - INFO - Running FAMA_FRENCH analysis for DLTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,366 - INFO - Executing SQL for price data for DLTR
+2025-03-15 11:11:11,369 - INFO - Retrieved 1257 rows of price data for DLTR
+2025-03-15 11:11:11,388 - INFO - Stored fundamental analysis results for DLTR
+2025-03-15 11:11:11,388 - INFO - Successfully analyzed DLTR
+2025-03-15 11:11:11,388 - INFO - Processing DXCM (33/98)
+2025-03-15 11:11:11,388 - INFO - Running FAMA_FRENCH analysis for DXCM from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,388 - INFO - Executing SQL for price data for DXCM
+2025-03-15 11:11:11,391 - INFO - Retrieved 1257 rows of price data for DXCM
+2025-03-15 11:11:11,409 - INFO - Stored fundamental analysis results for DXCM
+2025-03-15 11:11:11,410 - INFO - Successfully analyzed DXCM
+2025-03-15 11:11:11,410 - INFO - Processing ENPH (34/98)
+2025-03-15 11:11:11,410 - INFO - Running FAMA_FRENCH analysis for ENPH from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,410 - INFO - Executing SQL for price data for ENPH
+2025-03-15 11:11:11,413 - INFO - Retrieved 1257 rows of price data for ENPH
+2025-03-15 11:11:11,436 - INFO - Stored fundamental analysis results for ENPH
+2025-03-15 11:11:11,436 - INFO - Successfully analyzed ENPH
+2025-03-15 11:11:11,436 - INFO - Processing EXC (35/98)
+2025-03-15 11:11:11,436 - INFO - Running FAMA_FRENCH analysis for EXC from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,436 - INFO - Executing SQL for price data for EXC
+2025-03-15 11:11:11,438 - INFO - Retrieved 1257 rows of price data for EXC
+2025-03-15 11:11:11,456 - INFO - Stored fundamental analysis results for EXC
+2025-03-15 11:11:11,456 - INFO - Successfully analyzed EXC
+2025-03-15 11:11:11,456 - INFO - Processing FANG (36/98)
+2025-03-15 11:11:11,456 - INFO - Running FAMA_FRENCH analysis for FANG from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,456 - INFO - Executing SQL for price data for FANG
+2025-03-15 11:11:11,458 - INFO - Retrieved 1257 rows of price data for FANG
+2025-03-15 11:11:11,480 - INFO - Stored fundamental analysis results for FANG
+2025-03-15 11:11:11,480 - INFO - Successfully analyzed FANG
+2025-03-15 11:11:11,481 - INFO - Processing FAST (37/98)
+2025-03-15 11:11:11,481 - INFO - Running FAMA_FRENCH analysis for FAST from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,481 - INFO - Executing SQL for price data for FAST
+2025-03-15 11:11:11,483 - INFO - Retrieved 1257 rows of price data for FAST
+2025-03-15 11:11:11,500 - INFO - Stored fundamental analysis results for FAST
+2025-03-15 11:11:11,500 - INFO - Successfully analyzed FAST
+2025-03-15 11:11:11,500 - INFO - Processing FTNT (38/98)
+2025-03-15 11:11:11,500 - INFO - Running FAMA_FRENCH analysis for FTNT from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,500 - INFO - Executing SQL for price data for FTNT
+2025-03-15 11:11:11,502 - INFO - Retrieved 1257 rows of price data for FTNT
+2025-03-15 11:11:11,520 - INFO - Stored fundamental analysis results for FTNT
+2025-03-15 11:11:11,520 - INFO - Successfully analyzed FTNT
+2025-03-15 11:11:11,520 - INFO - Processing GEHC (39/98)
+2025-03-15 11:11:11,520 - INFO - Running FAMA_FRENCH analysis for GEHC from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,520 - INFO - Executing SQL for price data for GEHC
+2025-03-15 11:11:11,522 - INFO - Retrieved 512 rows of price data for GEHC
+2025-03-15 11:11:11,539 - INFO - Stored fundamental analysis results for GEHC
+2025-03-15 11:11:11,539 - INFO - Successfully analyzed GEHC
+2025-03-15 11:11:11,539 - INFO - Processing GILD (40/98)
+2025-03-15 11:11:11,539 - INFO - Running FAMA_FRENCH analysis for GILD from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,539 - INFO - Executing SQL for price data for GILD
+2025-03-15 11:11:11,541 - INFO - Retrieved 1257 rows of price data for GILD
+2025-03-15 11:11:11,560 - INFO - Stored fundamental analysis results for GILD
+2025-03-15 11:11:11,560 - INFO - Successfully analyzed GILD
+2025-03-15 11:11:11,560 - INFO - Processing GOOG (41/98)
+2025-03-15 11:11:11,560 - INFO - Running FAMA_FRENCH analysis for GOOG from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,560 - INFO - Executing SQL for price data for GOOG
+2025-03-15 11:11:11,562 - INFO - Retrieved 1257 rows of price data for GOOG
+2025-03-15 11:11:11,581 - INFO - Stored fundamental analysis results for GOOG
+2025-03-15 11:11:11,581 - INFO - Successfully analyzed GOOG
+2025-03-15 11:11:11,581 - INFO - Processing GOOGL (42/98)
+2025-03-15 11:11:11,581 - INFO - Running FAMA_FRENCH analysis for GOOGL from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,581 - INFO - Executing SQL for price data for GOOGL
+2025-03-15 11:11:11,583 - INFO - Retrieved 1257 rows of price data for GOOGL
+2025-03-15 11:11:11,601 - INFO - Stored fundamental analysis results for GOOGL
+2025-03-15 11:11:11,601 - INFO - Successfully analyzed GOOGL
+2025-03-15 11:11:11,601 - INFO - Processing HON (43/98)
+2025-03-15 11:11:11,601 - INFO - Running FAMA_FRENCH analysis for HON from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,601 - INFO - Executing SQL for price data for HON
+2025-03-15 11:11:11,604 - INFO - Retrieved 1257 rows of price data for HON
+2025-03-15 11:11:11,626 - INFO - Stored fundamental analysis results for HON
+2025-03-15 11:11:11,626 - INFO - Successfully analyzed HON
+2025-03-15 11:11:11,627 - INFO - Processing IDXX (44/98)
+2025-03-15 11:11:11,627 - INFO - Running FAMA_FRENCH analysis for IDXX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,627 - INFO - Executing SQL for price data for IDXX
+2025-03-15 11:11:11,630 - INFO - Retrieved 1257 rows of price data for IDXX
+2025-03-15 11:11:11,647 - INFO - Stored fundamental analysis results for IDXX
+2025-03-15 11:11:11,647 - INFO - Successfully analyzed IDXX
+2025-03-15 11:11:11,647 - INFO - Processing ILMN (45/98)
+2025-03-15 11:11:11,647 - INFO - Running FAMA_FRENCH analysis for ILMN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,647 - INFO - Executing SQL for price data for ILMN
+2025-03-15 11:11:11,649 - INFO - Retrieved 1257 rows of price data for ILMN
+2025-03-15 11:11:11,666 - INFO - Stored fundamental analysis results for ILMN
+2025-03-15 11:11:11,667 - INFO - Successfully analyzed ILMN
+2025-03-15 11:11:11,667 - INFO - Processing INTC (46/98)
+2025-03-15 11:11:11,667 - INFO - Running FAMA_FRENCH analysis for INTC from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,667 - INFO - Executing SQL for price data for INTC
+2025-03-15 11:11:11,668 - INFO - Retrieved 1257 rows of price data for INTC
+2025-03-15 11:11:11,683 - INFO - Stored fundamental analysis results for INTC
+2025-03-15 11:11:11,684 - INFO - Successfully analyzed INTC
+2025-03-15 11:11:11,684 - INFO - Processing INTU (47/98)
+2025-03-15 11:11:11,684 - INFO - Running FAMA_FRENCH analysis for INTU from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,684 - INFO - Executing SQL for price data for INTU
+2025-03-15 11:11:11,686 - INFO - Retrieved 1257 rows of price data for INTU
+2025-03-15 11:11:11,706 - INFO - Stored fundamental analysis results for INTU
+2025-03-15 11:11:11,706 - INFO - Successfully analyzed INTU
+2025-03-15 11:11:11,706 - INFO - Processing ISRG (48/98)
+2025-03-15 11:11:11,706 - INFO - Running FAMA_FRENCH analysis for ISRG from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,706 - INFO - Executing SQL for price data for ISRG
+2025-03-15 11:11:11,707 - INFO - Retrieved 1257 rows of price data for ISRG
+2025-03-15 11:11:11,725 - INFO - Stored fundamental analysis results for ISRG
+2025-03-15 11:11:11,725 - INFO - Successfully analyzed ISRG
+2025-03-15 11:11:11,725 - INFO - Processing KDP (49/98)
+2025-03-15 11:11:11,725 - INFO - Running FAMA_FRENCH analysis for KDP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,725 - INFO - Executing SQL for price data for KDP
+2025-03-15 11:11:11,730 - INFO - Retrieved 1257 rows of price data for KDP
+2025-03-15 11:11:11,747 - INFO - Stored fundamental analysis results for KDP
+2025-03-15 11:11:11,747 - INFO - Successfully analyzed KDP
+2025-03-15 11:11:11,747 - INFO - Processing KLAC (50/98)
+2025-03-15 11:11:11,747 - INFO - Running FAMA_FRENCH analysis for KLAC from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,748 - INFO - Executing SQL for price data for KLAC
+2025-03-15 11:11:11,751 - INFO - Retrieved 1257 rows of price data for KLAC
+2025-03-15 11:11:11,774 - INFO - Stored fundamental analysis results for KLAC
+2025-03-15 11:11:11,774 - INFO - Successfully analyzed KLAC
+2025-03-15 11:11:11,774 - INFO - Processing LCID (51/98)
+2025-03-15 11:11:11,774 - INFO - Running FAMA_FRENCH analysis for LCID from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,774 - INFO - Executing SQL for price data for LCID
+2025-03-15 11:11:11,776 - INFO - Retrieved 1077 rows of price data for LCID
+2025-03-15 11:11:11,801 - INFO - Stored fundamental analysis results for LCID
+2025-03-15 11:11:11,801 - INFO - Successfully analyzed LCID
+2025-03-15 11:11:11,801 - INFO - Processing LRCX (52/98)
+2025-03-15 11:11:11,801 - INFO - Running FAMA_FRENCH analysis for LRCX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,801 - INFO - Executing SQL for price data for LRCX
+2025-03-15 11:11:11,803 - INFO - Retrieved 1257 rows of price data for LRCX
+2025-03-15 11:11:11,821 - INFO - Stored fundamental analysis results for LRCX
+2025-03-15 11:11:11,821 - INFO - Successfully analyzed LRCX
+2025-03-15 11:11:11,821 - INFO - Processing LULU (53/98)
+2025-03-15 11:11:11,821 - INFO - Running FAMA_FRENCH analysis for LULU from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,821 - INFO - Executing SQL for price data for LULU
+2025-03-15 11:11:11,823 - INFO - Retrieved 1257 rows of price data for LULU
+2025-03-15 11:11:11,839 - INFO - Stored fundamental analysis results for LULU
+2025-03-15 11:11:11,839 - INFO - Successfully analyzed LULU
+2025-03-15 11:11:11,839 - INFO - Processing MCHP (54/98)
+2025-03-15 11:11:11,839 - INFO - Running FAMA_FRENCH analysis for MCHP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,839 - INFO - Executing SQL for price data for MCHP
+2025-03-15 11:11:11,841 - INFO - Retrieved 1257 rows of price data for MCHP
+2025-03-15 11:11:11,859 - INFO - Stored fundamental analysis results for MCHP
+2025-03-15 11:11:11,860 - INFO - Successfully analyzed MCHP
+2025-03-15 11:11:11,860 - INFO - Processing MDB (55/98)
+2025-03-15 11:11:11,860 - INFO - Running FAMA_FRENCH analysis for MDB from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,860 - INFO - Executing SQL for price data for MDB
+2025-03-15 11:11:11,863 - INFO - Retrieved 1257 rows of price data for MDB
+2025-03-15 11:11:11,883 - INFO - Stored fundamental analysis results for MDB
+2025-03-15 11:11:11,883 - INFO - Successfully analyzed MDB
+2025-03-15 11:11:11,883 - INFO - Processing MDLZ (56/98)
+2025-03-15 11:11:11,883 - INFO - Running FAMA_FRENCH analysis for MDLZ from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,883 - INFO - Executing SQL for price data for MDLZ
+2025-03-15 11:11:11,885 - INFO - Retrieved 1257 rows of price data for MDLZ
+2025-03-15 11:11:11,902 - INFO - Stored fundamental analysis results for MDLZ
+2025-03-15 11:11:11,903 - INFO - Successfully analyzed MDLZ
+2025-03-15 11:11:11,903 - INFO - Processing MELI (57/98)
+2025-03-15 11:11:11,903 - INFO - Running FAMA_FRENCH analysis for MELI from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,903 - INFO - Executing SQL for price data for MELI
+2025-03-15 11:11:11,905 - INFO - Retrieved 1257 rows of price data for MELI
+2025-03-15 11:11:11,926 - INFO - Stored fundamental analysis results for MELI
+2025-03-15 11:11:11,926 - INFO - Successfully analyzed MELI
+2025-03-15 11:11:11,926 - INFO - Processing META (58/98)
+2025-03-15 11:11:11,926 - INFO - Running FAMA_FRENCH analysis for META from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,926 - INFO - Executing SQL for price data for META
+2025-03-15 11:11:11,927 - INFO - Retrieved 1257 rows of price data for META
+2025-03-15 11:11:11,944 - INFO - Stored fundamental analysis results for META
+2025-03-15 11:11:11,944 - INFO - Successfully analyzed META
+2025-03-15 11:11:11,944 - INFO - Processing MNST (59/98)
+2025-03-15 11:11:11,944 - INFO - Running FAMA_FRENCH analysis for MNST from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,944 - INFO - Executing SQL for price data for MNST
+2025-03-15 11:11:11,946 - INFO - Retrieved 1257 rows of price data for MNST
+2025-03-15 11:11:11,964 - INFO - Stored fundamental analysis results for MNST
+2025-03-15 11:11:11,964 - INFO - Successfully analyzed MNST
+2025-03-15 11:11:11,964 - INFO - Processing MRVL (60/98)
+2025-03-15 11:11:11,964 - INFO - Running FAMA_FRENCH analysis for MRVL from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,964 - INFO - Executing SQL for price data for MRVL
+2025-03-15 11:11:11,967 - INFO - Retrieved 1257 rows of price data for MRVL
+2025-03-15 11:11:11,993 - INFO - Stored fundamental analysis results for MRVL
+2025-03-15 11:11:11,993 - INFO - Successfully analyzed MRVL
+2025-03-15 11:11:11,993 - INFO - Processing MSFT (61/98)
+2025-03-15 11:11:11,993 - INFO - Running FAMA_FRENCH analysis for MSFT from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:11,993 - INFO - Executing SQL for price data for MSFT
+2025-03-15 11:11:11,995 - INFO - Retrieved 1257 rows of price data for MSFT
+2025-03-15 11:11:12,014 - INFO - Stored fundamental analysis results for MSFT
+2025-03-15 11:11:12,014 - INFO - Successfully analyzed MSFT
+2025-03-15 11:11:12,014 - INFO - Processing MSTR (62/98)
+2025-03-15 11:11:12,014 - INFO - Running FAMA_FRENCH analysis for MSTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,015 - INFO - Executing SQL for price data for MSTR
+2025-03-15 11:11:12,017 - INFO - Retrieved 1257 rows of price data for MSTR
+2025-03-15 11:11:12,057 - INFO - Stored fundamental analysis results for MSTR
+2025-03-15 11:11:12,057 - INFO - Successfully analyzed MSTR
+2025-03-15 11:11:12,057 - INFO - Processing MTCH (63/98)
+2025-03-15 11:11:12,057 - INFO - Running FAMA_FRENCH analysis for MTCH from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,057 - INFO - Executing SQL for price data for MTCH
+2025-03-15 11:11:12,059 - INFO - Retrieved 1257 rows of price data for MTCH
+2025-03-15 11:11:12,081 - INFO - Stored fundamental analysis results for MTCH
+2025-03-15 11:11:12,081 - INFO - Successfully analyzed MTCH
+2025-03-15 11:11:12,081 - INFO - Processing NFLX (64/98)
+2025-03-15 11:11:12,081 - INFO - Running FAMA_FRENCH analysis for NFLX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,081 - INFO - Executing SQL for price data for NFLX
+2025-03-15 11:11:12,083 - INFO - Retrieved 1257 rows of price data for NFLX
+2025-03-15 11:11:12,099 - INFO - Stored fundamental analysis results for NFLX
+2025-03-15 11:11:12,099 - INFO - Successfully analyzed NFLX
+2025-03-15 11:11:12,099 - INFO - Processing NVDA (65/98)
+2025-03-15 11:11:12,100 - INFO - Running FAMA_FRENCH analysis for NVDA from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,100 - INFO - Executing SQL for price data for NVDA
+2025-03-15 11:11:12,102 - INFO - Retrieved 1257 rows of price data for NVDA
+2025-03-15 11:11:12,150 - INFO - Stored fundamental analysis results for NVDA
+2025-03-15 11:11:12,150 - INFO - Successfully analyzed NVDA
+2025-03-15 11:11:12,150 - INFO - Processing NXPI (66/98)
+2025-03-15 11:11:12,150 - INFO - Running FAMA_FRENCH analysis for NXPI from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,150 - INFO - Executing SQL for price data for NXPI
+2025-03-15 11:11:12,153 - INFO - Retrieved 1257 rows of price data for NXPI
+2025-03-15 11:11:12,172 - INFO - Stored fundamental analysis results for NXPI
+2025-03-15 11:11:12,172 - INFO - Successfully analyzed NXPI
+2025-03-15 11:11:12,172 - INFO - Processing ODFL (67/98)
+2025-03-15 11:11:12,172 - INFO - Running FAMA_FRENCH analysis for ODFL from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,172 - INFO - Executing SQL for price data for ODFL
+2025-03-15 11:11:12,174 - INFO - Retrieved 1257 rows of price data for ODFL
+2025-03-15 11:11:12,207 - INFO - Stored fundamental analysis results for ODFL
+2025-03-15 11:11:12,207 - INFO - Successfully analyzed ODFL
+2025-03-15 11:11:12,208 - INFO - Processing ORLY (68/98)
+2025-03-15 11:11:12,208 - INFO - Running FAMA_FRENCH analysis for ORLY from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,208 - INFO - Executing SQL for price data for ORLY
+2025-03-15 11:11:12,211 - INFO - Retrieved 1257 rows of price data for ORLY
+2025-03-15 11:11:12,233 - INFO - Stored fundamental analysis results for ORLY
+2025-03-15 11:11:12,233 - INFO - Successfully analyzed ORLY
+2025-03-15 11:11:12,233 - INFO - Processing PANW (69/98)
+2025-03-15 11:11:12,233 - INFO - Running FAMA_FRENCH analysis for PANW from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,233 - INFO - Executing SQL for price data for PANW
+2025-03-15 11:11:12,235 - INFO - Retrieved 1257 rows of price data for PANW
+2025-03-15 11:11:12,252 - INFO - Stored fundamental analysis results for PANW
+2025-03-15 11:11:12,252 - INFO - Successfully analyzed PANW
+2025-03-15 11:11:12,252 - INFO - Processing PAYX (70/98)
+2025-03-15 11:11:12,252 - INFO - Running FAMA_FRENCH analysis for PAYX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,253 - INFO - Executing SQL for price data for PAYX
+2025-03-15 11:11:12,255 - INFO - Retrieved 1257 rows of price data for PAYX
+2025-03-15 11:11:12,292 - INFO - Stored fundamental analysis results for PAYX
+2025-03-15 11:11:12,292 - INFO - Successfully analyzed PAYX
+2025-03-15 11:11:12,292 - INFO - Processing PCAR (71/98)
+2025-03-15 11:11:12,292 - INFO - Running FAMA_FRENCH analysis for PCAR from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,293 - INFO - Executing SQL for price data for PCAR
+2025-03-15 11:11:12,295 - INFO - Retrieved 1257 rows of price data for PCAR
+2025-03-15 11:11:12,332 - INFO - Stored fundamental analysis results for PCAR
+2025-03-15 11:11:12,332 - INFO - Successfully analyzed PCAR
+2025-03-15 11:11:12,332 - INFO - Processing PEP (72/98)
+2025-03-15 11:11:12,332 - INFO - Running FAMA_FRENCH analysis for PEP from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,332 - INFO - Executing SQL for price data for PEP
+2025-03-15 11:11:12,335 - INFO - Retrieved 1257 rows of price data for PEP
+2025-03-15 11:11:12,357 - INFO - Stored fundamental analysis results for PEP
+2025-03-15 11:11:12,357 - INFO - Successfully analyzed PEP
+2025-03-15 11:11:12,357 - INFO - Processing PLTR (73/98)
+2025-03-15 11:11:12,357 - INFO - Running FAMA_FRENCH analysis for PLTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,357 - INFO - Executing SQL for price data for PLTR
+2025-03-15 11:11:12,359 - INFO - Retrieved 1069 rows of price data for PLTR
+2025-03-15 11:11:12,396 - INFO - Stored fundamental analysis results for PLTR
+2025-03-15 11:11:12,396 - INFO - Successfully analyzed PLTR
+2025-03-15 11:11:12,396 - INFO - Processing PYPL (74/98)
+2025-03-15 11:11:12,396 - INFO - Running FAMA_FRENCH analysis for PYPL from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,396 - INFO - Executing SQL for price data for PYPL
+2025-03-15 11:11:12,400 - INFO - Retrieved 1257 rows of price data for PYPL
+2025-03-15 11:11:12,426 - INFO - Stored fundamental analysis results for PYPL
+2025-03-15 11:11:12,426 - INFO - Successfully analyzed PYPL
+2025-03-15 11:11:12,427 - INFO - Processing QCOM (75/98)
+2025-03-15 11:11:12,427 - INFO - Running FAMA_FRENCH analysis for QCOM from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,427 - INFO - Executing SQL for price data for QCOM
+2025-03-15 11:11:12,428 - INFO - Retrieved 1257 rows of price data for QCOM
+2025-03-15 11:11:12,454 - INFO - Stored fundamental analysis results for QCOM
+2025-03-15 11:11:12,454 - INFO - Successfully analyzed QCOM
+2025-03-15 11:11:12,454 - INFO - Processing REGN (76/98)
+2025-03-15 11:11:12,454 - INFO - Running FAMA_FRENCH analysis for REGN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,454 - INFO - Executing SQL for price data for REGN
+2025-03-15 11:11:12,456 - INFO - Retrieved 1257 rows of price data for REGN
+2025-03-15 11:11:12,497 - INFO - Stored fundamental analysis results for REGN
+2025-03-15 11:11:12,497 - INFO - Successfully analyzed REGN
+2025-03-15 11:11:12,497 - INFO - Processing RIVN (77/98)
+2025-03-15 11:11:12,497 - INFO - Running FAMA_FRENCH analysis for RIVN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,497 - INFO - Executing SQL for price data for RIVN
+2025-03-15 11:11:12,499 - INFO - Retrieved 788 rows of price data for RIVN
+2025-03-15 11:11:12,523 - INFO - Stored fundamental analysis results for RIVN
+2025-03-15 11:11:12,523 - INFO - Successfully analyzed RIVN
+2025-03-15 11:11:12,523 - INFO - Processing ROST (78/98)
+2025-03-15 11:11:12,524 - INFO - Running FAMA_FRENCH analysis for ROST from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,524 - INFO - Executing SQL for price data for ROST
+2025-03-15 11:11:12,527 - INFO - Retrieved 1257 rows of price data for ROST
+2025-03-15 11:11:12,558 - INFO - Stored fundamental analysis results for ROST
+2025-03-15 11:11:12,558 - INFO - Successfully analyzed ROST
+2025-03-15 11:11:12,558 - INFO - Processing SBUX (79/98)
+2025-03-15 11:11:12,559 - INFO - Running FAMA_FRENCH analysis for SBUX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,559 - INFO - Executing SQL for price data for SBUX
+2025-03-15 11:11:12,563 - INFO - Retrieved 1257 rows of price data for SBUX
+2025-03-15 11:11:12,592 - INFO - Stored fundamental analysis results for SBUX
+2025-03-15 11:11:12,592 - INFO - Successfully analyzed SBUX
+2025-03-15 11:11:12,592 - INFO - Processing SIRI (80/98)
+2025-03-15 11:11:12,592 - INFO - Running FAMA_FRENCH analysis for SIRI from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,592 - INFO - Executing SQL for price data for SIRI
+2025-03-15 11:11:12,595 - INFO - Retrieved 1257 rows of price data for SIRI
+2025-03-15 11:11:12,620 - INFO - Stored fundamental analysis results for SIRI
+2025-03-15 11:11:12,620 - INFO - Successfully analyzed SIRI
+2025-03-15 11:11:12,620 - INFO - Processing SMCI (81/98)
+2025-03-15 11:11:12,620 - INFO - Running FAMA_FRENCH analysis for SMCI from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,620 - INFO - Executing SQL for price data for SMCI
+2025-03-15 11:11:12,624 - INFO - Retrieved 1257 rows of price data for SMCI
+2025-03-15 11:11:12,641 - INFO - Stored fundamental analysis results for SMCI
+2025-03-15 11:11:12,641 - INFO - Successfully analyzed SMCI
+2025-03-15 11:11:12,641 - INFO - Processing SNPS (82/98)
+2025-03-15 11:11:12,641 - INFO - Running FAMA_FRENCH analysis for SNPS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,641 - INFO - Executing SQL for price data for SNPS
+2025-03-15 11:11:12,643 - INFO - Retrieved 1257 rows of price data for SNPS
+2025-03-15 11:11:12,658 - INFO - Stored fundamental analysis results for SNPS
+2025-03-15 11:11:12,658 - INFO - Successfully analyzed SNPS
+2025-03-15 11:11:12,658 - INFO - Processing SPY (83/98)
+2025-03-15 11:11:12,658 - INFO - Running FAMA_FRENCH analysis for SPY from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,658 - INFO - Executing SQL for price data for SPY
+2025-03-15 11:11:12,660 - INFO - Retrieved 1257 rows of price data for SPY
+2025-03-15 11:11:12,675 - INFO - Stored fundamental analysis results for SPY
+2025-03-15 11:11:12,675 - INFO - Successfully analyzed SPY
+2025-03-15 11:11:12,675 - INFO - Processing SWKS (84/98)
+2025-03-15 11:11:12,675 - INFO - Running FAMA_FRENCH analysis for SWKS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,675 - INFO - Executing SQL for price data for SWKS
+2025-03-15 11:11:12,676 - INFO - Retrieved 1257 rows of price data for SWKS
+2025-03-15 11:11:12,695 - INFO - Stored fundamental analysis results for SWKS
+2025-03-15 11:11:12,695 - INFO - Successfully analyzed SWKS
+2025-03-15 11:11:12,695 - INFO - Processing TEAM (85/98)
+2025-03-15 11:11:12,695 - INFO - Running FAMA_FRENCH analysis for TEAM from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,695 - INFO - Executing SQL for price data for TEAM
+2025-03-15 11:11:12,697 - INFO - Retrieved 1257 rows of price data for TEAM
+2025-03-15 11:11:12,712 - INFO - Stored fundamental analysis results for TEAM
+2025-03-15 11:11:12,712 - INFO - Successfully analyzed TEAM
+2025-03-15 11:11:12,712 - INFO - Processing TMUS (86/98)
+2025-03-15 11:11:12,712 - INFO - Running FAMA_FRENCH analysis for TMUS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,712 - INFO - Executing SQL for price data for TMUS
+2025-03-15 11:11:12,714 - INFO - Retrieved 1257 rows of price data for TMUS
+2025-03-15 11:11:12,728 - INFO - Stored fundamental analysis results for TMUS
+2025-03-15 11:11:12,728 - INFO - Successfully analyzed TMUS
+2025-03-15 11:11:12,728 - INFO - Processing TSLA (87/98)
+2025-03-15 11:11:12,728 - INFO - Running FAMA_FRENCH analysis for TSLA from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,728 - INFO - Executing SQL for price data for TSLA
+2025-03-15 11:11:12,731 - INFO - Retrieved 1257 rows of price data for TSLA
+2025-03-15 11:11:12,746 - INFO - Stored fundamental analysis results for TSLA
+2025-03-15 11:11:12,746 - INFO - Successfully analyzed TSLA
+2025-03-15 11:11:12,746 - INFO - Processing TTD (88/98)
+2025-03-15 11:11:12,746 - INFO - Running FAMA_FRENCH analysis for TTD from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,746 - INFO - Executing SQL for price data for TTD
+2025-03-15 11:11:12,748 - INFO - Retrieved 1257 rows of price data for TTD
+2025-03-15 11:11:12,763 - INFO - Stored fundamental analysis results for TTD
+2025-03-15 11:11:12,763 - INFO - Successfully analyzed TTD
+2025-03-15 11:11:12,763 - INFO - Processing TTWO (89/98)
+2025-03-15 11:11:12,763 - INFO - Running FAMA_FRENCH analysis for TTWO from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,763 - INFO - Executing SQL for price data for TTWO
+2025-03-15 11:11:12,764 - INFO - Retrieved 1257 rows of price data for TTWO
+2025-03-15 11:11:12,781 - INFO - Stored fundamental analysis results for TTWO
+2025-03-15 11:11:12,781 - INFO - Successfully analyzed TTWO
+2025-03-15 11:11:12,781 - INFO - Processing TXN (90/98)
+2025-03-15 11:11:12,781 - INFO - Running FAMA_FRENCH analysis for TXN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,781 - INFO - Executing SQL for price data for TXN
+2025-03-15 11:11:12,783 - INFO - Retrieved 1257 rows of price data for TXN
+2025-03-15 11:11:12,798 - INFO - Stored fundamental analysis results for TXN
+2025-03-15 11:11:12,798 - INFO - Successfully analyzed TXN
+2025-03-15 11:11:12,798 - INFO - Processing VRSK (91/98)
+2025-03-15 11:11:12,798 - INFO - Running FAMA_FRENCH analysis for VRSK from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,798 - INFO - Executing SQL for price data for VRSK
+2025-03-15 11:11:12,800 - INFO - Retrieved 1257 rows of price data for VRSK
+2025-03-15 11:11:12,819 - INFO - Stored fundamental analysis results for VRSK
+2025-03-15 11:11:12,819 - INFO - Successfully analyzed VRSK
+2025-03-15 11:11:12,819 - INFO - Processing VRSN (92/98)
+2025-03-15 11:11:12,819 - INFO - Running FAMA_FRENCH analysis for VRSN from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,819 - INFO - Executing SQL for price data for VRSN
+2025-03-15 11:11:12,820 - INFO - Retrieved 1257 rows of price data for VRSN
+2025-03-15 11:11:12,836 - INFO - Stored fundamental analysis results for VRSN
+2025-03-15 11:11:12,836 - INFO - Successfully analyzed VRSN
+2025-03-15 11:11:12,836 - INFO - Processing VRTX (93/98)
+2025-03-15 11:11:12,836 - INFO - Running FAMA_FRENCH analysis for VRTX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,836 - INFO - Executing SQL for price data for VRTX
+2025-03-15 11:11:12,837 - INFO - Retrieved 1257 rows of price data for VRTX
+2025-03-15 11:11:12,854 - INFO - Stored fundamental analysis results for VRTX
+2025-03-15 11:11:12,854 - INFO - Successfully analyzed VRTX
+2025-03-15 11:11:12,854 - INFO - Processing WBD (94/98)
+2025-03-15 11:11:12,854 - INFO - Running FAMA_FRENCH analysis for WBD from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,854 - INFO - Executing SQL for price data for WBD
+2025-03-15 11:11:12,857 - INFO - Retrieved 1257 rows of price data for WBD
+2025-03-15 11:11:12,875 - INFO - Stored fundamental analysis results for WBD
+2025-03-15 11:11:12,875 - INFO - Successfully analyzed WBD
+2025-03-15 11:11:12,875 - INFO - Processing WDAY (95/98)
+2025-03-15 11:11:12,875 - INFO - Running FAMA_FRENCH analysis for WDAY from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,875 - INFO - Executing SQL for price data for WDAY
+2025-03-15 11:11:12,878 - INFO - Retrieved 1257 rows of price data for WDAY
+2025-03-15 11:11:12,899 - INFO - Stored fundamental analysis results for WDAY
+2025-03-15 11:11:12,899 - INFO - Successfully analyzed WDAY
+2025-03-15 11:11:12,899 - INFO - Processing XEL (96/98)
+2025-03-15 11:11:12,899 - INFO - Running FAMA_FRENCH analysis for XEL from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,899 - INFO - Executing SQL for price data for XEL
+2025-03-15 11:11:12,901 - INFO - Retrieved 1257 rows of price data for XEL
+2025-03-15 11:11:12,919 - INFO - Stored fundamental analysis results for XEL
+2025-03-15 11:11:12,919 - INFO - Successfully analyzed XEL
+2025-03-15 11:11:12,919 - INFO - Processing ZS (97/98)
+2025-03-15 11:11:12,919 - INFO - Running FAMA_FRENCH analysis for ZS from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,919 - INFO - Executing SQL for price data for ZS
+2025-03-15 11:11:12,921 - INFO - Retrieved 1257 rows of price data for ZS
+2025-03-15 11:11:12,939 - INFO - Stored fundamental analysis results for ZS
+2025-03-15 11:11:12,939 - INFO - Successfully analyzed ZS
+2025-03-15 11:11:12,939 - INFO - Processing ^NDX (98/98)
+2025-03-15 11:11:12,939 - INFO - Running FAMA_FRENCH analysis for ^NDX from 2020-01-01 to 2025-03-15
+2025-03-15 11:11:12,939 - INFO - Executing SQL for price data for ^NDX
+2025-03-15 11:11:12,941 - INFO - Retrieved 1257 rows of price data for ^NDX
+2025-03-15 11:11:12,957 - INFO - Stored fundamental analysis results for ^NDX
+2025-03-15 11:11:12,957 - INFO - Successfully analyzed ^NDX
+2025-03-15 11:11:12,957 - INFO - Analysis completed. Success: 98, Errors: 0
+2025-03-15 11:11:12,957 - INFO - Computing technical signals...
+2025-03-15 11:11:12,959 - INFO - Connected to database for technical signals update.
+2025-03-15 11:11:13,219 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 11:11:20,153 - INFO - Inserted 208832 records into technical_signals.
+2025-03-15 11:11:20,173 - INFO - Running backtesting analysis...
+2025-03-15 11:11:28,660 - INFO - Backtesting completed.
+2025-03-15 11:11:28,676 - INFO - === Data Pipeline Completed Successfully ===
+2025-03-15 11:12:39,640 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:12:39,640 - INFO - Setting up database schema...
+2025-03-15 11:12:39,642 - INFO - Connected to database.
+2025-03-15 11:12:39,642 - INFO - Database schema created/updated successfully.
+2025-03-15 11:12:39,642 - INFO - Fetching tickers...
+2025-03-15 11:12:39,654 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 11:12:39,654 - INFO - Ticker fetch process completed successfully
+2025-03-15 11:12:39,654 - INFO - Fetching price data...
+2025-03-15 11:12:39,657 - INFO - Found 100 unique tickers to process
+2025-03-15 11:12:40,083 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 11:12:40,978 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 11:12:41,771 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 11:12:42,656 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 11:12:43,408 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 11:12:44,228 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 11:12:45,023 - INFO - Successfully stored 2263 price points for META
+2025-03-15 11:12:45,824 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 11:12:46,658 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 11:12:47,424 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 11:12:48,263 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 11:12:49,054 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 11:12:49,788 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 11:12:50,553 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 11:12:51,307 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 11:12:52,161 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 11:12:52,908 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 11:12:53,764 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 11:12:54,488 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 11:12:55,237 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 11:12:56,038 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 11:12:56,790 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 11:12:57,611 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 11:12:58,510 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 11:12:59,326 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 11:13:00,200 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 11:13:01,122 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 11:13:01,889 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 11:13:02,674 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 11:13:03,526 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 11:13:04,561 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 11:13:05,420 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 11:13:06,214 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 11:13:07,098 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 11:13:07,901 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 11:13:08,619 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 11:13:09,366 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 11:13:10,053 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 11:13:11,048 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 11:13:11,827 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 11:13:12,521 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 11:13:13,236 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 11:13:13,951 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 11:13:14,726 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 11:13:15,453 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 11:13:16,188 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 11:13:16,899 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 11:13:17,622 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 11:13:18,434 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 11:13:19,305 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 11:13:19,990 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 11:13:20,813 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 11:13:21,507 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 11:13:22,183 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 11:13:22,986 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 11:13:23,703 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 11:13:24,459 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 11:13:25,255 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 11:13:26,066 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 11:13:26,941 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 11:13:27,800 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 11:13:28,821 - INFO - Successfully stored 2263 price points for EXC
+2025-03-15 11:13:29,672 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-15 11:13:30,395 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-15 11:13:31,242 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-15 11:13:32,131 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-15 11:13:33,048 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-15 11:13:33,912 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-15 11:13:34,836 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-15 11:13:35,706 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-15 11:13:36,448 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-15 11:13:37,187 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-15 11:13:37,901 - INFO - Successfully stored 1709 price points for ZS
+2025-03-15 11:13:38,644 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-15 11:13:39,477 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-15 11:13:40,434 - INFO - Successfully stored 2263 price points for FANG
+2025-03-15 11:13:41,152 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-15 11:13:41,885 - INFO - Successfully stored 512 price points for GEHC
+2025-03-15 11:13:42,610 - INFO - Successfully stored 1020 price points for DASH
+2025-03-15 11:13:44,212 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-15 11:13:44,212 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-15 11:13:45,132 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-15 11:13:45,976 - INFO - Successfully stored 2263 price points for CCEP
+2025-03-15 11:13:47,328 - ERROR - $SPLK: possibly delisted; no timezone found
+2025-03-15 11:13:47,328 - WARNING - No data available for SPLK between 2016-01-01 and 2024-12-31
+2025-03-15 11:13:48,133 - INFO - Successfully stored 2263 price points for TTWO
+2025-03-15 11:13:48,937 - INFO - Successfully stored 2263 price points for VRSN
+2025-03-15 11:13:49,815 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-15 11:13:50,601 - INFO - Successfully stored 2263 price points for AEP
+2025-03-15 11:13:51,473 - INFO - Successfully stored 2263 price points for WBD
+2025-03-15 11:13:52,344 - INFO - Successfully stored 2263 price points for XEL
+2025-03-15 11:13:53,192 - INFO - Successfully stored 2263 price points for CSX
+2025-03-15 11:13:54,450 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-15 11:13:54,451 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-15 11:13:55,866 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-15 11:13:55,866 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-15 11:13:56,595 - INFO - Successfully stored 1810 price points for MDB
+2025-03-15 11:13:57,374 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-15 11:13:58,193 - INFO - Successfully stored 1077 price points for LCID
+2025-03-15 11:13:58,955 - INFO - Successfully stored 788 price points for RIVN
+2025-03-15 11:13:59,941 - INFO - Successfully stored 2082 price points for TTD
+2025-03-15 11:14:00,813 - INFO - Successfully stored 2263 price points for SMCI
+2025-03-15 11:14:01,584 - INFO - Successfully stored 1069 price points for PLTR
+2025-03-15 11:14:02,407 - INFO - Successfully stored 2263 price points for MSTR
+2025-03-15 11:14:03,365 - INFO - Successfully stored 2263 price points for SPY
+2025-03-15 11:14:04,212 - INFO - Successfully stored 2263 price points for ^NDX
+2025-03-15 11:14:04,713 - INFO - Price data fetch completed successfully
+2025-03-15 11:14:04,714 - INFO - Cleaning up duplicate entries...
+2025-03-15 11:14:04,717 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_capm
+2025-03-15 11:14:04,718 - INFO - Cleanup completed for fundamental_analysis_capm
+2025-03-15 11:14:04,718 - INFO - Found 0 tickers with duplicate entries in fundamental_analysis_ff
+2025-03-15 11:14:04,718 - INFO - Cleanup completed for fundamental_analysis_ff
+2025-03-15 11:14:05,574 - INFO - Database vacuumed successfully.
+2025-03-15 11:14:05,574 - INFO - Database cleanup completed successfully.
+2025-03-15 11:14:05,574 - INFO - Running fundamental analysis...
+2025-03-15 11:14:05,596 - INFO - Found 98 tickers to analyze
+2025-03-15 11:14:05,596 - INFO - Processing AAPL (1/98)
+2025-03-15 11:14:05,596 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,596 - INFO - Executing SQL for price data for AAPL
+2025-03-15 11:14:05,599 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-15 11:14:05,626 - INFO - Stored fundamental analysis results for AAPL
+2025-03-15 11:14:05,626 - INFO - Successfully analyzed AAPL
+2025-03-15 11:14:05,626 - INFO - Processing ABNB (2/98)
+2025-03-15 11:14:05,626 - INFO - Running FAMA_FRENCH analysis for ABNB from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,626 - INFO - Executing SQL for price data for ABNB
+2025-03-15 11:14:05,628 - INFO - Retrieved 1019 rows of price data for ABNB
+2025-03-15 11:14:05,653 - INFO - Stored fundamental analysis results for ABNB
+2025-03-15 11:14:05,654 - INFO - Successfully analyzed ABNB
+2025-03-15 11:14:05,654 - INFO - Processing ADBE (3/98)
+2025-03-15 11:14:05,654 - INFO - Running FAMA_FRENCH analysis for ADBE from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,654 - INFO - Executing SQL for price data for ADBE
+2025-03-15 11:14:05,657 - INFO - Retrieved 1257 rows of price data for ADBE
+2025-03-15 11:14:05,682 - INFO - Stored fundamental analysis results for ADBE
+2025-03-15 11:14:05,682 - INFO - Successfully analyzed ADBE
+2025-03-15 11:14:05,682 - INFO - Processing ADI (4/98)
+2025-03-15 11:14:05,682 - INFO - Running FAMA_FRENCH analysis for ADI from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,682 - INFO - Executing SQL for price data for ADI
+2025-03-15 11:14:05,686 - INFO - Retrieved 1257 rows of price data for ADI
+2025-03-15 11:14:05,711 - INFO - Stored fundamental analysis results for ADI
+2025-03-15 11:14:05,711 - INFO - Successfully analyzed ADI
+2025-03-15 11:14:05,711 - INFO - Processing ADP (5/98)
+2025-03-15 11:14:05,711 - INFO - Running FAMA_FRENCH analysis for ADP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,711 - INFO - Executing SQL for price data for ADP
+2025-03-15 11:14:05,714 - INFO - Retrieved 1257 rows of price data for ADP
+2025-03-15 11:14:05,742 - INFO - Stored fundamental analysis results for ADP
+2025-03-15 11:14:05,742 - INFO - Successfully analyzed ADP
+2025-03-15 11:14:05,742 - INFO - Processing ADSK (6/98)
+2025-03-15 11:14:05,742 - INFO - Running FAMA_FRENCH analysis for ADSK from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,742 - INFO - Executing SQL for price data for ADSK
+2025-03-15 11:14:05,745 - INFO - Retrieved 1257 rows of price data for ADSK
+2025-03-15 11:14:05,771 - INFO - Stored fundamental analysis results for ADSK
+2025-03-15 11:14:05,771 - INFO - Successfully analyzed ADSK
+2025-03-15 11:14:05,771 - INFO - Processing AEP (7/98)
+2025-03-15 11:14:05,771 - INFO - Running FAMA_FRENCH analysis for AEP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,772 - INFO - Executing SQL for price data for AEP
+2025-03-15 11:14:05,774 - INFO - Retrieved 1257 rows of price data for AEP
+2025-03-15 11:14:05,800 - INFO - Stored fundamental analysis results for AEP
+2025-03-15 11:14:05,800 - INFO - Successfully analyzed AEP
+2025-03-15 11:14:05,800 - INFO - Processing ALGN (8/98)
+2025-03-15 11:14:05,802 - INFO - Running FAMA_FRENCH analysis for ALGN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,802 - INFO - Executing SQL for price data for ALGN
+2025-03-15 11:14:05,805 - INFO - Retrieved 1257 rows of price data for ALGN
+2025-03-15 11:14:05,825 - INFO - Stored fundamental analysis results for ALGN
+2025-03-15 11:14:05,825 - INFO - Successfully analyzed ALGN
+2025-03-15 11:14:05,825 - INFO - Processing AMAT (9/98)
+2025-03-15 11:14:05,825 - INFO - Running FAMA_FRENCH analysis for AMAT from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,825 - INFO - Executing SQL for price data for AMAT
+2025-03-15 11:14:05,828 - INFO - Retrieved 1257 rows of price data for AMAT
+2025-03-15 11:14:05,854 - INFO - Stored fundamental analysis results for AMAT
+2025-03-15 11:14:05,854 - INFO - Successfully analyzed AMAT
+2025-03-15 11:14:05,854 - INFO - Processing AMD (10/98)
+2025-03-15 11:14:05,855 - INFO - Running FAMA_FRENCH analysis for AMD from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,855 - INFO - Executing SQL for price data for AMD
+2025-03-15 11:14:05,859 - INFO - Retrieved 1257 rows of price data for AMD
+2025-03-15 11:14:05,884 - INFO - Stored fundamental analysis results for AMD
+2025-03-15 11:14:05,884 - INFO - Successfully analyzed AMD
+2025-03-15 11:14:05,884 - INFO - Processing AMGN (11/98)
+2025-03-15 11:14:05,884 - INFO - Running FAMA_FRENCH analysis for AMGN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,884 - INFO - Executing SQL for price data for AMGN
+2025-03-15 11:14:05,887 - INFO - Retrieved 1257 rows of price data for AMGN
+2025-03-15 11:14:05,908 - INFO - Stored fundamental analysis results for AMGN
+2025-03-15 11:14:05,908 - INFO - Successfully analyzed AMGN
+2025-03-15 11:14:05,908 - INFO - Processing AMZN (12/98)
+2025-03-15 11:14:05,908 - INFO - Running FAMA_FRENCH analysis for AMZN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,908 - INFO - Executing SQL for price data for AMZN
+2025-03-15 11:14:05,911 - INFO - Retrieved 1257 rows of price data for AMZN
+2025-03-15 11:14:05,936 - INFO - Stored fundamental analysis results for AMZN
+2025-03-15 11:14:05,936 - INFO - Successfully analyzed AMZN
+2025-03-15 11:14:05,936 - INFO - Processing ANSS (13/98)
+2025-03-15 11:14:05,936 - INFO - Running FAMA_FRENCH analysis for ANSS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,936 - INFO - Executing SQL for price data for ANSS
+2025-03-15 11:14:05,940 - INFO - Retrieved 1257 rows of price data for ANSS
+2025-03-15 11:14:05,958 - INFO - Stored fundamental analysis results for ANSS
+2025-03-15 11:14:05,958 - INFO - Successfully analyzed ANSS
+2025-03-15 11:14:05,958 - INFO - Processing ASML (14/98)
+2025-03-15 11:14:05,958 - INFO - Running FAMA_FRENCH analysis for ASML from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,958 - INFO - Executing SQL for price data for ASML
+2025-03-15 11:14:05,961 - INFO - Retrieved 1257 rows of price data for ASML
+2025-03-15 11:14:05,984 - INFO - Stored fundamental analysis results for ASML
+2025-03-15 11:14:05,984 - INFO - Successfully analyzed ASML
+2025-03-15 11:14:05,984 - INFO - Processing AVGO (15/98)
+2025-03-15 11:14:05,984 - INFO - Running FAMA_FRENCH analysis for AVGO from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:05,984 - INFO - Executing SQL for price data for AVGO
+2025-03-15 11:14:05,987 - INFO - Retrieved 1257 rows of price data for AVGO
+2025-03-15 11:14:06,004 - INFO - Stored fundamental analysis results for AVGO
+2025-03-15 11:14:06,005 - INFO - Successfully analyzed AVGO
+2025-03-15 11:14:06,005 - INFO - Processing BIIB (16/98)
+2025-03-15 11:14:06,005 - INFO - Running FAMA_FRENCH analysis for BIIB from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,005 - INFO - Executing SQL for price data for BIIB
+2025-03-15 11:14:06,006 - INFO - Retrieved 1257 rows of price data for BIIB
+2025-03-15 11:14:06,026 - INFO - Stored fundamental analysis results for BIIB
+2025-03-15 11:14:06,026 - INFO - Successfully analyzed BIIB
+2025-03-15 11:14:06,026 - INFO - Processing BKNG (17/98)
+2025-03-15 11:14:06,026 - INFO - Running FAMA_FRENCH analysis for BKNG from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,026 - INFO - Executing SQL for price data for BKNG
+2025-03-15 11:14:06,028 - INFO - Retrieved 1257 rows of price data for BKNG
+2025-03-15 11:14:06,047 - INFO - Stored fundamental analysis results for BKNG
+2025-03-15 11:14:06,047 - INFO - Successfully analyzed BKNG
+2025-03-15 11:14:06,047 - INFO - Processing CCEP (18/98)
+2025-03-15 11:14:06,047 - INFO - Running FAMA_FRENCH analysis for CCEP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,047 - INFO - Executing SQL for price data for CCEP
+2025-03-15 11:14:06,049 - INFO - Retrieved 1257 rows of price data for CCEP
+2025-03-15 11:14:06,071 - INFO - Stored fundamental analysis results for CCEP
+2025-03-15 11:14:06,072 - INFO - Successfully analyzed CCEP
+2025-03-15 11:14:06,072 - INFO - Processing CDNS (19/98)
+2025-03-15 11:14:06,072 - INFO - Running FAMA_FRENCH analysis for CDNS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,072 - INFO - Executing SQL for price data for CDNS
+2025-03-15 11:14:06,074 - INFO - Retrieved 1257 rows of price data for CDNS
+2025-03-15 11:14:06,094 - INFO - Stored fundamental analysis results for CDNS
+2025-03-15 11:14:06,094 - INFO - Successfully analyzed CDNS
+2025-03-15 11:14:06,094 - INFO - Processing CHTR (20/98)
+2025-03-15 11:14:06,094 - INFO - Running FAMA_FRENCH analysis for CHTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,094 - INFO - Executing SQL for price data for CHTR
+2025-03-15 11:14:06,097 - INFO - Retrieved 1257 rows of price data for CHTR
+2025-03-15 11:14:06,120 - INFO - Stored fundamental analysis results for CHTR
+2025-03-15 11:14:06,120 - INFO - Successfully analyzed CHTR
+2025-03-15 11:14:06,120 - INFO - Processing CMCSA (21/98)
+2025-03-15 11:14:06,120 - INFO - Running FAMA_FRENCH analysis for CMCSA from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,120 - INFO - Executing SQL for price data for CMCSA
+2025-03-15 11:14:06,123 - INFO - Retrieved 1257 rows of price data for CMCSA
+2025-03-15 11:14:06,157 - INFO - Stored fundamental analysis results for CMCSA
+2025-03-15 11:14:06,157 - INFO - Successfully analyzed CMCSA
+2025-03-15 11:14:06,158 - INFO - Processing COST (22/98)
+2025-03-15 11:14:06,158 - INFO - Running FAMA_FRENCH analysis for COST from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,158 - INFO - Executing SQL for price data for COST
+2025-03-15 11:14:06,161 - INFO - Retrieved 1257 rows of price data for COST
+2025-03-15 11:14:06,183 - INFO - Stored fundamental analysis results for COST
+2025-03-15 11:14:06,183 - INFO - Successfully analyzed COST
+2025-03-15 11:14:06,183 - INFO - Processing CPRT (23/98)
+2025-03-15 11:14:06,183 - INFO - Running FAMA_FRENCH analysis for CPRT from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,183 - INFO - Executing SQL for price data for CPRT
+2025-03-15 11:14:06,187 - INFO - Retrieved 1257 rows of price data for CPRT
+2025-03-15 11:14:06,221 - INFO - Stored fundamental analysis results for CPRT
+2025-03-15 11:14:06,222 - INFO - Successfully analyzed CPRT
+2025-03-15 11:14:06,222 - INFO - Processing CRWD (24/98)
+2025-03-15 11:14:06,222 - INFO - Running FAMA_FRENCH analysis for CRWD from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,222 - INFO - Executing SQL for price data for CRWD
+2025-03-15 11:14:06,223 - INFO - Retrieved 1257 rows of price data for CRWD
+2025-03-15 11:14:06,240 - INFO - Stored fundamental analysis results for CRWD
+2025-03-15 11:14:06,241 - INFO - Successfully analyzed CRWD
+2025-03-15 11:14:06,241 - INFO - Processing CSCO (25/98)
+2025-03-15 11:14:06,241 - INFO - Running FAMA_FRENCH analysis for CSCO from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,241 - INFO - Executing SQL for price data for CSCO
+2025-03-15 11:14:06,243 - INFO - Retrieved 1257 rows of price data for CSCO
+2025-03-15 11:14:06,263 - INFO - Stored fundamental analysis results for CSCO
+2025-03-15 11:14:06,263 - INFO - Successfully analyzed CSCO
+2025-03-15 11:14:06,264 - INFO - Processing CSGP (26/98)
+2025-03-15 11:14:06,264 - INFO - Running FAMA_FRENCH analysis for CSGP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,264 - INFO - Executing SQL for price data for CSGP
+2025-03-15 11:14:06,265 - INFO - Retrieved 1257 rows of price data for CSGP
+2025-03-15 11:14:06,284 - INFO - Stored fundamental analysis results for CSGP
+2025-03-15 11:14:06,285 - INFO - Successfully analyzed CSGP
+2025-03-15 11:14:06,285 - INFO - Processing CSX (27/98)
+2025-03-15 11:14:06,285 - INFO - Running FAMA_FRENCH analysis for CSX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,285 - INFO - Executing SQL for price data for CSX
+2025-03-15 11:14:06,288 - INFO - Retrieved 1257 rows of price data for CSX
+2025-03-15 11:14:06,312 - INFO - Stored fundamental analysis results for CSX
+2025-03-15 11:14:06,312 - INFO - Successfully analyzed CSX
+2025-03-15 11:14:06,312 - INFO - Processing CTAS (28/98)
+2025-03-15 11:14:06,312 - INFO - Running FAMA_FRENCH analysis for CTAS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,312 - INFO - Executing SQL for price data for CTAS
+2025-03-15 11:14:06,315 - INFO - Retrieved 1257 rows of price data for CTAS
+2025-03-15 11:14:06,347 - INFO - Stored fundamental analysis results for CTAS
+2025-03-15 11:14:06,347 - INFO - Successfully analyzed CTAS
+2025-03-15 11:14:06,347 - INFO - Processing CTSH (29/98)
+2025-03-15 11:14:06,347 - INFO - Running FAMA_FRENCH analysis for CTSH from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,347 - INFO - Executing SQL for price data for CTSH
+2025-03-15 11:14:06,349 - INFO - Retrieved 1257 rows of price data for CTSH
+2025-03-15 11:14:06,379 - INFO - Stored fundamental analysis results for CTSH
+2025-03-15 11:14:06,379 - INFO - Successfully analyzed CTSH
+2025-03-15 11:14:06,379 - INFO - Processing DASH (30/98)
+2025-03-15 11:14:06,379 - INFO - Running FAMA_FRENCH analysis for DASH from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,379 - INFO - Executing SQL for price data for DASH
+2025-03-15 11:14:06,382 - INFO - Retrieved 1020 rows of price data for DASH
+2025-03-15 11:14:06,406 - INFO - Stored fundamental analysis results for DASH
+2025-03-15 11:14:06,406 - INFO - Successfully analyzed DASH
+2025-03-15 11:14:06,406 - INFO - Processing DDOG (31/98)
+2025-03-15 11:14:06,406 - INFO - Running FAMA_FRENCH analysis for DDOG from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,406 - INFO - Executing SQL for price data for DDOG
+2025-03-15 11:14:06,409 - INFO - Retrieved 1257 rows of price data for DDOG
+2025-03-15 11:14:06,426 - INFO - Stored fundamental analysis results for DDOG
+2025-03-15 11:14:06,426 - INFO - Successfully analyzed DDOG
+2025-03-15 11:14:06,427 - INFO - Processing DLTR (32/98)
+2025-03-15 11:14:06,427 - INFO - Running FAMA_FRENCH analysis for DLTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,427 - INFO - Executing SQL for price data for DLTR
+2025-03-15 11:14:06,429 - INFO - Retrieved 1257 rows of price data for DLTR
+2025-03-15 11:14:06,449 - INFO - Stored fundamental analysis results for DLTR
+2025-03-15 11:14:06,449 - INFO - Successfully analyzed DLTR
+2025-03-15 11:14:06,449 - INFO - Processing DXCM (33/98)
+2025-03-15 11:14:06,449 - INFO - Running FAMA_FRENCH analysis for DXCM from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,449 - INFO - Executing SQL for price data for DXCM
+2025-03-15 11:14:06,451 - INFO - Retrieved 1257 rows of price data for DXCM
+2025-03-15 11:14:06,472 - INFO - Stored fundamental analysis results for DXCM
+2025-03-15 11:14:06,472 - INFO - Successfully analyzed DXCM
+2025-03-15 11:14:06,472 - INFO - Processing ENPH (34/98)
+2025-03-15 11:14:06,472 - INFO - Running FAMA_FRENCH analysis for ENPH from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,472 - INFO - Executing SQL for price data for ENPH
+2025-03-15 11:14:06,474 - INFO - Retrieved 1257 rows of price data for ENPH
+2025-03-15 11:14:06,492 - INFO - Stored fundamental analysis results for ENPH
+2025-03-15 11:14:06,492 - INFO - Successfully analyzed ENPH
+2025-03-15 11:14:06,492 - INFO - Processing EXC (35/98)
+2025-03-15 11:14:06,492 - INFO - Running FAMA_FRENCH analysis for EXC from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,492 - INFO - Executing SQL for price data for EXC
+2025-03-15 11:14:06,494 - INFO - Retrieved 1257 rows of price data for EXC
+2025-03-15 11:14:06,511 - INFO - Stored fundamental analysis results for EXC
+2025-03-15 11:14:06,511 - INFO - Successfully analyzed EXC
+2025-03-15 11:14:06,511 - INFO - Processing FANG (36/98)
+2025-03-15 11:14:06,511 - INFO - Running FAMA_FRENCH analysis for FANG from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,511 - INFO - Executing SQL for price data for FANG
+2025-03-15 11:14:06,513 - INFO - Retrieved 1257 rows of price data for FANG
+2025-03-15 11:14:06,529 - INFO - Stored fundamental analysis results for FANG
+2025-03-15 11:14:06,529 - INFO - Successfully analyzed FANG
+2025-03-15 11:14:06,529 - INFO - Processing FAST (37/98)
+2025-03-15 11:14:06,529 - INFO - Running FAMA_FRENCH analysis for FAST from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,529 - INFO - Executing SQL for price data for FAST
+2025-03-15 11:14:06,531 - INFO - Retrieved 1257 rows of price data for FAST
+2025-03-15 11:14:06,548 - INFO - Stored fundamental analysis results for FAST
+2025-03-15 11:14:06,548 - INFO - Successfully analyzed FAST
+2025-03-15 11:14:06,548 - INFO - Processing FTNT (38/98)
+2025-03-15 11:14:06,548 - INFO - Running FAMA_FRENCH analysis for FTNT from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,548 - INFO - Executing SQL for price data for FTNT
+2025-03-15 11:14:06,549 - INFO - Retrieved 1257 rows of price data for FTNT
+2025-03-15 11:14:06,570 - INFO - Stored fundamental analysis results for FTNT
+2025-03-15 11:14:06,571 - INFO - Successfully analyzed FTNT
+2025-03-15 11:14:06,571 - INFO - Processing GEHC (39/98)
+2025-03-15 11:14:06,571 - INFO - Running FAMA_FRENCH analysis for GEHC from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,571 - INFO - Executing SQL for price data for GEHC
+2025-03-15 11:14:06,571 - INFO - Retrieved 512 rows of price data for GEHC
+2025-03-15 11:14:06,588 - INFO - Stored fundamental analysis results for GEHC
+2025-03-15 11:14:06,588 - INFO - Successfully analyzed GEHC
+2025-03-15 11:14:06,588 - INFO - Processing GILD (40/98)
+2025-03-15 11:14:06,588 - INFO - Running FAMA_FRENCH analysis for GILD from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,588 - INFO - Executing SQL for price data for GILD
+2025-03-15 11:14:06,590 - INFO - Retrieved 1257 rows of price data for GILD
+2025-03-15 11:14:06,607 - INFO - Stored fundamental analysis results for GILD
+2025-03-15 11:14:06,607 - INFO - Successfully analyzed GILD
+2025-03-15 11:14:06,607 - INFO - Processing GOOG (41/98)
+2025-03-15 11:14:06,607 - INFO - Running FAMA_FRENCH analysis for GOOG from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,607 - INFO - Executing SQL for price data for GOOG
+2025-03-15 11:14:06,610 - INFO - Retrieved 1257 rows of price data for GOOG
+2025-03-15 11:14:06,627 - INFO - Stored fundamental analysis results for GOOG
+2025-03-15 11:14:06,627 - INFO - Successfully analyzed GOOG
+2025-03-15 11:14:06,627 - INFO - Processing GOOGL (42/98)
+2025-03-15 11:14:06,627 - INFO - Running FAMA_FRENCH analysis for GOOGL from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,627 - INFO - Executing SQL for price data for GOOGL
+2025-03-15 11:14:06,629 - INFO - Retrieved 1257 rows of price data for GOOGL
+2025-03-15 11:14:06,645 - INFO - Stored fundamental analysis results for GOOGL
+2025-03-15 11:14:06,645 - INFO - Successfully analyzed GOOGL
+2025-03-15 11:14:06,645 - INFO - Processing HON (43/98)
+2025-03-15 11:14:06,645 - INFO - Running FAMA_FRENCH analysis for HON from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,645 - INFO - Executing SQL for price data for HON
+2025-03-15 11:14:06,647 - INFO - Retrieved 1257 rows of price data for HON
+2025-03-15 11:14:06,665 - INFO - Stored fundamental analysis results for HON
+2025-03-15 11:14:06,665 - INFO - Successfully analyzed HON
+2025-03-15 11:14:06,665 - INFO - Processing IDXX (44/98)
+2025-03-15 11:14:06,665 - INFO - Running FAMA_FRENCH analysis for IDXX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,665 - INFO - Executing SQL for price data for IDXX
+2025-03-15 11:14:06,666 - INFO - Retrieved 1257 rows of price data for IDXX
+2025-03-15 11:14:06,684 - INFO - Stored fundamental analysis results for IDXX
+2025-03-15 11:14:06,684 - INFO - Successfully analyzed IDXX
+2025-03-15 11:14:06,685 - INFO - Processing ILMN (45/98)
+2025-03-15 11:14:06,685 - INFO - Running FAMA_FRENCH analysis for ILMN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,685 - INFO - Executing SQL for price data for ILMN
+2025-03-15 11:14:06,687 - INFO - Retrieved 1257 rows of price data for ILMN
+2025-03-15 11:14:06,704 - INFO - Stored fundamental analysis results for ILMN
+2025-03-15 11:14:06,704 - INFO - Successfully analyzed ILMN
+2025-03-15 11:14:06,704 - INFO - Processing INTC (46/98)
+2025-03-15 11:14:06,704 - INFO - Running FAMA_FRENCH analysis for INTC from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,704 - INFO - Executing SQL for price data for INTC
+2025-03-15 11:14:06,706 - INFO - Retrieved 1257 rows of price data for INTC
+2025-03-15 11:14:06,723 - INFO - Stored fundamental analysis results for INTC
+2025-03-15 11:14:06,723 - INFO - Successfully analyzed INTC
+2025-03-15 11:14:06,723 - INFO - Processing INTU (47/98)
+2025-03-15 11:14:06,723 - INFO - Running FAMA_FRENCH analysis for INTU from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,723 - INFO - Executing SQL for price data for INTU
+2025-03-15 11:14:06,725 - INFO - Retrieved 1257 rows of price data for INTU
+2025-03-15 11:14:06,741 - INFO - Stored fundamental analysis results for INTU
+2025-03-15 11:14:06,741 - INFO - Successfully analyzed INTU
+2025-03-15 11:14:06,741 - INFO - Processing ISRG (48/98)
+2025-03-15 11:14:06,742 - INFO - Running FAMA_FRENCH analysis for ISRG from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,742 - INFO - Executing SQL for price data for ISRG
+2025-03-15 11:14:06,743 - INFO - Retrieved 1257 rows of price data for ISRG
+2025-03-15 11:14:06,762 - INFO - Stored fundamental analysis results for ISRG
+2025-03-15 11:14:06,762 - INFO - Successfully analyzed ISRG
+2025-03-15 11:14:06,762 - INFO - Processing KDP (49/98)
+2025-03-15 11:14:06,762 - INFO - Running FAMA_FRENCH analysis for KDP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,762 - INFO - Executing SQL for price data for KDP
+2025-03-15 11:14:06,764 - INFO - Retrieved 1257 rows of price data for KDP
+2025-03-15 11:14:06,782 - INFO - Stored fundamental analysis results for KDP
+2025-03-15 11:14:06,782 - INFO - Successfully analyzed KDP
+2025-03-15 11:14:06,782 - INFO - Processing KLAC (50/98)
+2025-03-15 11:14:06,782 - INFO - Running FAMA_FRENCH analysis for KLAC from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,782 - INFO - Executing SQL for price data for KLAC
+2025-03-15 11:14:06,784 - INFO - Retrieved 1257 rows of price data for KLAC
+2025-03-15 11:14:06,804 - INFO - Stored fundamental analysis results for KLAC
+2025-03-15 11:14:06,804 - INFO - Successfully analyzed KLAC
+2025-03-15 11:14:06,804 - INFO - Processing LCID (51/98)
+2025-03-15 11:14:06,804 - INFO - Running FAMA_FRENCH analysis for LCID from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,804 - INFO - Executing SQL for price data for LCID
+2025-03-15 11:14:06,806 - INFO - Retrieved 1077 rows of price data for LCID
+2025-03-15 11:14:06,825 - INFO - Stored fundamental analysis results for LCID
+2025-03-15 11:14:06,825 - INFO - Successfully analyzed LCID
+2025-03-15 11:14:06,825 - INFO - Processing LRCX (52/98)
+2025-03-15 11:14:06,825 - INFO - Running FAMA_FRENCH analysis for LRCX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,825 - INFO - Executing SQL for price data for LRCX
+2025-03-15 11:14:06,827 - INFO - Retrieved 1257 rows of price data for LRCX
+2025-03-15 11:14:06,845 - INFO - Stored fundamental analysis results for LRCX
+2025-03-15 11:14:06,845 - INFO - Successfully analyzed LRCX
+2025-03-15 11:14:06,845 - INFO - Processing LULU (53/98)
+2025-03-15 11:14:06,845 - INFO - Running FAMA_FRENCH analysis for LULU from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,845 - INFO - Executing SQL for price data for LULU
+2025-03-15 11:14:06,847 - INFO - Retrieved 1257 rows of price data for LULU
+2025-03-15 11:14:06,867 - INFO - Stored fundamental analysis results for LULU
+2025-03-15 11:14:06,867 - INFO - Successfully analyzed LULU
+2025-03-15 11:14:06,867 - INFO - Processing MCHP (54/98)
+2025-03-15 11:14:06,867 - INFO - Running FAMA_FRENCH analysis for MCHP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,867 - INFO - Executing SQL for price data for MCHP
+2025-03-15 11:14:06,871 - INFO - Retrieved 1257 rows of price data for MCHP
+2025-03-15 11:14:06,887 - INFO - Stored fundamental analysis results for MCHP
+2025-03-15 11:14:06,887 - INFO - Successfully analyzed MCHP
+2025-03-15 11:14:06,887 - INFO - Processing MDB (55/98)
+2025-03-15 11:14:06,887 - INFO - Running FAMA_FRENCH analysis for MDB from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,887 - INFO - Executing SQL for price data for MDB
+2025-03-15 11:14:06,889 - INFO - Retrieved 1257 rows of price data for MDB
+2025-03-15 11:14:06,905 - INFO - Stored fundamental analysis results for MDB
+2025-03-15 11:14:06,906 - INFO - Successfully analyzed MDB
+2025-03-15 11:14:06,906 - INFO - Processing MDLZ (56/98)
+2025-03-15 11:14:06,906 - INFO - Running FAMA_FRENCH analysis for MDLZ from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,906 - INFO - Executing SQL for price data for MDLZ
+2025-03-15 11:14:06,908 - INFO - Retrieved 1257 rows of price data for MDLZ
+2025-03-15 11:14:06,923 - INFO - Stored fundamental analysis results for MDLZ
+2025-03-15 11:14:06,923 - INFO - Successfully analyzed MDLZ
+2025-03-15 11:14:06,923 - INFO - Processing MELI (57/98)
+2025-03-15 11:14:06,923 - INFO - Running FAMA_FRENCH analysis for MELI from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,923 - INFO - Executing SQL for price data for MELI
+2025-03-15 11:14:06,925 - INFO - Retrieved 1257 rows of price data for MELI
+2025-03-15 11:14:06,942 - INFO - Stored fundamental analysis results for MELI
+2025-03-15 11:14:06,942 - INFO - Successfully analyzed MELI
+2025-03-15 11:14:06,942 - INFO - Processing META (58/98)
+2025-03-15 11:14:06,942 - INFO - Running FAMA_FRENCH analysis for META from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,942 - INFO - Executing SQL for price data for META
+2025-03-15 11:14:06,944 - INFO - Retrieved 1257 rows of price data for META
+2025-03-15 11:14:06,963 - INFO - Stored fundamental analysis results for META
+2025-03-15 11:14:06,963 - INFO - Successfully analyzed META
+2025-03-15 11:14:06,963 - INFO - Processing MNST (59/98)
+2025-03-15 11:14:06,963 - INFO - Running FAMA_FRENCH analysis for MNST from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,963 - INFO - Executing SQL for price data for MNST
+2025-03-15 11:14:06,964 - INFO - Retrieved 1257 rows of price data for MNST
+2025-03-15 11:14:06,982 - INFO - Stored fundamental analysis results for MNST
+2025-03-15 11:14:06,982 - INFO - Successfully analyzed MNST
+2025-03-15 11:14:06,982 - INFO - Processing MRVL (60/98)
+2025-03-15 11:14:06,982 - INFO - Running FAMA_FRENCH analysis for MRVL from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:06,982 - INFO - Executing SQL for price data for MRVL
+2025-03-15 11:14:06,984 - INFO - Retrieved 1257 rows of price data for MRVL
+2025-03-15 11:14:07,003 - INFO - Stored fundamental analysis results for MRVL
+2025-03-15 11:14:07,003 - INFO - Successfully analyzed MRVL
+2025-03-15 11:14:07,003 - INFO - Processing MSFT (61/98)
+2025-03-15 11:14:07,003 - INFO - Running FAMA_FRENCH analysis for MSFT from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,003 - INFO - Executing SQL for price data for MSFT
+2025-03-15 11:14:07,005 - INFO - Retrieved 1257 rows of price data for MSFT
+2025-03-15 11:14:07,023 - INFO - Stored fundamental analysis results for MSFT
+2025-03-15 11:14:07,023 - INFO - Successfully analyzed MSFT
+2025-03-15 11:14:07,023 - INFO - Processing MSTR (62/98)
+2025-03-15 11:14:07,023 - INFO - Running FAMA_FRENCH analysis for MSTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,023 - INFO - Executing SQL for price data for MSTR
+2025-03-15 11:14:07,025 - INFO - Retrieved 1257 rows of price data for MSTR
+2025-03-15 11:14:07,043 - INFO - Stored fundamental analysis results for MSTR
+2025-03-15 11:14:07,044 - INFO - Successfully analyzed MSTR
+2025-03-15 11:14:07,044 - INFO - Processing MTCH (63/98)
+2025-03-15 11:14:07,044 - INFO - Running FAMA_FRENCH analysis for MTCH from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,044 - INFO - Executing SQL for price data for MTCH
+2025-03-15 11:14:07,045 - INFO - Retrieved 1257 rows of price data for MTCH
+2025-03-15 11:14:07,064 - INFO - Stored fundamental analysis results for MTCH
+2025-03-15 11:14:07,064 - INFO - Successfully analyzed MTCH
+2025-03-15 11:14:07,064 - INFO - Processing NFLX (64/98)
+2025-03-15 11:14:07,064 - INFO - Running FAMA_FRENCH analysis for NFLX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,064 - INFO - Executing SQL for price data for NFLX
+2025-03-15 11:14:07,066 - INFO - Retrieved 1257 rows of price data for NFLX
+2025-03-15 11:14:07,084 - INFO - Stored fundamental analysis results for NFLX
+2025-03-15 11:14:07,084 - INFO - Successfully analyzed NFLX
+2025-03-15 11:14:07,084 - INFO - Processing NVDA (65/98)
+2025-03-15 11:14:07,084 - INFO - Running FAMA_FRENCH analysis for NVDA from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,084 - INFO - Executing SQL for price data for NVDA
+2025-03-15 11:14:07,086 - INFO - Retrieved 1257 rows of price data for NVDA
+2025-03-15 11:14:07,104 - INFO - Stored fundamental analysis results for NVDA
+2025-03-15 11:14:07,104 - INFO - Successfully analyzed NVDA
+2025-03-15 11:14:07,104 - INFO - Processing NXPI (66/98)
+2025-03-15 11:14:07,104 - INFO - Running FAMA_FRENCH analysis for NXPI from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,104 - INFO - Executing SQL for price data for NXPI
+2025-03-15 11:14:07,106 - INFO - Retrieved 1257 rows of price data for NXPI
+2025-03-15 11:14:07,121 - INFO - Stored fundamental analysis results for NXPI
+2025-03-15 11:14:07,121 - INFO - Successfully analyzed NXPI
+2025-03-15 11:14:07,121 - INFO - Processing ODFL (67/98)
+2025-03-15 11:14:07,121 - INFO - Running FAMA_FRENCH analysis for ODFL from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,121 - INFO - Executing SQL for price data for ODFL
+2025-03-15 11:14:07,123 - INFO - Retrieved 1257 rows of price data for ODFL
+2025-03-15 11:14:07,140 - INFO - Stored fundamental analysis results for ODFL
+2025-03-15 11:14:07,140 - INFO - Successfully analyzed ODFL
+2025-03-15 11:14:07,140 - INFO - Processing ORLY (68/98)
+2025-03-15 11:14:07,140 - INFO - Running FAMA_FRENCH analysis for ORLY from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,140 - INFO - Executing SQL for price data for ORLY
+2025-03-15 11:14:07,141 - INFO - Retrieved 1257 rows of price data for ORLY
+2025-03-15 11:14:07,158 - INFO - Stored fundamental analysis results for ORLY
+2025-03-15 11:14:07,158 - INFO - Successfully analyzed ORLY
+2025-03-15 11:14:07,158 - INFO - Processing PANW (69/98)
+2025-03-15 11:14:07,158 - INFO - Running FAMA_FRENCH analysis for PANW from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,158 - INFO - Executing SQL for price data for PANW
+2025-03-15 11:14:07,160 - INFO - Retrieved 1257 rows of price data for PANW
+2025-03-15 11:14:07,274 - INFO - Stored fundamental analysis results for PANW
+2025-03-15 11:14:07,274 - INFO - Successfully analyzed PANW
+2025-03-15 11:14:07,274 - INFO - Processing PAYX (70/98)
+2025-03-15 11:14:07,274 - INFO - Running FAMA_FRENCH analysis for PAYX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,274 - INFO - Executing SQL for price data for PAYX
+2025-03-15 11:14:07,277 - INFO - Retrieved 1257 rows of price data for PAYX
+2025-03-15 11:14:07,295 - INFO - Stored fundamental analysis results for PAYX
+2025-03-15 11:14:07,296 - INFO - Successfully analyzed PAYX
+2025-03-15 11:14:07,296 - INFO - Processing PCAR (71/98)
+2025-03-15 11:14:07,296 - INFO - Running FAMA_FRENCH analysis for PCAR from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,296 - INFO - Executing SQL for price data for PCAR
+2025-03-15 11:14:07,297 - INFO - Retrieved 1257 rows of price data for PCAR
+2025-03-15 11:14:07,313 - INFO - Stored fundamental analysis results for PCAR
+2025-03-15 11:14:07,314 - INFO - Successfully analyzed PCAR
+2025-03-15 11:14:07,314 - INFO - Processing PEP (72/98)
+2025-03-15 11:14:07,314 - INFO - Running FAMA_FRENCH analysis for PEP from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,314 - INFO - Executing SQL for price data for PEP
+2025-03-15 11:14:07,315 - INFO - Retrieved 1257 rows of price data for PEP
+2025-03-15 11:14:07,333 - INFO - Stored fundamental analysis results for PEP
+2025-03-15 11:14:07,333 - INFO - Successfully analyzed PEP
+2025-03-15 11:14:07,333 - INFO - Processing PLTR (73/98)
+2025-03-15 11:14:07,333 - INFO - Running FAMA_FRENCH analysis for PLTR from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,333 - INFO - Executing SQL for price data for PLTR
+2025-03-15 11:14:07,335 - INFO - Retrieved 1069 rows of price data for PLTR
+2025-03-15 11:14:07,352 - INFO - Stored fundamental analysis results for PLTR
+2025-03-15 11:14:07,352 - INFO - Successfully analyzed PLTR
+2025-03-15 11:14:07,352 - INFO - Processing PYPL (74/98)
+2025-03-15 11:14:07,352 - INFO - Running FAMA_FRENCH analysis for PYPL from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,352 - INFO - Executing SQL for price data for PYPL
+2025-03-15 11:14:07,353 - INFO - Retrieved 1257 rows of price data for PYPL
+2025-03-15 11:14:07,369 - INFO - Stored fundamental analysis results for PYPL
+2025-03-15 11:14:07,369 - INFO - Successfully analyzed PYPL
+2025-03-15 11:14:07,369 - INFO - Processing QCOM (75/98)
+2025-03-15 11:14:07,369 - INFO - Running FAMA_FRENCH analysis for QCOM from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,369 - INFO - Executing SQL for price data for QCOM
+2025-03-15 11:14:07,371 - INFO - Retrieved 1257 rows of price data for QCOM
+2025-03-15 11:14:07,390 - INFO - Stored fundamental analysis results for QCOM
+2025-03-15 11:14:07,390 - INFO - Successfully analyzed QCOM
+2025-03-15 11:14:07,390 - INFO - Processing REGN (76/98)
+2025-03-15 11:14:07,390 - INFO - Running FAMA_FRENCH analysis for REGN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,390 - INFO - Executing SQL for price data for REGN
+2025-03-15 11:14:07,391 - INFO - Retrieved 1257 rows of price data for REGN
+2025-03-15 11:14:07,407 - INFO - Stored fundamental analysis results for REGN
+2025-03-15 11:14:07,407 - INFO - Successfully analyzed REGN
+2025-03-15 11:14:07,407 - INFO - Processing RIVN (77/98)
+2025-03-15 11:14:07,407 - INFO - Running FAMA_FRENCH analysis for RIVN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,407 - INFO - Executing SQL for price data for RIVN
+2025-03-15 11:14:07,409 - INFO - Retrieved 788 rows of price data for RIVN
+2025-03-15 11:14:07,424 - INFO - Stored fundamental analysis results for RIVN
+2025-03-15 11:14:07,425 - INFO - Successfully analyzed RIVN
+2025-03-15 11:14:07,425 - INFO - Processing ROST (78/98)
+2025-03-15 11:14:07,425 - INFO - Running FAMA_FRENCH analysis for ROST from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,425 - INFO - Executing SQL for price data for ROST
+2025-03-15 11:14:07,426 - INFO - Retrieved 1257 rows of price data for ROST
+2025-03-15 11:14:07,442 - INFO - Stored fundamental analysis results for ROST
+2025-03-15 11:14:07,442 - INFO - Successfully analyzed ROST
+2025-03-15 11:14:07,442 - INFO - Processing SBUX (79/98)
+2025-03-15 11:14:07,442 - INFO - Running FAMA_FRENCH analysis for SBUX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,442 - INFO - Executing SQL for price data for SBUX
+2025-03-15 11:14:07,443 - INFO - Retrieved 1257 rows of price data for SBUX
+2025-03-15 11:14:07,458 - INFO - Stored fundamental analysis results for SBUX
+2025-03-15 11:14:07,458 - INFO - Successfully analyzed SBUX
+2025-03-15 11:14:07,458 - INFO - Processing SIRI (80/98)
+2025-03-15 11:14:07,459 - INFO - Running FAMA_FRENCH analysis for SIRI from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,459 - INFO - Executing SQL for price data for SIRI
+2025-03-15 11:14:07,460 - INFO - Retrieved 1257 rows of price data for SIRI
+2025-03-15 11:14:07,481 - INFO - Stored fundamental analysis results for SIRI
+2025-03-15 11:14:07,481 - INFO - Successfully analyzed SIRI
+2025-03-15 11:14:07,481 - INFO - Processing SMCI (81/98)
+2025-03-15 11:14:07,481 - INFO - Running FAMA_FRENCH analysis for SMCI from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,481 - INFO - Executing SQL for price data for SMCI
+2025-03-15 11:14:07,482 - INFO - Retrieved 1257 rows of price data for SMCI
+2025-03-15 11:14:07,499 - INFO - Stored fundamental analysis results for SMCI
+2025-03-15 11:14:07,499 - INFO - Successfully analyzed SMCI
+2025-03-15 11:14:07,499 - INFO - Processing SNPS (82/98)
+2025-03-15 11:14:07,499 - INFO - Running FAMA_FRENCH analysis for SNPS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,499 - INFO - Executing SQL for price data for SNPS
+2025-03-15 11:14:07,503 - INFO - Retrieved 1257 rows of price data for SNPS
+2025-03-15 11:14:07,517 - INFO - Stored fundamental analysis results for SNPS
+2025-03-15 11:14:07,517 - INFO - Successfully analyzed SNPS
+2025-03-15 11:14:07,517 - INFO - Processing SPY (83/98)
+2025-03-15 11:14:07,517 - INFO - Running FAMA_FRENCH analysis for SPY from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,517 - INFO - Executing SQL for price data for SPY
+2025-03-15 11:14:07,520 - INFO - Retrieved 1257 rows of price data for SPY
+2025-03-15 11:14:07,537 - INFO - Stored fundamental analysis results for SPY
+2025-03-15 11:14:07,537 - INFO - Successfully analyzed SPY
+2025-03-15 11:14:07,537 - INFO - Processing SWKS (84/98)
+2025-03-15 11:14:07,537 - INFO - Running FAMA_FRENCH analysis for SWKS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,537 - INFO - Executing SQL for price data for SWKS
+2025-03-15 11:14:07,539 - INFO - Retrieved 1257 rows of price data for SWKS
+2025-03-15 11:14:07,557 - INFO - Stored fundamental analysis results for SWKS
+2025-03-15 11:14:07,557 - INFO - Successfully analyzed SWKS
+2025-03-15 11:14:07,557 - INFO - Processing TEAM (85/98)
+2025-03-15 11:14:07,557 - INFO - Running FAMA_FRENCH analysis for TEAM from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,557 - INFO - Executing SQL for price data for TEAM
+2025-03-15 11:14:07,561 - INFO - Retrieved 1257 rows of price data for TEAM
+2025-03-15 11:14:07,577 - INFO - Stored fundamental analysis results for TEAM
+2025-03-15 11:14:07,577 - INFO - Successfully analyzed TEAM
+2025-03-15 11:14:07,577 - INFO - Processing TMUS (86/98)
+2025-03-15 11:14:07,577 - INFO - Running FAMA_FRENCH analysis for TMUS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,577 - INFO - Executing SQL for price data for TMUS
+2025-03-15 11:14:07,579 - INFO - Retrieved 1257 rows of price data for TMUS
+2025-03-15 11:14:07,596 - INFO - Stored fundamental analysis results for TMUS
+2025-03-15 11:14:07,596 - INFO - Successfully analyzed TMUS
+2025-03-15 11:14:07,596 - INFO - Processing TSLA (87/98)
+2025-03-15 11:14:07,596 - INFO - Running FAMA_FRENCH analysis for TSLA from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,597 - INFO - Executing SQL for price data for TSLA
+2025-03-15 11:14:07,598 - INFO - Retrieved 1257 rows of price data for TSLA
+2025-03-15 11:14:07,616 - INFO - Stored fundamental analysis results for TSLA
+2025-03-15 11:14:07,616 - INFO - Successfully analyzed TSLA
+2025-03-15 11:14:07,616 - INFO - Processing TTD (88/98)
+2025-03-15 11:14:07,616 - INFO - Running FAMA_FRENCH analysis for TTD from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,616 - INFO - Executing SQL for price data for TTD
+2025-03-15 11:14:07,618 - INFO - Retrieved 1257 rows of price data for TTD
+2025-03-15 11:14:07,634 - INFO - Stored fundamental analysis results for TTD
+2025-03-15 11:14:07,634 - INFO - Successfully analyzed TTD
+2025-03-15 11:14:07,634 - INFO - Processing TTWO (89/98)
+2025-03-15 11:14:07,634 - INFO - Running FAMA_FRENCH analysis for TTWO from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,634 - INFO - Executing SQL for price data for TTWO
+2025-03-15 11:14:07,636 - INFO - Retrieved 1257 rows of price data for TTWO
+2025-03-15 11:14:07,652 - INFO - Stored fundamental analysis results for TTWO
+2025-03-15 11:14:07,652 - INFO - Successfully analyzed TTWO
+2025-03-15 11:14:07,652 - INFO - Processing TXN (90/98)
+2025-03-15 11:14:07,652 - INFO - Running FAMA_FRENCH analysis for TXN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,652 - INFO - Executing SQL for price data for TXN
+2025-03-15 11:14:07,654 - INFO - Retrieved 1257 rows of price data for TXN
+2025-03-15 11:14:07,671 - INFO - Stored fundamental analysis results for TXN
+2025-03-15 11:14:07,671 - INFO - Successfully analyzed TXN
+2025-03-15 11:14:07,671 - INFO - Processing VRSK (91/98)
+2025-03-15 11:14:07,671 - INFO - Running FAMA_FRENCH analysis for VRSK from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,671 - INFO - Executing SQL for price data for VRSK
+2025-03-15 11:14:07,673 - INFO - Retrieved 1257 rows of price data for VRSK
+2025-03-15 11:14:07,692 - INFO - Stored fundamental analysis results for VRSK
+2025-03-15 11:14:07,692 - INFO - Successfully analyzed VRSK
+2025-03-15 11:14:07,692 - INFO - Processing VRSN (92/98)
+2025-03-15 11:14:07,692 - INFO - Running FAMA_FRENCH analysis for VRSN from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,692 - INFO - Executing SQL for price data for VRSN
+2025-03-15 11:14:07,693 - INFO - Retrieved 1257 rows of price data for VRSN
+2025-03-15 11:14:07,709 - INFO - Stored fundamental analysis results for VRSN
+2025-03-15 11:14:07,709 - INFO - Successfully analyzed VRSN
+2025-03-15 11:14:07,709 - INFO - Processing VRTX (93/98)
+2025-03-15 11:14:07,709 - INFO - Running FAMA_FRENCH analysis for VRTX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,709 - INFO - Executing SQL for price data for VRTX
+2025-03-15 11:14:07,712 - INFO - Retrieved 1257 rows of price data for VRTX
+2025-03-15 11:14:07,730 - INFO - Stored fundamental analysis results for VRTX
+2025-03-15 11:14:07,730 - INFO - Successfully analyzed VRTX
+2025-03-15 11:14:07,730 - INFO - Processing WBD (94/98)
+2025-03-15 11:14:07,730 - INFO - Running FAMA_FRENCH analysis for WBD from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,730 - INFO - Executing SQL for price data for WBD
+2025-03-15 11:14:07,732 - INFO - Retrieved 1257 rows of price data for WBD
+2025-03-15 11:14:07,751 - INFO - Stored fundamental analysis results for WBD
+2025-03-15 11:14:07,751 - INFO - Successfully analyzed WBD
+2025-03-15 11:14:07,751 - INFO - Processing WDAY (95/98)
+2025-03-15 11:14:07,751 - INFO - Running FAMA_FRENCH analysis for WDAY from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,751 - INFO - Executing SQL for price data for WDAY
+2025-03-15 11:14:07,753 - INFO - Retrieved 1257 rows of price data for WDAY
+2025-03-15 11:14:07,771 - INFO - Stored fundamental analysis results for WDAY
+2025-03-15 11:14:07,771 - INFO - Successfully analyzed WDAY
+2025-03-15 11:14:07,771 - INFO - Processing XEL (96/98)
+2025-03-15 11:14:07,771 - INFO - Running FAMA_FRENCH analysis for XEL from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,771 - INFO - Executing SQL for price data for XEL
+2025-03-15 11:14:07,773 - INFO - Retrieved 1257 rows of price data for XEL
+2025-03-15 11:14:07,789 - INFO - Stored fundamental analysis results for XEL
+2025-03-15 11:14:07,789 - INFO - Successfully analyzed XEL
+2025-03-15 11:14:07,789 - INFO - Processing ZS (97/98)
+2025-03-15 11:14:07,789 - INFO - Running FAMA_FRENCH analysis for ZS from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,789 - INFO - Executing SQL for price data for ZS
+2025-03-15 11:14:07,790 - INFO - Retrieved 1257 rows of price data for ZS
+2025-03-15 11:14:07,807 - INFO - Stored fundamental analysis results for ZS
+2025-03-15 11:14:07,807 - INFO - Successfully analyzed ZS
+2025-03-15 11:14:07,807 - INFO - Processing ^NDX (98/98)
+2025-03-15 11:14:07,807 - INFO - Running FAMA_FRENCH analysis for ^NDX from 2020-01-01 to 2025-03-15
+2025-03-15 11:14:07,807 - INFO - Executing SQL for price data for ^NDX
+2025-03-15 11:14:07,809 - INFO - Retrieved 1257 rows of price data for ^NDX
+2025-03-15 11:14:07,826 - INFO - Stored fundamental analysis results for ^NDX
+2025-03-15 11:14:07,826 - INFO - Successfully analyzed ^NDX
+2025-03-15 11:14:07,826 - INFO - Analysis completed. Success: 98, Errors: 0
+2025-03-15 11:14:07,826 - INFO - Computing technical signals...
+2025-03-15 11:14:07,828 - INFO - Connected to database for technical signals update.
+2025-03-15 11:14:08,102 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 11:14:14,886 - INFO - Inserted 208832 records into technical_signals.
+2025-03-15 11:14:14,903 - INFO - Running backtesting analysis...
+2025-03-15 11:14:18,809 - INFO - Backtesting completed.
+2025-03-15 11:14:18,822 - INFO - === Data Pipeline Completed Successfully ===
+2025-03-15 11:17:27,860 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:17:27,861 - INFO - Setting up database schema...
+2025-03-15 11:17:27,861 - INFO - Connected to database.
+2025-03-15 11:17:27,965 - ERROR - Error setting up database: no such table: main.fundamental_analysis_capm
+2025-03-15 11:17:56,687 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:17:56,687 - INFO - Setting up database schema...
+2025-03-15 11:17:56,689 - INFO - Connected to database.
+2025-03-15 11:17:56,689 - ERROR - Error setting up database: no such table: main.fundamental_analysis_capm
+2025-03-15 11:20:00,266 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:20:00,267 - INFO - Setting up database schema...
+2025-03-15 11:20:00,267 - INFO - Connected to database.
+2025-03-15 11:20:00,303 - INFO - Database schema created/updated successfully.
+2025-03-15 11:20:00,303 - INFO - Fetching tickers...
+2025-03-15 11:20:00,313 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 11:20:00,313 - INFO - Ticker fetch process completed successfully
+2025-03-15 11:20:00,313 - INFO - Fetching price data...
+2025-03-15 11:20:00,316 - INFO - Found 100 unique tickers to process
+2025-03-15 11:20:00,666 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 11:20:01,371 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 11:20:02,256 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 11:20:02,997 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 11:20:03,823 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 11:20:04,697 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 11:20:05,445 - INFO - Successfully stored 2263 price points for META
+2025-03-15 11:20:06,343 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 11:20:07,287 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 11:20:08,118 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 11:20:08,862 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 11:20:09,722 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 11:20:10,610 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 11:20:11,386 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 11:20:12,157 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 11:20:13,024 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 11:20:13,775 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 11:20:14,595 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 11:20:15,573 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 11:20:16,420 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 11:20:17,283 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 11:20:18,158 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 11:20:18,902 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 11:20:19,805 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 11:20:20,519 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 11:20:21,321 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 11:20:22,144 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 11:20:23,056 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 11:20:23,876 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 11:20:24,666 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 11:20:25,437 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 11:20:26,127 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 11:20:26,844 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 11:20:27,686 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 11:20:28,475 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 11:20:29,252 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 11:20:30,092 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 11:20:30,916 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 11:20:31,703 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 11:20:32,486 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 11:20:33,366 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 11:20:34,262 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 11:20:35,075 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 11:20:36,123 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 11:20:36,944 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 11:20:37,751 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 11:20:38,603 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 11:20:39,369 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 11:20:40,145 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 11:20:40,970 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 11:20:41,764 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 11:20:42,514 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 11:20:43,252 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 11:20:43,947 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 11:20:44,672 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 11:20:45,584 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 11:20:46,291 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 11:20:47,296 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 11:20:48,056 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 11:20:49,022 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 11:20:49,983 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 11:20:50,803 - INFO - Successfully stored 2263 price points for EXC
+2025-03-15 11:20:51,511 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-15 11:20:52,383 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-15 11:20:53,086 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-15 11:20:53,788 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-15 11:20:54,540 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-15 11:20:55,288 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-15 11:20:56,187 - INFO - Successfully stored 2263 price points for VRSK
+2025-03-15 11:20:57,005 - INFO - Successfully stored 2263 price points for TEAM
+2025-03-15 11:20:57,937 - INFO - Successfully stored 2263 price points for DLTR
+2025-03-15 11:20:58,740 - INFO - Successfully stored 2263 price points for ILMN
+2025-03-15 11:20:59,420 - INFO - Successfully stored 1709 price points for ZS
+2025-03-15 11:21:00,124 - INFO - Successfully stored 2263 price points for ALGN
+2025-03-15 11:21:00,989 - INFO - Successfully stored 2263 price points for MTCH
+2025-03-15 11:21:01,812 - INFO - Successfully stored 2263 price points for FANG
+2025-03-15 11:21:02,603 - INFO - Successfully stored 2263 price points for ENPH
+2025-03-15 11:21:03,255 - INFO - Successfully stored 512 price points for GEHC
+2025-03-15 11:21:03,971 - INFO - Successfully stored 1020 price points for DASH
+2025-03-15 11:21:05,477 - ERROR - $SGEN: possibly delisted; no timezone found
+2025-03-15 11:21:05,478 - WARNING - No data available for SGEN between 2016-01-01 and 2024-12-31
+2025-03-15 11:21:06,234 - INFO - Successfully stored 2263 price points for SIRI
+2025-03-15 11:21:07,074 - INFO - Successfully stored 2263 price points for CCEP
+2025-03-15 11:21:08,348 - ERROR - $SPLK: possibly delisted; no timezone found
+2025-03-15 11:21:08,348 - WARNING - No data available for SPLK between 2016-01-01 and 2024-12-31
+2025-03-15 11:21:09,146 - INFO - Successfully stored 2263 price points for TTWO
+2025-03-15 11:21:09,865 - INFO - Successfully stored 2263 price points for VRSN
+2025-03-15 11:21:10,652 - INFO - Successfully stored 2263 price points for SWKS
+2025-03-15 11:21:11,429 - INFO - Successfully stored 2263 price points for AEP
+2025-03-15 11:21:12,235 - INFO - Successfully stored 2263 price points for WBD
+2025-03-15 11:21:12,986 - INFO - Successfully stored 2263 price points for XEL
+2025-03-15 11:21:14,013 - INFO - Successfully stored 2263 price points for CSX
+2025-03-15 11:21:15,346 - ERROR - $FISV: possibly delisted; no timezone found
+2025-03-15 11:21:15,347 - WARNING - No data available for FISV between 2016-01-01 and 2024-12-31
+2025-03-15 11:21:16,745 - ERROR - $ATVI: possibly delisted; no timezone found
+2025-03-15 11:21:16,746 - WARNING - No data available for ATVI between 2016-01-01 and 2024-12-31
+2025-03-15 11:21:17,445 - INFO - Successfully stored 1810 price points for MDB
+2025-03-15 11:21:18,165 - INFO - Successfully stored 2263 price points for PYPL
+2025-03-15 11:21:18,992 - INFO - Successfully stored 1077 price points for LCID
+2025-03-15 11:21:19,753 - INFO - Successfully stored 788 price points for RIVN
+2025-03-15 11:21:20,527 - INFO - Successfully stored 2082 price points for TTD
+2025-03-15 11:21:21,424 - INFO - Successfully stored 2263 price points for SMCI
+2025-03-15 11:21:22,080 - INFO - Successfully stored 1069 price points for PLTR
+2025-03-15 11:21:22,858 - INFO - Successfully stored 2263 price points for MSTR
+2025-03-15 11:21:23,721 - INFO - Successfully stored 2263 price points for SPY
+2025-03-15 11:21:24,519 - INFO - Successfully stored 2263 price points for ^NDX
+2025-03-15 11:21:25,020 - INFO - Price data fetch completed successfully
+2025-03-15 11:21:25,021 - INFO - Cleaning up duplicate entries...
+2025-03-15 11:27:36,399 - INFO - === Starting Data Pipeline ===
+2025-03-15 11:27:36,399 - INFO - Setting up database schema...
+2025-03-15 11:27:36,400 - INFO - Connected to database.
+2025-03-15 11:27:36,403 - INFO - Database schema created/updated successfully.
+2025-03-15 11:27:36,403 - INFO - Fetching tickers...
+2025-03-15 11:27:36,417 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 11:27:36,417 - INFO - Ticker fetch process completed successfully
+2025-03-15 11:27:36,417 - INFO - Fetching price data...
+2025-03-15 11:27:36,419 - INFO - Found 100 unique tickers to process
+2025-03-15 11:27:36,949 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 11:27:37,775 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 11:27:38,573 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 11:27:39,316 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 11:27:40,040 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 11:27:40,856 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 11:27:41,651 - INFO - Successfully stored 2263 price points for META
+2025-03-15 11:27:42,382 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 11:27:43,210 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 11:27:43,935 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 11:27:44,778 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 11:27:45,628 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 11:27:46,458 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 11:27:47,206 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 11:27:48,017 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 11:27:48,897 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 11:27:49,678 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 11:27:50,475 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 11:27:51,274 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 11:27:52,062 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 11:27:52,937 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 11:27:53,727 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 11:27:54,620 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 11:27:55,416 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 11:27:56,296 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 11:27:57,359 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 11:27:58,133 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 11:27:58,923 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 11:27:59,676 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 11:28:00,420 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 11:28:01,378 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 11:28:02,285 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 11:28:03,085 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 11:28:03,963 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 11:28:04,764 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 11:28:05,641 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 11:28:06,460 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 11:28:07,188 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 11:28:07,993 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 11:28:08,760 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 11:28:09,441 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 11:28:10,305 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 11:28:11,048 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 11:28:11,810 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 11:28:12,619 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 11:28:13,419 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 11:28:14,225 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 11:28:15,073 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 11:28:15,921 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 11:28:16,778 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 11:28:17,561 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 11:28:18,356 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 11:28:19,104 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 11:28:19,870 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 11:28:20,700 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 11:28:21,569 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 11:28:22,294 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 11:28:23,079 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 11:28:23,815 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 11:28:24,608 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 11:28:25,436 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 11:28:26,506 - INFO - Successfully stored 2263 price points for EXC

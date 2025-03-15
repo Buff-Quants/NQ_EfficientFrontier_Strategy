@@ -86,20 +86,18 @@ def run_vacuum(conn):
         logging.error(f"Error during VACUUM: {e}")
 
 def main():
-    """Main function to clean up the database using configuration values."""
+    """Main function to clean up the fundamental_results table in the database."""
     conn = sqlite3.connect(DB_PATH)
     
-    # Clean up CAPM fundamental analysis table
-    cleanup_table(conn, 'fundamental_analysis_capm')
-    
-    # Clean up Fama-French fundamental analysis table
-    cleanup_table(conn, 'fundamental_analysis_ff')
+    # Clean up duplicate entries in the unified fundamental_results table
+    cleanup_table(conn, 'fundamental_results')
     
     # Optimize database after cleanup
     run_vacuum(conn)
     
     conn.close()
     logging.info("Database cleanup completed successfully.")
+
 
 if __name__ == "__main__":
     main()
