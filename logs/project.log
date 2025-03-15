@@ -65,3 +65,2515 @@
 2025-03-14 16:56:14,415 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
 2025-03-14 19:06:44,408 - INFO - Dash is running on http://127.0.0.1:8050/
 
+2025-03-15 09:59:18,533 - INFO - Connected to database for technical signals update.
+2025-03-15 09:59:18,821 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 09:59:25,099 - INFO - Inserted 208832 records into technical_signals.
+2025-03-15 10:06:07,651 - INFO - Connected to database for technical signals update.
+2025-03-15 10:06:07,946 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
+2025-03-15 10:06:14,444 - INFO - Inserted 208832 records into technical_signals.
+2025-03-15 10:18:24,790 - ERROR - Main process in fundamentals failed: name 'FUNDAMENTALS_START_DATE' is not defined
+2025-03-15 10:18:51,002 - INFO - Found 98 tickers to analyze
+2025-03-15 10:18:51,002 - INFO - Processing AAPL (1/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing AAPL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing ABNB (2/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing ABNB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing ADBE (3/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing ADBE: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing ADI (4/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing ADI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing ADP (5/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing ADP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing ADSK (6/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing ADSK: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing AEP (7/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing AEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing ALGN (8/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing ALGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,002 - INFO - Processing AMAT (9/98)
+2025-03-15 10:18:51,002 - ERROR - Error analyzing AMAT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing AMD (10/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing AMD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing AMGN (11/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing AMGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing AMZN (12/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing AMZN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing ANSS (13/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing ANSS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing ASML (14/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing ASML: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing AVGO (15/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing AVGO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing BIIB (16/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing BIIB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing BKNG (17/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing BKNG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CCEP (18/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CCEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CDNS (19/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CDNS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CHTR (20/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CHTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CMCSA (21/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CMCSA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing COST (22/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing COST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CPRT (23/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CPRT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CRWD (24/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CRWD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CSCO (25/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CSCO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CSGP (26/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CSGP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CSX (27/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CSX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CTAS (28/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CTAS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing CTSH (29/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing CTSH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing DASH (30/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing DASH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing DDOG (31/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing DDOG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing DLTR (32/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing DLTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing DXCM (33/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing DXCM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing ENPH (34/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing ENPH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing EXC (35/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing EXC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing FANG (36/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing FANG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing FAST (37/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing FAST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing FTNT (38/98)
+2025-03-15 10:18:51,004 - ERROR - Error analyzing FTNT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,004 - INFO - Processing GEHC (39/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing GEHC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing GILD (40/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing GILD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing GOOG (41/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing GOOG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing GOOGL (42/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing GOOGL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing HON (43/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing HON: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing IDXX (44/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing IDXX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing ILMN (45/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing ILMN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing INTC (46/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing INTC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing INTU (47/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing INTU: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing ISRG (48/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing ISRG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing KDP (49/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing KDP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing KLAC (50/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing KLAC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing LCID (51/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing LCID: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing LRCX (52/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing LRCX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing LULU (53/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing LULU: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MCHP (54/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MCHP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MDB (55/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MDB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MDLZ (56/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MDLZ: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MELI (57/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MELI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing META (58/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing META: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MNST (59/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MNST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MRVL (60/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MRVL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MSFT (61/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MSFT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MSTR (62/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MSTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing MTCH (63/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing MTCH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing NFLX (64/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing NFLX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing NVDA (65/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing NVDA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing NXPI (66/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing NXPI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing ODFL (67/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing ODFL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing ORLY (68/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing ORLY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing PANW (69/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing PANW: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing PAYX (70/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing PAYX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,005 - INFO - Processing PCAR (71/98)
+2025-03-15 10:18:51,005 - ERROR - Error analyzing PCAR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing PEP (72/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing PEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing PLTR (73/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing PLTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing PYPL (74/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing PYPL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing QCOM (75/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing QCOM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing REGN (76/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing REGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing RIVN (77/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing RIVN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing ROST (78/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing ROST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing SBUX (79/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing SBUX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing SIRI (80/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing SIRI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing SMCI (81/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing SMCI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing SNPS (82/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing SNPS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing SPY (83/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing SPY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing SWKS (84/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing SWKS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing TEAM (85/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing TEAM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing TMUS (86/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing TMUS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing TSLA (87/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing TSLA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing TTD (88/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing TTD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing TTWO (89/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing TTWO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing TXN (90/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing TXN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing VRSK (91/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing VRSK: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing VRSN (92/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing VRSN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing VRTX (93/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing VRTX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing WBD (94/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing WBD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing WDAY (95/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing WDAY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing XEL (96/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing XEL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing ZS (97/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing ZS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Processing ^NDX (98/98)
+2025-03-15 10:18:51,006 - ERROR - Error analyzing ^NDX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:18:51,006 - INFO - Analysis completed. Success: 0, Errors: 98
+2025-03-15 10:19:05,143 - INFO - Found 98 tickers to analyze
+2025-03-15 10:19:05,144 - INFO - Processing AAPL (1/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AAPL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ABNB (2/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ABNB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ADBE (3/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ADBE: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ADI (4/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ADI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ADP (5/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ADP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ADSK (6/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ADSK: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing AEP (7/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ALGN (8/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ALGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing AMAT (9/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AMAT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing AMD (10/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AMD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing AMGN (11/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AMGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing AMZN (12/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AMZN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ANSS (13/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ANSS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing ASML (14/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing ASML: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing AVGO (15/98)
+2025-03-15 10:19:05,144 - ERROR - Error analyzing AVGO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,144 - INFO - Processing BIIB (16/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing BIIB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing BKNG (17/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing BKNG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CCEP (18/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CCEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CDNS (19/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CDNS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CHTR (20/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CHTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CMCSA (21/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CMCSA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing COST (22/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing COST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CPRT (23/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CPRT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CRWD (24/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CRWD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CSCO (25/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CSCO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CSGP (26/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CSGP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CSX (27/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CSX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CTAS (28/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CTAS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing CTSH (29/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing CTSH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing DASH (30/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing DASH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing DDOG (31/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing DDOG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing DLTR (32/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing DLTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing DXCM (33/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing DXCM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing ENPH (34/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing ENPH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing EXC (35/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing EXC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing FANG (36/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing FANG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing FAST (37/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing FAST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing FTNT (38/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing FTNT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing GEHC (39/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing GEHC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing GILD (40/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing GILD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing GOOG (41/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing GOOG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing GOOGL (42/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing GOOGL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing HON (43/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing HON: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing IDXX (44/98)
+2025-03-15 10:19:05,145 - ERROR - Error analyzing IDXX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,145 - INFO - Processing ILMN (45/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing ILMN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing INTC (46/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing INTC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing INTU (47/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing INTU: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing ISRG (48/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing ISRG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing KDP (49/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing KDP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing KLAC (50/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing KLAC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing LCID (51/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing LCID: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing LRCX (52/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing LRCX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing LULU (53/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing LULU: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MCHP (54/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MCHP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MDB (55/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MDB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MDLZ (56/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MDLZ: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MELI (57/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MELI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing META (58/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing META: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MNST (59/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MNST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MRVL (60/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MRVL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MSFT (61/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MSFT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MSTR (62/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MSTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing MTCH (63/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing MTCH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing NFLX (64/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing NFLX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing NVDA (65/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing NVDA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing NXPI (66/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing NXPI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing ODFL (67/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing ODFL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing ORLY (68/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing ORLY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing PANW (69/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing PANW: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing PAYX (70/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing PAYX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing PCAR (71/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing PCAR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing PEP (72/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing PEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing PLTR (73/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing PLTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing PYPL (74/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing PYPL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing QCOM (75/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing QCOM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing REGN (76/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing REGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing RIVN (77/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing RIVN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,146 - INFO - Processing ROST (78/98)
+2025-03-15 10:19:05,146 - ERROR - Error analyzing ROST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing SBUX (79/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing SBUX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing SIRI (80/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing SIRI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing SMCI (81/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing SMCI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing SNPS (82/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing SNPS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing SPY (83/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing SPY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing SWKS (84/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing SWKS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing TEAM (85/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing TEAM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing TMUS (86/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing TMUS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing TSLA (87/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing TSLA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing TTD (88/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing TTD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing TTWO (89/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing TTWO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing TXN (90/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing TXN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing VRSK (91/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing VRSK: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing VRSN (92/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing VRSN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing VRTX (93/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing VRTX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing WBD (94/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing WBD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing WDAY (95/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing WDAY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing XEL (96/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing XEL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing ZS (97/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing ZS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Processing ^NDX (98/98)
+2025-03-15 10:19:05,147 - ERROR - Error analyzing ^NDX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:19:05,147 - INFO - Analysis completed. Success: 0, Errors: 98
+2025-03-15 10:20:00,370 - ERROR - Main process in fundamentals failed: name 'FUNDAMENTALS_START_DATE' is not defined
+2025-03-15 10:20:09,916 - INFO - Found 98 tickers to analyze
+2025-03-15 10:20:09,916 - INFO - Processing AAPL (1/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing AAPL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ABNB (2/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ABNB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ADBE (3/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ADBE: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ADI (4/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ADI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ADP (5/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ADP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ADSK (6/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ADSK: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing AEP (7/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing AEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ALGN (8/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ALGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing AMAT (9/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing AMAT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing AMD (10/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing AMD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing AMGN (11/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing AMGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing AMZN (12/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing AMZN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ANSS (13/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ANSS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing ASML (14/98)
+2025-03-15 10:20:09,916 - ERROR - Error analyzing ASML: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,916 - INFO - Processing AVGO (15/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing AVGO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing BIIB (16/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing BIIB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing BKNG (17/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing BKNG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CCEP (18/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CCEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CDNS (19/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CDNS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CHTR (20/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CHTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CMCSA (21/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CMCSA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing COST (22/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing COST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CPRT (23/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CPRT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CRWD (24/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CRWD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CSCO (25/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CSCO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CSGP (26/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CSGP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CSX (27/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CSX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CTAS (28/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CTAS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing CTSH (29/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing CTSH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing DASH (30/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing DASH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing DDOG (31/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing DDOG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing DLTR (32/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing DLTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing DXCM (33/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing DXCM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing ENPH (34/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing ENPH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing EXC (35/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing EXC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing FANG (36/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing FANG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing FAST (37/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing FAST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing FTNT (38/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing FTNT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing GEHC (39/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing GEHC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing GILD (40/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing GILD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing GOOG (41/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing GOOG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing GOOGL (42/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing GOOGL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing HON (43/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing HON: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing IDXX (44/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing IDXX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing ILMN (45/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing ILMN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing INTC (46/98)
+2025-03-15 10:20:09,917 - ERROR - Error analyzing INTC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,917 - INFO - Processing INTU (47/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing INTU: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing ISRG (48/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing ISRG: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing KDP (49/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing KDP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing KLAC (50/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing KLAC: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing LCID (51/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing LCID: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing LRCX (52/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing LRCX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing LULU (53/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing LULU: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MCHP (54/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MCHP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MDB (55/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MDB: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MDLZ (56/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MDLZ: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MELI (57/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MELI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing META (58/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing META: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MNST (59/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MNST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MRVL (60/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MRVL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MSFT (61/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MSFT: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MSTR (62/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MSTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing MTCH (63/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing MTCH: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing NFLX (64/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing NFLX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing NVDA (65/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing NVDA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing NXPI (66/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing NXPI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing ODFL (67/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing ODFL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing ORLY (68/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing ORLY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing PANW (69/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing PANW: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing PAYX (70/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing PAYX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing PCAR (71/98)
+2025-03-15 10:20:09,918 - ERROR - Error analyzing PCAR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,918 - INFO - Processing PEP (72/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing PEP: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing PLTR (73/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing PLTR: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing PYPL (74/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing PYPL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing QCOM (75/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing QCOM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing REGN (76/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing REGN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing RIVN (77/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing RIVN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing ROST (78/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing ROST: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing SBUX (79/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing SBUX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing SIRI (80/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing SIRI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing SMCI (81/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing SMCI: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing SNPS (82/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing SNPS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing SPY (83/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing SPY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing SWKS (84/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing SWKS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing TEAM (85/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing TEAM: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing TMUS (86/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing TMUS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing TSLA (87/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing TSLA: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing TTD (88/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing TTD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing TTWO (89/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing TTWO: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing TXN (90/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing TXN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing VRSK (91/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing VRSK: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing VRSN (92/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing VRSN: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing VRTX (93/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing VRTX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing WBD (94/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing WBD: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing WDAY (95/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing WDAY: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing XEL (96/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing XEL: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing ZS (97/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing ZS: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Processing ^NDX (98/98)
+2025-03-15 10:20:09,919 - ERROR - Error analyzing ^NDX: name 'run_fundamental_analysis' is not defined
+2025-03-15 10:20:09,919 - INFO - Analysis completed. Success: 0, Errors: 98
+2025-03-15 10:20:58,847 - INFO - Processing AAPL (1/1)
+2025-03-15 10:20:58,847 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-15
+2025-03-15 10:20:58,847 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AAPL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:20:58,853 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-15 10:20:58,870 - INFO - Downloading market data from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:01,284 - INFO - Downloading risk-free rate data
+2025-03-15 10:21:01,553 - INFO - Downloading Fama-French factor proxies
+2025-03-15 10:21:02,591 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:02,591 - INFO - Successfully analyzed AAPL
+2025-03-15 10:21:02,591 - INFO - Test analysis completed successfully
+2025-03-15 10:21:16,737 - INFO - Found 98 tickers to analyze
+2025-03-15 10:21:16,737 - INFO - Processing AAPL (1/98)
+2025-03-15 10:21:16,737 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,737 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AAPL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,740 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-15 10:21:16,750 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,750 - INFO - Successfully analyzed AAPL
+2025-03-15 10:21:16,750 - INFO - Processing ABNB (2/98)
+2025-03-15 10:21:16,750 - INFO - Running FAMA_FRENCH analysis for ABNB from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,750 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ABNB'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,754 - INFO - Retrieved 1019 rows of price data for ABNB
+2025-03-15 10:21:16,762 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,762 - INFO - Successfully analyzed ABNB
+2025-03-15 10:21:16,763 - INFO - Processing ADBE (3/98)
+2025-03-15 10:21:16,763 - INFO - Running FAMA_FRENCH analysis for ADBE from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,763 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADBE'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,767 - INFO - Retrieved 1257 rows of price data for ADBE
+2025-03-15 10:21:16,776 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,777 - INFO - Successfully analyzed ADBE
+2025-03-15 10:21:16,777 - INFO - Processing ADI (4/98)
+2025-03-15 10:21:16,777 - INFO - Running FAMA_FRENCH analysis for ADI from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,777 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,781 - INFO - Retrieved 1257 rows of price data for ADI
+2025-03-15 10:21:16,789 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,790 - INFO - Successfully analyzed ADI
+2025-03-15 10:21:16,790 - INFO - Processing ADP (5/98)
+2025-03-15 10:21:16,790 - INFO - Running FAMA_FRENCH analysis for ADP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,790 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,794 - INFO - Retrieved 1257 rows of price data for ADP
+2025-03-15 10:21:16,803 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,804 - INFO - Successfully analyzed ADP
+2025-03-15 10:21:16,804 - INFO - Processing ADSK (6/98)
+2025-03-15 10:21:16,804 - INFO - Running FAMA_FRENCH analysis for ADSK from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,804 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ADSK'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,810 - INFO - Retrieved 1257 rows of price data for ADSK
+2025-03-15 10:21:16,822 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,822 - INFO - Successfully analyzed ADSK
+2025-03-15 10:21:16,822 - INFO - Processing AEP (7/98)
+2025-03-15 10:21:16,822 - INFO - Running FAMA_FRENCH analysis for AEP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,822 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AEP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,828 - INFO - Retrieved 1257 rows of price data for AEP
+2025-03-15 10:21:16,839 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,839 - INFO - Successfully analyzed AEP
+2025-03-15 10:21:16,839 - INFO - Processing ALGN (8/98)
+2025-03-15 10:21:16,839 - INFO - Running FAMA_FRENCH analysis for ALGN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,839 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ALGN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,843 - INFO - Retrieved 1257 rows of price data for ALGN
+2025-03-15 10:21:16,853 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,853 - INFO - Successfully analyzed ALGN
+2025-03-15 10:21:16,853 - INFO - Processing AMAT (9/98)
+2025-03-15 10:21:16,853 - INFO - Running FAMA_FRENCH analysis for AMAT from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,853 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMAT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,858 - INFO - Retrieved 1257 rows of price data for AMAT
+2025-03-15 10:21:16,866 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,866 - INFO - Successfully analyzed AMAT
+2025-03-15 10:21:16,866 - INFO - Processing AMD (10/98)
+2025-03-15 10:21:16,866 - INFO - Running FAMA_FRENCH analysis for AMD from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,866 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,870 - INFO - Retrieved 1257 rows of price data for AMD
+2025-03-15 10:21:16,879 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,879 - INFO - Successfully analyzed AMD
+2025-03-15 10:21:16,879 - INFO - Processing AMGN (11/98)
+2025-03-15 10:21:16,879 - INFO - Running FAMA_FRENCH analysis for AMGN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,879 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMGN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,884 - INFO - Retrieved 1257 rows of price data for AMGN
+2025-03-15 10:21:16,892 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,892 - INFO - Successfully analyzed AMGN
+2025-03-15 10:21:16,893 - INFO - Processing AMZN (12/98)
+2025-03-15 10:21:16,893 - INFO - Running FAMA_FRENCH analysis for AMZN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,893 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AMZN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,895 - INFO - Retrieved 1257 rows of price data for AMZN
+2025-03-15 10:21:16,903 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,903 - INFO - Successfully analyzed AMZN
+2025-03-15 10:21:16,903 - INFO - Processing ANSS (13/98)
+2025-03-15 10:21:16,903 - INFO - Running FAMA_FRENCH analysis for ANSS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,903 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ANSS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,908 - INFO - Retrieved 1257 rows of price data for ANSS
+2025-03-15 10:21:16,915 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,915 - INFO - Successfully analyzed ANSS
+2025-03-15 10:21:16,915 - INFO - Processing ASML (14/98)
+2025-03-15 10:21:16,915 - INFO - Running FAMA_FRENCH analysis for ASML from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,915 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ASML'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,920 - INFO - Retrieved 1257 rows of price data for ASML
+2025-03-15 10:21:16,927 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,927 - INFO - Successfully analyzed ASML
+2025-03-15 10:21:16,927 - INFO - Processing AVGO (15/98)
+2025-03-15 10:21:16,927 - INFO - Running FAMA_FRENCH analysis for AVGO from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,927 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'AVGO'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,930 - INFO - Retrieved 1257 rows of price data for AVGO
+2025-03-15 10:21:16,937 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,937 - INFO - Successfully analyzed AVGO
+2025-03-15 10:21:16,937 - INFO - Processing BIIB (16/98)
+2025-03-15 10:21:16,937 - INFO - Running FAMA_FRENCH analysis for BIIB from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,937 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'BIIB'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,940 - INFO - Retrieved 1257 rows of price data for BIIB
+2025-03-15 10:21:16,948 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,948 - INFO - Successfully analyzed BIIB
+2025-03-15 10:21:16,948 - INFO - Processing BKNG (17/98)
+2025-03-15 10:21:16,948 - INFO - Running FAMA_FRENCH analysis for BKNG from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,948 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'BKNG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,951 - INFO - Retrieved 1257 rows of price data for BKNG
+2025-03-15 10:21:16,958 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,958 - INFO - Successfully analyzed BKNG
+2025-03-15 10:21:16,958 - INFO - Processing CCEP (18/98)
+2025-03-15 10:21:16,958 - INFO - Running FAMA_FRENCH analysis for CCEP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,958 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CCEP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,963 - INFO - Retrieved 1257 rows of price data for CCEP
+2025-03-15 10:21:16,972 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,973 - INFO - Successfully analyzed CCEP
+2025-03-15 10:21:16,973 - INFO - Processing CDNS (19/98)
+2025-03-15 10:21:16,973 - INFO - Running FAMA_FRENCH analysis for CDNS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,973 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CDNS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,977 - INFO - Retrieved 1257 rows of price data for CDNS
+2025-03-15 10:21:16,985 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,985 - INFO - Successfully analyzed CDNS
+2025-03-15 10:21:16,985 - INFO - Processing CHTR (20/98)
+2025-03-15 10:21:16,985 - INFO - Running FAMA_FRENCH analysis for CHTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,985 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CHTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:16,990 - INFO - Retrieved 1257 rows of price data for CHTR
+2025-03-15 10:21:16,999 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:16,999 - INFO - Successfully analyzed CHTR
+2025-03-15 10:21:16,999 - INFO - Processing CMCSA (21/98)
+2025-03-15 10:21:16,999 - INFO - Running FAMA_FRENCH analysis for CMCSA from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:16,999 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CMCSA'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,002 - INFO - Retrieved 1257 rows of price data for CMCSA
+2025-03-15 10:21:17,011 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,011 - INFO - Successfully analyzed CMCSA
+2025-03-15 10:21:17,011 - INFO - Processing COST (22/98)
+2025-03-15 10:21:17,011 - INFO - Running FAMA_FRENCH analysis for COST from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,011 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'COST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,014 - INFO - Retrieved 1257 rows of price data for COST
+2025-03-15 10:21:17,022 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,022 - INFO - Successfully analyzed COST
+2025-03-15 10:21:17,022 - INFO - Processing CPRT (23/98)
+2025-03-15 10:21:17,022 - INFO - Running FAMA_FRENCH analysis for CPRT from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,022 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CPRT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,026 - INFO - Retrieved 1257 rows of price data for CPRT
+2025-03-15 10:21:17,034 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,034 - INFO - Successfully analyzed CPRT
+2025-03-15 10:21:17,034 - INFO - Processing CRWD (24/98)
+2025-03-15 10:21:17,034 - INFO - Running FAMA_FRENCH analysis for CRWD from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,034 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CRWD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,042 - INFO - Retrieved 1257 rows of price data for CRWD
+2025-03-15 10:21:17,050 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,050 - INFO - Successfully analyzed CRWD
+2025-03-15 10:21:17,050 - INFO - Processing CSCO (25/98)
+2025-03-15 10:21:17,050 - INFO - Running FAMA_FRENCH analysis for CSCO from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,050 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CSCO'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,054 - INFO - Retrieved 1257 rows of price data for CSCO
+2025-03-15 10:21:17,061 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,061 - INFO - Successfully analyzed CSCO
+2025-03-15 10:21:17,061 - INFO - Processing CSGP (26/98)
+2025-03-15 10:21:17,061 - INFO - Running FAMA_FRENCH analysis for CSGP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,061 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CSGP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,063 - INFO - Retrieved 1257 rows of price data for CSGP
+2025-03-15 10:21:17,071 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,071 - INFO - Successfully analyzed CSGP
+2025-03-15 10:21:17,071 - INFO - Processing CSX (27/98)
+2025-03-15 10:21:17,071 - INFO - Running FAMA_FRENCH analysis for CSX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,071 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CSX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,076 - INFO - Retrieved 1257 rows of price data for CSX
+2025-03-15 10:21:17,085 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,085 - INFO - Successfully analyzed CSX
+2025-03-15 10:21:17,085 - INFO - Processing CTAS (28/98)
+2025-03-15 10:21:17,085 - INFO - Running FAMA_FRENCH analysis for CTAS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,085 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CTAS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,091 - INFO - Retrieved 1257 rows of price data for CTAS
+2025-03-15 10:21:17,099 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,099 - INFO - Successfully analyzed CTAS
+2025-03-15 10:21:17,099 - INFO - Processing CTSH (29/98)
+2025-03-15 10:21:17,099 - INFO - Running FAMA_FRENCH analysis for CTSH from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,099 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'CTSH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,102 - INFO - Retrieved 1257 rows of price data for CTSH
+2025-03-15 10:21:17,110 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,111 - INFO - Successfully analyzed CTSH
+2025-03-15 10:21:17,111 - INFO - Processing DASH (30/98)
+2025-03-15 10:21:17,111 - INFO - Running FAMA_FRENCH analysis for DASH from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,111 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DASH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,114 - INFO - Retrieved 1020 rows of price data for DASH
+2025-03-15 10:21:17,121 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,121 - INFO - Successfully analyzed DASH
+2025-03-15 10:21:17,121 - INFO - Processing DDOG (31/98)
+2025-03-15 10:21:17,121 - INFO - Running FAMA_FRENCH analysis for DDOG from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,121 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DDOG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,125 - INFO - Retrieved 1257 rows of price data for DDOG
+2025-03-15 10:21:17,133 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,133 - INFO - Successfully analyzed DDOG
+2025-03-15 10:21:17,133 - INFO - Processing DLTR (32/98)
+2025-03-15 10:21:17,133 - INFO - Running FAMA_FRENCH analysis for DLTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,133 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DLTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,135 - INFO - Retrieved 1257 rows of price data for DLTR
+2025-03-15 10:21:17,143 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,143 - INFO - Successfully analyzed DLTR
+2025-03-15 10:21:17,143 - INFO - Processing DXCM (33/98)
+2025-03-15 10:21:17,143 - INFO - Running FAMA_FRENCH analysis for DXCM from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,143 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'DXCM'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,147 - INFO - Retrieved 1257 rows of price data for DXCM
+2025-03-15 10:21:17,154 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,154 - INFO - Successfully analyzed DXCM
+2025-03-15 10:21:17,154 - INFO - Processing ENPH (34/98)
+2025-03-15 10:21:17,154 - INFO - Running FAMA_FRENCH analysis for ENPH from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,154 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ENPH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,158 - INFO - Retrieved 1257 rows of price data for ENPH
+2025-03-15 10:21:17,165 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,165 - INFO - Successfully analyzed ENPH
+2025-03-15 10:21:17,165 - INFO - Processing EXC (35/98)
+2025-03-15 10:21:17,165 - INFO - Running FAMA_FRENCH analysis for EXC from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,165 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'EXC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,169 - INFO - Retrieved 1257 rows of price data for EXC
+2025-03-15 10:21:17,176 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,176 - INFO - Successfully analyzed EXC
+2025-03-15 10:21:17,176 - INFO - Processing FANG (36/98)
+2025-03-15 10:21:17,177 - INFO - Running FAMA_FRENCH analysis for FANG from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,177 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'FANG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,180 - INFO - Retrieved 1257 rows of price data for FANG
+2025-03-15 10:21:17,187 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,187 - INFO - Successfully analyzed FANG
+2025-03-15 10:21:17,187 - INFO - Processing FAST (37/98)
+2025-03-15 10:21:17,187 - INFO - Running FAMA_FRENCH analysis for FAST from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,187 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'FAST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,190 - INFO - Retrieved 1257 rows of price data for FAST
+2025-03-15 10:21:17,198 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,198 - INFO - Successfully analyzed FAST
+2025-03-15 10:21:17,198 - INFO - Processing FTNT (38/98)
+2025-03-15 10:21:17,198 - INFO - Running FAMA_FRENCH analysis for FTNT from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,198 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'FTNT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,214 - INFO - Retrieved 1257 rows of price data for FTNT
+2025-03-15 10:21:17,224 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,224 - INFO - Successfully analyzed FTNT
+2025-03-15 10:21:17,224 - INFO - Processing GEHC (39/98)
+2025-03-15 10:21:17,224 - INFO - Running FAMA_FRENCH analysis for GEHC from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,224 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GEHC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,227 - INFO - Retrieved 512 rows of price data for GEHC
+2025-03-15 10:21:17,235 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,235 - INFO - Successfully analyzed GEHC
+2025-03-15 10:21:17,235 - INFO - Processing GILD (40/98)
+2025-03-15 10:21:17,235 - INFO - Running FAMA_FRENCH analysis for GILD from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,235 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GILD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,240 - INFO - Retrieved 1257 rows of price data for GILD
+2025-03-15 10:21:17,247 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,248 - INFO - Successfully analyzed GILD
+2025-03-15 10:21:17,248 - INFO - Processing GOOG (41/98)
+2025-03-15 10:21:17,248 - INFO - Running FAMA_FRENCH analysis for GOOG from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,248 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GOOG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,251 - INFO - Retrieved 1257 rows of price data for GOOG
+2025-03-15 10:21:17,258 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,258 - INFO - Successfully analyzed GOOG
+2025-03-15 10:21:17,258 - INFO - Processing GOOGL (42/98)
+2025-03-15 10:21:17,258 - INFO - Running FAMA_FRENCH analysis for GOOGL from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,258 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'GOOGL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,261 - INFO - Retrieved 1257 rows of price data for GOOGL
+2025-03-15 10:21:17,268 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,268 - INFO - Successfully analyzed GOOGL
+2025-03-15 10:21:17,268 - INFO - Processing HON (43/98)
+2025-03-15 10:21:17,268 - INFO - Running FAMA_FRENCH analysis for HON from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,268 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'HON'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,272 - INFO - Retrieved 1257 rows of price data for HON
+2025-03-15 10:21:17,278 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,278 - INFO - Successfully analyzed HON
+2025-03-15 10:21:17,278 - INFO - Processing IDXX (44/98)
+2025-03-15 10:21:17,278 - INFO - Running FAMA_FRENCH analysis for IDXX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,278 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'IDXX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,282 - INFO - Retrieved 1257 rows of price data for IDXX
+2025-03-15 10:21:17,287 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,287 - INFO - Successfully analyzed IDXX
+2025-03-15 10:21:17,287 - INFO - Processing ILMN (45/98)
+2025-03-15 10:21:17,287 - INFO - Running FAMA_FRENCH analysis for ILMN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,287 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ILMN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,290 - INFO - Retrieved 1257 rows of price data for ILMN
+2025-03-15 10:21:17,296 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,296 - INFO - Successfully analyzed ILMN
+2025-03-15 10:21:17,296 - INFO - Processing INTC (46/98)
+2025-03-15 10:21:17,296 - INFO - Running FAMA_FRENCH analysis for INTC from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,296 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'INTC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,302 - INFO - Retrieved 1257 rows of price data for INTC
+2025-03-15 10:21:17,308 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,308 - INFO - Successfully analyzed INTC
+2025-03-15 10:21:17,308 - INFO - Processing INTU (47/98)
+2025-03-15 10:21:17,308 - INFO - Running FAMA_FRENCH analysis for INTU from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,308 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'INTU'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,311 - INFO - Retrieved 1257 rows of price data for INTU
+2025-03-15 10:21:17,317 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,317 - INFO - Successfully analyzed INTU
+2025-03-15 10:21:17,317 - INFO - Processing ISRG (48/98)
+2025-03-15 10:21:17,317 - INFO - Running FAMA_FRENCH analysis for ISRG from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,317 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ISRG'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,319 - INFO - Retrieved 1257 rows of price data for ISRG
+2025-03-15 10:21:17,326 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,326 - INFO - Successfully analyzed ISRG
+2025-03-15 10:21:17,326 - INFO - Processing KDP (49/98)
+2025-03-15 10:21:17,326 - INFO - Running FAMA_FRENCH analysis for KDP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,326 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'KDP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,330 - INFO - Retrieved 1257 rows of price data for KDP
+2025-03-15 10:21:17,336 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,336 - INFO - Successfully analyzed KDP
+2025-03-15 10:21:17,336 - INFO - Processing KLAC (50/98)
+2025-03-15 10:21:17,336 - INFO - Running FAMA_FRENCH analysis for KLAC from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,336 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'KLAC'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,341 - INFO - Retrieved 1257 rows of price data for KLAC
+2025-03-15 10:21:17,348 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,348 - INFO - Successfully analyzed KLAC
+2025-03-15 10:21:17,348 - INFO - Processing LCID (51/98)
+2025-03-15 10:21:17,348 - INFO - Running FAMA_FRENCH analysis for LCID from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,348 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'LCID'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,352 - INFO - Retrieved 1077 rows of price data for LCID
+2025-03-15 10:21:17,358 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,358 - INFO - Successfully analyzed LCID
+2025-03-15 10:21:17,358 - INFO - Processing LRCX (52/98)
+2025-03-15 10:21:17,358 - INFO - Running FAMA_FRENCH analysis for LRCX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,358 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'LRCX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,361 - INFO - Retrieved 1257 rows of price data for LRCX
+2025-03-15 10:21:17,368 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,368 - INFO - Successfully analyzed LRCX
+2025-03-15 10:21:17,368 - INFO - Processing LULU (53/98)
+2025-03-15 10:21:17,368 - INFO - Running FAMA_FRENCH analysis for LULU from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,368 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'LULU'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,372 - INFO - Retrieved 1257 rows of price data for LULU
+2025-03-15 10:21:17,379 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,379 - INFO - Successfully analyzed LULU
+2025-03-15 10:21:17,379 - INFO - Processing MCHP (54/98)
+2025-03-15 10:21:17,379 - INFO - Running FAMA_FRENCH analysis for MCHP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,379 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MCHP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,381 - INFO - Retrieved 1257 rows of price data for MCHP
+2025-03-15 10:21:17,387 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,387 - INFO - Successfully analyzed MCHP
+2025-03-15 10:21:17,387 - INFO - Processing MDB (55/98)
+2025-03-15 10:21:17,387 - INFO - Running FAMA_FRENCH analysis for MDB from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,387 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MDB'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,392 - INFO - Retrieved 1257 rows of price data for MDB
+2025-03-15 10:21:17,398 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,398 - INFO - Successfully analyzed MDB
+2025-03-15 10:21:17,398 - INFO - Processing MDLZ (56/98)
+2025-03-15 10:21:17,398 - INFO - Running FAMA_FRENCH analysis for MDLZ from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,398 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MDLZ'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,403 - INFO - Retrieved 1257 rows of price data for MDLZ
+2025-03-15 10:21:17,409 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,409 - INFO - Successfully analyzed MDLZ
+2025-03-15 10:21:17,409 - INFO - Processing MELI (57/98)
+2025-03-15 10:21:17,409 - INFO - Running FAMA_FRENCH analysis for MELI from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,409 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MELI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,412 - INFO - Retrieved 1257 rows of price data for MELI
+2025-03-15 10:21:17,419 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,419 - INFO - Successfully analyzed MELI
+2025-03-15 10:21:17,419 - INFO - Processing META (58/98)
+2025-03-15 10:21:17,419 - INFO - Running FAMA_FRENCH analysis for META from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,419 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'META'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,423 - INFO - Retrieved 1257 rows of price data for META
+2025-03-15 10:21:17,429 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,429 - INFO - Successfully analyzed META
+2025-03-15 10:21:17,429 - INFO - Processing MNST (59/98)
+2025-03-15 10:21:17,429 - INFO - Running FAMA_FRENCH analysis for MNST from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,429 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MNST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,433 - INFO - Retrieved 1257 rows of price data for MNST
+2025-03-15 10:21:17,440 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,440 - INFO - Successfully analyzed MNST
+2025-03-15 10:21:17,440 - INFO - Processing MRVL (60/98)
+2025-03-15 10:21:17,440 - INFO - Running FAMA_FRENCH analysis for MRVL from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,440 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MRVL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,444 - INFO - Retrieved 1257 rows of price data for MRVL
+2025-03-15 10:21:17,453 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,453 - INFO - Successfully analyzed MRVL
+2025-03-15 10:21:17,453 - INFO - Processing MSFT (61/98)
+2025-03-15 10:21:17,453 - INFO - Running FAMA_FRENCH analysis for MSFT from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,453 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MSFT'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,459 - INFO - Retrieved 1257 rows of price data for MSFT
+2025-03-15 10:21:17,469 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,470 - INFO - Successfully analyzed MSFT
+2025-03-15 10:21:17,470 - INFO - Processing MSTR (62/98)
+2025-03-15 10:21:17,470 - INFO - Running FAMA_FRENCH analysis for MSTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,470 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MSTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,474 - INFO - Retrieved 1257 rows of price data for MSTR
+2025-03-15 10:21:17,483 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,483 - INFO - Successfully analyzed MSTR
+2025-03-15 10:21:17,483 - INFO - Processing MTCH (63/98)
+2025-03-15 10:21:17,483 - INFO - Running FAMA_FRENCH analysis for MTCH from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,483 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'MTCH'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,489 - INFO - Retrieved 1257 rows of price data for MTCH
+2025-03-15 10:21:17,497 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,497 - INFO - Successfully analyzed MTCH
+2025-03-15 10:21:17,497 - INFO - Processing NFLX (64/98)
+2025-03-15 10:21:17,497 - INFO - Running FAMA_FRENCH analysis for NFLX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,497 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'NFLX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,503 - INFO - Retrieved 1257 rows of price data for NFLX
+2025-03-15 10:21:17,512 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,512 - INFO - Successfully analyzed NFLX
+2025-03-15 10:21:17,512 - INFO - Processing NVDA (65/98)
+2025-03-15 10:21:17,512 - INFO - Running FAMA_FRENCH analysis for NVDA from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,512 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'NVDA'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,519 - INFO - Retrieved 1257 rows of price data for NVDA
+2025-03-15 10:21:17,529 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,529 - INFO - Successfully analyzed NVDA
+2025-03-15 10:21:17,529 - INFO - Processing NXPI (66/98)
+2025-03-15 10:21:17,529 - INFO - Running FAMA_FRENCH analysis for NXPI from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,529 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'NXPI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,535 - INFO - Retrieved 1257 rows of price data for NXPI
+2025-03-15 10:21:17,544 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,544 - INFO - Successfully analyzed NXPI
+2025-03-15 10:21:17,544 - INFO - Processing ODFL (67/98)
+2025-03-15 10:21:17,544 - INFO - Running FAMA_FRENCH analysis for ODFL from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,544 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ODFL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,550 - INFO - Retrieved 1257 rows of price data for ODFL
+2025-03-15 10:21:17,559 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,559 - INFO - Successfully analyzed ODFL
+2025-03-15 10:21:17,559 - INFO - Processing ORLY (68/98)
+2025-03-15 10:21:17,559 - INFO - Running FAMA_FRENCH analysis for ORLY from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,559 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ORLY'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,564 - INFO - Retrieved 1257 rows of price data for ORLY
+2025-03-15 10:21:17,573 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,573 - INFO - Successfully analyzed ORLY
+2025-03-15 10:21:17,573 - INFO - Processing PANW (69/98)
+2025-03-15 10:21:17,573 - INFO - Running FAMA_FRENCH analysis for PANW from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,573 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PANW'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,577 - INFO - Retrieved 1257 rows of price data for PANW
+2025-03-15 10:21:17,584 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,584 - INFO - Successfully analyzed PANW
+2025-03-15 10:21:17,584 - INFO - Processing PAYX (70/98)
+2025-03-15 10:21:17,584 - INFO - Running FAMA_FRENCH analysis for PAYX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,584 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PAYX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,587 - INFO - Retrieved 1257 rows of price data for PAYX
+2025-03-15 10:21:17,592 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,592 - INFO - Successfully analyzed PAYX
+2025-03-15 10:21:17,593 - INFO - Processing PCAR (71/98)
+2025-03-15 10:21:17,593 - INFO - Running FAMA_FRENCH analysis for PCAR from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,593 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PCAR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,595 - INFO - Retrieved 1257 rows of price data for PCAR
+2025-03-15 10:21:17,602 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,602 - INFO - Successfully analyzed PCAR
+2025-03-15 10:21:17,602 - INFO - Processing PEP (72/98)
+2025-03-15 10:21:17,602 - INFO - Running FAMA_FRENCH analysis for PEP from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,602 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PEP'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,604 - INFO - Retrieved 1257 rows of price data for PEP
+2025-03-15 10:21:17,611 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,611 - INFO - Successfully analyzed PEP
+2025-03-15 10:21:17,611 - INFO - Processing PLTR (73/98)
+2025-03-15 10:21:17,611 - INFO - Running FAMA_FRENCH analysis for PLTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,611 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PLTR'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,614 - INFO - Retrieved 1069 rows of price data for PLTR
+2025-03-15 10:21:17,620 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,621 - INFO - Successfully analyzed PLTR
+2025-03-15 10:21:17,621 - INFO - Processing PYPL (74/98)
+2025-03-15 10:21:17,621 - INFO - Running FAMA_FRENCH analysis for PYPL from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,621 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'PYPL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,625 - INFO - Retrieved 1257 rows of price data for PYPL
+2025-03-15 10:21:17,632 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,632 - INFO - Successfully analyzed PYPL
+2025-03-15 10:21:17,632 - INFO - Processing QCOM (75/98)
+2025-03-15 10:21:17,632 - INFO - Running FAMA_FRENCH analysis for QCOM from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,632 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'QCOM'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,635 - INFO - Retrieved 1257 rows of price data for QCOM
+2025-03-15 10:21:17,641 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,641 - INFO - Successfully analyzed QCOM
+2025-03-15 10:21:17,641 - INFO - Processing REGN (76/98)
+2025-03-15 10:21:17,641 - INFO - Running FAMA_FRENCH analysis for REGN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,641 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'REGN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,645 - INFO - Retrieved 1257 rows of price data for REGN
+2025-03-15 10:21:17,651 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,651 - INFO - Successfully analyzed REGN
+2025-03-15 10:21:17,651 - INFO - Processing RIVN (77/98)
+2025-03-15 10:21:17,651 - INFO - Running FAMA_FRENCH analysis for RIVN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,651 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'RIVN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,656 - INFO - Retrieved 788 rows of price data for RIVN
+2025-03-15 10:21:17,662 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,662 - INFO - Successfully analyzed RIVN
+2025-03-15 10:21:17,662 - INFO - Processing ROST (78/98)
+2025-03-15 10:21:17,662 - INFO - Running FAMA_FRENCH analysis for ROST from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,662 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ROST'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,666 - INFO - Retrieved 1257 rows of price data for ROST
+2025-03-15 10:21:17,671 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,671 - INFO - Successfully analyzed ROST
+2025-03-15 10:21:17,671 - INFO - Processing SBUX (79/98)
+2025-03-15 10:21:17,671 - INFO - Running FAMA_FRENCH analysis for SBUX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,671 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SBUX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,676 - INFO - Retrieved 1257 rows of price data for SBUX
+2025-03-15 10:21:17,682 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,682 - INFO - Successfully analyzed SBUX
+2025-03-15 10:21:17,682 - INFO - Processing SIRI (80/98)
+2025-03-15 10:21:17,682 - INFO - Running FAMA_FRENCH analysis for SIRI from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,682 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SIRI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,686 - INFO - Retrieved 1257 rows of price data for SIRI
+2025-03-15 10:21:17,693 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,693 - INFO - Successfully analyzed SIRI
+2025-03-15 10:21:17,693 - INFO - Processing SMCI (81/98)
+2025-03-15 10:21:17,693 - INFO - Running FAMA_FRENCH analysis for SMCI from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,693 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SMCI'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,697 - INFO - Retrieved 1257 rows of price data for SMCI
+2025-03-15 10:21:17,703 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,703 - INFO - Successfully analyzed SMCI
+2025-03-15 10:21:17,703 - INFO - Processing SNPS (82/98)
+2025-03-15 10:21:17,703 - INFO - Running FAMA_FRENCH analysis for SNPS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,703 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SNPS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,706 - INFO - Retrieved 1257 rows of price data for SNPS
+2025-03-15 10:21:17,712 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,712 - INFO - Successfully analyzed SNPS
+2025-03-15 10:21:17,712 - INFO - Processing SPY (83/98)
+2025-03-15 10:21:17,712 - INFO - Running FAMA_FRENCH analysis for SPY from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,712 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SPY'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,716 - INFO - Retrieved 1257 rows of price data for SPY
+2025-03-15 10:21:17,722 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,722 - INFO - Successfully analyzed SPY
+2025-03-15 10:21:17,722 - INFO - Processing SWKS (84/98)
+2025-03-15 10:21:17,722 - INFO - Running FAMA_FRENCH analysis for SWKS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,722 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'SWKS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,725 - INFO - Retrieved 1257 rows of price data for SWKS
+2025-03-15 10:21:17,732 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,732 - INFO - Successfully analyzed SWKS
+2025-03-15 10:21:17,732 - INFO - Processing TEAM (85/98)
+2025-03-15 10:21:17,732 - INFO - Running FAMA_FRENCH analysis for TEAM from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,732 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TEAM'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,735 - INFO - Retrieved 1257 rows of price data for TEAM
+2025-03-15 10:21:17,741 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,741 - INFO - Successfully analyzed TEAM
+2025-03-15 10:21:17,741 - INFO - Processing TMUS (86/98)
+2025-03-15 10:21:17,741 - INFO - Running FAMA_FRENCH analysis for TMUS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,741 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TMUS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,744 - INFO - Retrieved 1257 rows of price data for TMUS
+2025-03-15 10:21:17,750 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,750 - INFO - Successfully analyzed TMUS
+2025-03-15 10:21:17,750 - INFO - Processing TSLA (87/98)
+2025-03-15 10:21:17,750 - INFO - Running FAMA_FRENCH analysis for TSLA from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,750 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TSLA'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,754 - INFO - Retrieved 1257 rows of price data for TSLA
+2025-03-15 10:21:17,761 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,761 - INFO - Successfully analyzed TSLA
+2025-03-15 10:21:17,761 - INFO - Processing TTD (88/98)
+2025-03-15 10:21:17,761 - INFO - Running FAMA_FRENCH analysis for TTD from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,761 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TTD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,763 - INFO - Retrieved 1257 rows of price data for TTD
+2025-03-15 10:21:17,770 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,770 - INFO - Successfully analyzed TTD
+2025-03-15 10:21:17,770 - INFO - Processing TTWO (89/98)
+2025-03-15 10:21:17,770 - INFO - Running FAMA_FRENCH analysis for TTWO from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,770 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TTWO'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,773 - INFO - Retrieved 1257 rows of price data for TTWO
+2025-03-15 10:21:17,779 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,779 - INFO - Successfully analyzed TTWO
+2025-03-15 10:21:17,779 - INFO - Processing TXN (90/98)
+2025-03-15 10:21:17,779 - INFO - Running FAMA_FRENCH analysis for TXN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,779 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'TXN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,783 - INFO - Retrieved 1257 rows of price data for TXN
+2025-03-15 10:21:17,789 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,789 - INFO - Successfully analyzed TXN
+2025-03-15 10:21:17,789 - INFO - Processing VRSK (91/98)
+2025-03-15 10:21:17,789 - INFO - Running FAMA_FRENCH analysis for VRSK from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,789 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'VRSK'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,792 - INFO - Retrieved 1257 rows of price data for VRSK
+2025-03-15 10:21:17,798 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,798 - INFO - Successfully analyzed VRSK
+2025-03-15 10:21:17,798 - INFO - Processing VRSN (92/98)
+2025-03-15 10:21:17,798 - INFO - Running FAMA_FRENCH analysis for VRSN from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,798 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'VRSN'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,801 - INFO - Retrieved 1257 rows of price data for VRSN
+2025-03-15 10:21:17,808 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,808 - INFO - Successfully analyzed VRSN
+2025-03-15 10:21:17,808 - INFO - Processing VRTX (93/98)
+2025-03-15 10:21:17,808 - INFO - Running FAMA_FRENCH analysis for VRTX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,808 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'VRTX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,811 - INFO - Retrieved 1257 rows of price data for VRTX
+2025-03-15 10:21:17,817 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,817 - INFO - Successfully analyzed VRTX
+2025-03-15 10:21:17,817 - INFO - Processing WBD (94/98)
+2025-03-15 10:21:17,817 - INFO - Running FAMA_FRENCH analysis for WBD from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,817 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'WBD'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,820 - INFO - Retrieved 1257 rows of price data for WBD
+2025-03-15 10:21:17,825 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,826 - INFO - Successfully analyzed WBD
+2025-03-15 10:21:17,826 - INFO - Processing WDAY (95/98)
+2025-03-15 10:21:17,826 - INFO - Running FAMA_FRENCH analysis for WDAY from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,826 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'WDAY'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,830 - INFO - Retrieved 1257 rows of price data for WDAY
+2025-03-15 10:21:17,837 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,837 - INFO - Successfully analyzed WDAY
+2025-03-15 10:21:17,837 - INFO - Processing XEL (96/98)
+2025-03-15 10:21:17,837 - INFO - Running FAMA_FRENCH analysis for XEL from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,837 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'XEL'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,842 - INFO - Retrieved 1257 rows of price data for XEL
+2025-03-15 10:21:17,849 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,849 - INFO - Successfully analyzed XEL
+2025-03-15 10:21:17,849 - INFO - Processing ZS (97/98)
+2025-03-15 10:21:17,849 - INFO - Running FAMA_FRENCH analysis for ZS from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,849 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = 'ZS'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,856 - INFO - Retrieved 1257 rows of price data for ZS
+2025-03-15 10:21:17,863 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,863 - INFO - Successfully analyzed ZS
+2025-03-15 10:21:17,863 - INFO - Processing ^NDX (98/98)
+2025-03-15 10:21:17,863 - INFO - Running FAMA_FRENCH analysis for ^NDX from 2020-01-01 to 2025-03-15
+2025-03-15 10:21:17,863 - INFO - Executing SQL: 
+        SELECT date, close, volume
+        FROM nasdaq_100_daily_prices
+        WHERE ticker = '^NDX'
+        AND date BETWEEN '2020-01-01' AND '2025-03-15'
+        ORDER BY date
+        
+2025-03-15 10:21:17,869 - INFO - Retrieved 1257 rows of price data for ^NDX
+2025-03-15 10:21:17,876 - ERROR - Error storing fundamental analysis results: no such column: date
+2025-03-15 10:21:17,876 - INFO - Successfully analyzed ^NDX
+2025-03-15 10:21:17,876 - INFO - Analysis completed. Success: 98, Errors: 0
+2025-03-15 10:30:02,329 - INFO - Found 98 tickers to analyze
+2025-03-15 10:30:02,329 - ERROR - Main process in fundamentals failed: name 'FUNDAMENTALS_START_DATE' is not defined
+2025-03-15 10:30:18,659 - INFO - Found 98 tickers to analyze
+2025-03-15 10:30:18,659 - INFO - Processing AAPL (1/98)
+2025-03-15 10:30:18,659 - INFO - Running FAMA_FRENCH analysis for AAPL from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:18,659 - INFO - Executing SQL for price data for AAPL
+2025-03-15 10:30:18,663 - INFO - Retrieved 1257 rows of price data for AAPL
+2025-03-15 10:30:18,669 - INFO - Downloading market data from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:18,702 - INFO - Downloading risk-free rate data
+2025-03-15 10:30:19,017 - INFO - Downloading Fama-French factor proxies
+2025-03-15 10:30:19,131 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,131 - INFO - Successfully analyzed AAPL
+2025-03-15 10:30:19,131 - INFO - Processing ABNB (2/98)
+2025-03-15 10:30:19,131 - INFO - Running FAMA_FRENCH analysis for ABNB from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,131 - INFO - Executing SQL for price data for ABNB
+2025-03-15 10:30:19,132 - INFO - Retrieved 1019 rows of price data for ABNB
+2025-03-15 10:30:19,141 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,141 - INFO - Successfully analyzed ABNB
+2025-03-15 10:30:19,141 - INFO - Processing ADBE (3/98)
+2025-03-15 10:30:19,141 - INFO - Running FAMA_FRENCH analysis for ADBE from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,141 - INFO - Executing SQL for price data for ADBE
+2025-03-15 10:30:19,143 - INFO - Retrieved 1257 rows of price data for ADBE
+2025-03-15 10:30:19,151 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,151 - INFO - Successfully analyzed ADBE
+2025-03-15 10:30:19,151 - INFO - Processing ADI (4/98)
+2025-03-15 10:30:19,151 - INFO - Running FAMA_FRENCH analysis for ADI from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,151 - INFO - Executing SQL for price data for ADI
+2025-03-15 10:30:19,152 - INFO - Retrieved 1257 rows of price data for ADI
+2025-03-15 10:30:19,160 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,160 - INFO - Successfully analyzed ADI
+2025-03-15 10:30:19,160 - INFO - Processing ADP (5/98)
+2025-03-15 10:30:19,160 - INFO - Running FAMA_FRENCH analysis for ADP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,160 - INFO - Executing SQL for price data for ADP
+2025-03-15 10:30:19,162 - INFO - Retrieved 1257 rows of price data for ADP
+2025-03-15 10:30:19,168 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,168 - INFO - Successfully analyzed ADP
+2025-03-15 10:30:19,168 - INFO - Processing ADSK (6/98)
+2025-03-15 10:30:19,168 - INFO - Running FAMA_FRENCH analysis for ADSK from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,168 - INFO - Executing SQL for price data for ADSK
+2025-03-15 10:30:19,169 - INFO - Retrieved 1257 rows of price data for ADSK
+2025-03-15 10:30:19,177 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,177 - INFO - Successfully analyzed ADSK
+2025-03-15 10:30:19,177 - INFO - Processing AEP (7/98)
+2025-03-15 10:30:19,177 - INFO - Running FAMA_FRENCH analysis for AEP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,177 - INFO - Executing SQL for price data for AEP
+2025-03-15 10:30:19,178 - INFO - Retrieved 1257 rows of price data for AEP
+2025-03-15 10:30:19,185 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,185 - INFO - Successfully analyzed AEP
+2025-03-15 10:30:19,185 - INFO - Processing ALGN (8/98)
+2025-03-15 10:30:19,185 - INFO - Running FAMA_FRENCH analysis for ALGN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,185 - INFO - Executing SQL for price data for ALGN
+2025-03-15 10:30:19,186 - INFO - Retrieved 1257 rows of price data for ALGN
+2025-03-15 10:30:19,193 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,194 - INFO - Successfully analyzed ALGN
+2025-03-15 10:30:19,194 - INFO - Processing AMAT (9/98)
+2025-03-15 10:30:19,194 - INFO - Running FAMA_FRENCH analysis for AMAT from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,194 - INFO - Executing SQL for price data for AMAT
+2025-03-15 10:30:19,196 - INFO - Retrieved 1257 rows of price data for AMAT
+2025-03-15 10:30:19,202 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,202 - INFO - Successfully analyzed AMAT
+2025-03-15 10:30:19,202 - INFO - Processing AMD (10/98)
+2025-03-15 10:30:19,202 - INFO - Running FAMA_FRENCH analysis for AMD from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,202 - INFO - Executing SQL for price data for AMD
+2025-03-15 10:30:19,204 - INFO - Retrieved 1257 rows of price data for AMD
+2025-03-15 10:30:19,209 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,209 - INFO - Successfully analyzed AMD
+2025-03-15 10:30:19,209 - INFO - Processing AMGN (11/98)
+2025-03-15 10:30:19,209 - INFO - Running FAMA_FRENCH analysis for AMGN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,209 - INFO - Executing SQL for price data for AMGN
+2025-03-15 10:30:19,211 - INFO - Retrieved 1257 rows of price data for AMGN
+2025-03-15 10:30:19,217 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,217 - INFO - Successfully analyzed AMGN
+2025-03-15 10:30:19,217 - INFO - Processing AMZN (12/98)
+2025-03-15 10:30:19,217 - INFO - Running FAMA_FRENCH analysis for AMZN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,217 - INFO - Executing SQL for price data for AMZN
+2025-03-15 10:30:19,218 - INFO - Retrieved 1257 rows of price data for AMZN
+2025-03-15 10:30:19,225 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,225 - INFO - Successfully analyzed AMZN
+2025-03-15 10:30:19,225 - INFO - Processing ANSS (13/98)
+2025-03-15 10:30:19,225 - INFO - Running FAMA_FRENCH analysis for ANSS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,225 - INFO - Executing SQL for price data for ANSS
+2025-03-15 10:30:19,226 - INFO - Retrieved 1257 rows of price data for ANSS
+2025-03-15 10:30:19,232 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,232 - INFO - Successfully analyzed ANSS
+2025-03-15 10:30:19,232 - INFO - Processing ASML (14/98)
+2025-03-15 10:30:19,232 - INFO - Running FAMA_FRENCH analysis for ASML from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,233 - INFO - Executing SQL for price data for ASML
+2025-03-15 10:30:19,234 - INFO - Retrieved 1257 rows of price data for ASML
+2025-03-15 10:30:19,240 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,240 - INFO - Successfully analyzed ASML
+2025-03-15 10:30:19,240 - INFO - Processing AVGO (15/98)
+2025-03-15 10:30:19,240 - INFO - Running FAMA_FRENCH analysis for AVGO from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,240 - INFO - Executing SQL for price data for AVGO
+2025-03-15 10:30:19,241 - INFO - Retrieved 1257 rows of price data for AVGO
+2025-03-15 10:30:19,247 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,247 - INFO - Successfully analyzed AVGO
+2025-03-15 10:30:19,247 - INFO - Processing BIIB (16/98)
+2025-03-15 10:30:19,247 - INFO - Running FAMA_FRENCH analysis for BIIB from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,247 - INFO - Executing SQL for price data for BIIB
+2025-03-15 10:30:19,249 - INFO - Retrieved 1257 rows of price data for BIIB
+2025-03-15 10:30:19,256 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,256 - INFO - Successfully analyzed BIIB
+2025-03-15 10:30:19,256 - INFO - Processing BKNG (17/98)
+2025-03-15 10:30:19,256 - INFO - Running FAMA_FRENCH analysis for BKNG from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,256 - INFO - Executing SQL for price data for BKNG
+2025-03-15 10:30:19,257 - INFO - Retrieved 1257 rows of price data for BKNG
+2025-03-15 10:30:19,263 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,263 - INFO - Successfully analyzed BKNG
+2025-03-15 10:30:19,263 - INFO - Processing CCEP (18/98)
+2025-03-15 10:30:19,263 - INFO - Running FAMA_FRENCH analysis for CCEP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,263 - INFO - Executing SQL for price data for CCEP
+2025-03-15 10:30:19,264 - INFO - Retrieved 1257 rows of price data for CCEP
+2025-03-15 10:30:19,270 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,270 - INFO - Successfully analyzed CCEP
+2025-03-15 10:30:19,270 - INFO - Processing CDNS (19/98)
+2025-03-15 10:30:19,270 - INFO - Running FAMA_FRENCH analysis for CDNS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,270 - INFO - Executing SQL for price data for CDNS
+2025-03-15 10:30:19,272 - INFO - Retrieved 1257 rows of price data for CDNS
+2025-03-15 10:30:19,278 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,278 - INFO - Successfully analyzed CDNS
+2025-03-15 10:30:19,278 - INFO - Processing CHTR (20/98)
+2025-03-15 10:30:19,278 - INFO - Running FAMA_FRENCH analysis for CHTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,278 - INFO - Executing SQL for price data for CHTR
+2025-03-15 10:30:19,280 - INFO - Retrieved 1257 rows of price data for CHTR
+2025-03-15 10:30:19,286 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,286 - INFO - Successfully analyzed CHTR
+2025-03-15 10:30:19,286 - INFO - Processing CMCSA (21/98)
+2025-03-15 10:30:19,286 - INFO - Running FAMA_FRENCH analysis for CMCSA from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,286 - INFO - Executing SQL for price data for CMCSA
+2025-03-15 10:30:19,287 - INFO - Retrieved 1257 rows of price data for CMCSA
+2025-03-15 10:30:19,294 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,294 - INFO - Successfully analyzed CMCSA
+2025-03-15 10:30:19,294 - INFO - Processing COST (22/98)
+2025-03-15 10:30:19,294 - INFO - Running FAMA_FRENCH analysis for COST from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,294 - INFO - Executing SQL for price data for COST
+2025-03-15 10:30:19,296 - INFO - Retrieved 1257 rows of price data for COST
+2025-03-15 10:30:19,302 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,302 - INFO - Successfully analyzed COST
+2025-03-15 10:30:19,302 - INFO - Processing CPRT (23/98)
+2025-03-15 10:30:19,302 - INFO - Running FAMA_FRENCH analysis for CPRT from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,302 - INFO - Executing SQL for price data for CPRT
+2025-03-15 10:30:19,303 - INFO - Retrieved 1257 rows of price data for CPRT
+2025-03-15 10:30:19,309 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,309 - INFO - Successfully analyzed CPRT
+2025-03-15 10:30:19,309 - INFO - Processing CRWD (24/98)
+2025-03-15 10:30:19,309 - INFO - Running FAMA_FRENCH analysis for CRWD from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,309 - INFO - Executing SQL for price data for CRWD
+2025-03-15 10:30:19,310 - INFO - Retrieved 1257 rows of price data for CRWD
+2025-03-15 10:30:19,317 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,317 - INFO - Successfully analyzed CRWD
+2025-03-15 10:30:19,317 - INFO - Processing CSCO (25/98)
+2025-03-15 10:30:19,317 - INFO - Running FAMA_FRENCH analysis for CSCO from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,317 - INFO - Executing SQL for price data for CSCO
+2025-03-15 10:30:19,318 - INFO - Retrieved 1257 rows of price data for CSCO
+2025-03-15 10:30:19,324 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,324 - INFO - Successfully analyzed CSCO
+2025-03-15 10:30:19,324 - INFO - Processing CSGP (26/98)
+2025-03-15 10:30:19,324 - INFO - Running FAMA_FRENCH analysis for CSGP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,324 - INFO - Executing SQL for price data for CSGP
+2025-03-15 10:30:19,326 - INFO - Retrieved 1257 rows of price data for CSGP
+2025-03-15 10:30:19,332 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,332 - INFO - Successfully analyzed CSGP
+2025-03-15 10:30:19,332 - INFO - Processing CSX (27/98)
+2025-03-15 10:30:19,332 - INFO - Running FAMA_FRENCH analysis for CSX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,332 - INFO - Executing SQL for price data for CSX
+2025-03-15 10:30:19,333 - INFO - Retrieved 1257 rows of price data for CSX
+2025-03-15 10:30:19,340 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,340 - INFO - Successfully analyzed CSX
+2025-03-15 10:30:19,340 - INFO - Processing CTAS (28/98)
+2025-03-15 10:30:19,340 - INFO - Running FAMA_FRENCH analysis for CTAS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,340 - INFO - Executing SQL for price data for CTAS
+2025-03-15 10:30:19,341 - INFO - Retrieved 1257 rows of price data for CTAS
+2025-03-15 10:30:19,347 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,347 - INFO - Successfully analyzed CTAS
+2025-03-15 10:30:19,347 - INFO - Processing CTSH (29/98)
+2025-03-15 10:30:19,347 - INFO - Running FAMA_FRENCH analysis for CTSH from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,347 - INFO - Executing SQL for price data for CTSH
+2025-03-15 10:30:19,348 - INFO - Retrieved 1257 rows of price data for CTSH
+2025-03-15 10:30:19,354 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,354 - INFO - Successfully analyzed CTSH
+2025-03-15 10:30:19,354 - INFO - Processing DASH (30/98)
+2025-03-15 10:30:19,355 - INFO - Running FAMA_FRENCH analysis for DASH from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,355 - INFO - Executing SQL for price data for DASH
+2025-03-15 10:30:19,356 - INFO - Retrieved 1020 rows of price data for DASH
+2025-03-15 10:30:19,362 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,362 - INFO - Successfully analyzed DASH
+2025-03-15 10:30:19,362 - INFO - Processing DDOG (31/98)
+2025-03-15 10:30:19,362 - INFO - Running FAMA_FRENCH analysis for DDOG from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,362 - INFO - Executing SQL for price data for DDOG
+2025-03-15 10:30:19,364 - INFO - Retrieved 1257 rows of price data for DDOG
+2025-03-15 10:30:19,370 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,370 - INFO - Successfully analyzed DDOG
+2025-03-15 10:30:19,370 - INFO - Processing DLTR (32/98)
+2025-03-15 10:30:19,370 - INFO - Running FAMA_FRENCH analysis for DLTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,370 - INFO - Executing SQL for price data for DLTR
+2025-03-15 10:30:19,372 - INFO - Retrieved 1257 rows of price data for DLTR
+2025-03-15 10:30:19,378 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,378 - INFO - Successfully analyzed DLTR
+2025-03-15 10:30:19,378 - INFO - Processing DXCM (33/98)
+2025-03-15 10:30:19,378 - INFO - Running FAMA_FRENCH analysis for DXCM from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,378 - INFO - Executing SQL for price data for DXCM
+2025-03-15 10:30:19,379 - INFO - Retrieved 1257 rows of price data for DXCM
+2025-03-15 10:30:19,385 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,385 - INFO - Successfully analyzed DXCM
+2025-03-15 10:30:19,385 - INFO - Processing ENPH (34/98)
+2025-03-15 10:30:19,385 - INFO - Running FAMA_FRENCH analysis for ENPH from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,385 - INFO - Executing SQL for price data for ENPH
+2025-03-15 10:30:19,386 - INFO - Retrieved 1257 rows of price data for ENPH
+2025-03-15 10:30:19,393 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,393 - INFO - Successfully analyzed ENPH
+2025-03-15 10:30:19,393 - INFO - Processing EXC (35/98)
+2025-03-15 10:30:19,393 - INFO - Running FAMA_FRENCH analysis for EXC from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,393 - INFO - Executing SQL for price data for EXC
+2025-03-15 10:30:19,394 - INFO - Retrieved 1257 rows of price data for EXC
+2025-03-15 10:30:19,400 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,400 - INFO - Successfully analyzed EXC
+2025-03-15 10:30:19,400 - INFO - Processing FANG (36/98)
+2025-03-15 10:30:19,400 - INFO - Running FAMA_FRENCH analysis for FANG from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,400 - INFO - Executing SQL for price data for FANG
+2025-03-15 10:30:19,402 - INFO - Retrieved 1257 rows of price data for FANG
+2025-03-15 10:30:19,407 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,407 - INFO - Successfully analyzed FANG
+2025-03-15 10:30:19,407 - INFO - Processing FAST (37/98)
+2025-03-15 10:30:19,407 - INFO - Running FAMA_FRENCH analysis for FAST from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,407 - INFO - Executing SQL for price data for FAST
+2025-03-15 10:30:19,409 - INFO - Retrieved 1257 rows of price data for FAST
+2025-03-15 10:30:19,415 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,415 - INFO - Successfully analyzed FAST
+2025-03-15 10:30:19,415 - INFO - Processing FTNT (38/98)
+2025-03-15 10:30:19,415 - INFO - Running FAMA_FRENCH analysis for FTNT from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,415 - INFO - Executing SQL for price data for FTNT
+2025-03-15 10:30:19,416 - INFO - Retrieved 1257 rows of price data for FTNT
+2025-03-15 10:30:19,423 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,423 - INFO - Successfully analyzed FTNT
+2025-03-15 10:30:19,423 - INFO - Processing GEHC (39/98)
+2025-03-15 10:30:19,423 - INFO - Running FAMA_FRENCH analysis for GEHC from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,423 - INFO - Executing SQL for price data for GEHC
+2025-03-15 10:30:19,424 - INFO - Retrieved 512 rows of price data for GEHC
+2025-03-15 10:30:19,431 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,431 - INFO - Successfully analyzed GEHC
+2025-03-15 10:30:19,431 - INFO - Processing GILD (40/98)
+2025-03-15 10:30:19,431 - INFO - Running FAMA_FRENCH analysis for GILD from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,431 - INFO - Executing SQL for price data for GILD
+2025-03-15 10:30:19,432 - INFO - Retrieved 1257 rows of price data for GILD
+2025-03-15 10:30:19,439 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,439 - INFO - Successfully analyzed GILD
+2025-03-15 10:30:19,439 - INFO - Processing GOOG (41/98)
+2025-03-15 10:30:19,439 - INFO - Running FAMA_FRENCH analysis for GOOG from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,439 - INFO - Executing SQL for price data for GOOG
+2025-03-15 10:30:19,441 - INFO - Retrieved 1257 rows of price data for GOOG
+2025-03-15 10:30:19,447 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,447 - INFO - Successfully analyzed GOOG
+2025-03-15 10:30:19,447 - INFO - Processing GOOGL (42/98)
+2025-03-15 10:30:19,447 - INFO - Running FAMA_FRENCH analysis for GOOGL from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,447 - INFO - Executing SQL for price data for GOOGL
+2025-03-15 10:30:19,448 - INFO - Retrieved 1257 rows of price data for GOOGL
+2025-03-15 10:30:19,454 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,454 - INFO - Successfully analyzed GOOGL
+2025-03-15 10:30:19,454 - INFO - Processing HON (43/98)
+2025-03-15 10:30:19,454 - INFO - Running FAMA_FRENCH analysis for HON from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,454 - INFO - Executing SQL for price data for HON
+2025-03-15 10:30:19,456 - INFO - Retrieved 1257 rows of price data for HON
+2025-03-15 10:30:19,462 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,462 - INFO - Successfully analyzed HON
+2025-03-15 10:30:19,462 - INFO - Processing IDXX (44/98)
+2025-03-15 10:30:19,462 - INFO - Running FAMA_FRENCH analysis for IDXX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,462 - INFO - Executing SQL for price data for IDXX
+2025-03-15 10:30:19,463 - INFO - Retrieved 1257 rows of price data for IDXX
+2025-03-15 10:30:19,469 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,469 - INFO - Successfully analyzed IDXX
+2025-03-15 10:30:19,470 - INFO - Processing ILMN (45/98)
+2025-03-15 10:30:19,470 - INFO - Running FAMA_FRENCH analysis for ILMN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,470 - INFO - Executing SQL for price data for ILMN
+2025-03-15 10:30:19,471 - INFO - Retrieved 1257 rows of price data for ILMN
+2025-03-15 10:30:19,476 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,477 - INFO - Successfully analyzed ILMN
+2025-03-15 10:30:19,477 - INFO - Processing INTC (46/98)
+2025-03-15 10:30:19,477 - INFO - Running FAMA_FRENCH analysis for INTC from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,477 - INFO - Executing SQL for price data for INTC
+2025-03-15 10:30:19,478 - INFO - Retrieved 1257 rows of price data for INTC
+2025-03-15 10:30:19,484 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,484 - INFO - Successfully analyzed INTC
+2025-03-15 10:30:19,484 - INFO - Processing INTU (47/98)
+2025-03-15 10:30:19,484 - INFO - Running FAMA_FRENCH analysis for INTU from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,484 - INFO - Executing SQL for price data for INTU
+2025-03-15 10:30:19,486 - INFO - Retrieved 1257 rows of price data for INTU
+2025-03-15 10:30:19,492 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,492 - INFO - Successfully analyzed INTU
+2025-03-15 10:30:19,492 - INFO - Processing ISRG (48/98)
+2025-03-15 10:30:19,492 - INFO - Running FAMA_FRENCH analysis for ISRG from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,492 - INFO - Executing SQL for price data for ISRG
+2025-03-15 10:30:19,494 - INFO - Retrieved 1257 rows of price data for ISRG
+2025-03-15 10:30:19,500 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,500 - INFO - Successfully analyzed ISRG
+2025-03-15 10:30:19,500 - INFO - Processing KDP (49/98)
+2025-03-15 10:30:19,500 - INFO - Running FAMA_FRENCH analysis for KDP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,500 - INFO - Executing SQL for price data for KDP
+2025-03-15 10:30:19,501 - INFO - Retrieved 1257 rows of price data for KDP
+2025-03-15 10:30:19,507 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,507 - INFO - Successfully analyzed KDP
+2025-03-15 10:30:19,507 - INFO - Processing KLAC (50/98)
+2025-03-15 10:30:19,507 - INFO - Running FAMA_FRENCH analysis for KLAC from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,507 - INFO - Executing SQL for price data for KLAC
+2025-03-15 10:30:19,508 - INFO - Retrieved 1257 rows of price data for KLAC
+2025-03-15 10:30:19,514 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,515 - INFO - Successfully analyzed KLAC
+2025-03-15 10:30:19,515 - INFO - Processing LCID (51/98)
+2025-03-15 10:30:19,515 - INFO - Running FAMA_FRENCH analysis for LCID from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,515 - INFO - Executing SQL for price data for LCID
+2025-03-15 10:30:19,516 - INFO - Retrieved 1077 rows of price data for LCID
+2025-03-15 10:30:19,523 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,523 - INFO - Successfully analyzed LCID
+2025-03-15 10:30:19,523 - INFO - Processing LRCX (52/98)
+2025-03-15 10:30:19,523 - INFO - Running FAMA_FRENCH analysis for LRCX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,523 - INFO - Executing SQL for price data for LRCX
+2025-03-15 10:30:19,524 - INFO - Retrieved 1257 rows of price data for LRCX
+2025-03-15 10:30:19,530 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,530 - INFO - Successfully analyzed LRCX
+2025-03-15 10:30:19,530 - INFO - Processing LULU (53/98)
+2025-03-15 10:30:19,530 - INFO - Running FAMA_FRENCH analysis for LULU from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,530 - INFO - Executing SQL for price data for LULU
+2025-03-15 10:30:19,532 - INFO - Retrieved 1257 rows of price data for LULU
+2025-03-15 10:30:19,537 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,537 - INFO - Successfully analyzed LULU
+2025-03-15 10:30:19,537 - INFO - Processing MCHP (54/98)
+2025-03-15 10:30:19,537 - INFO - Running FAMA_FRENCH analysis for MCHP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,537 - INFO - Executing SQL for price data for MCHP
+2025-03-15 10:30:19,539 - INFO - Retrieved 1257 rows of price data for MCHP
+2025-03-15 10:30:19,545 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,545 - INFO - Successfully analyzed MCHP
+2025-03-15 10:30:19,545 - INFO - Processing MDB (55/98)
+2025-03-15 10:30:19,545 - INFO - Running FAMA_FRENCH analysis for MDB from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,545 - INFO - Executing SQL for price data for MDB
+2025-03-15 10:30:19,546 - INFO - Retrieved 1257 rows of price data for MDB
+2025-03-15 10:30:19,553 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,553 - INFO - Successfully analyzed MDB
+2025-03-15 10:30:19,553 - INFO - Processing MDLZ (56/98)
+2025-03-15 10:30:19,553 - INFO - Running FAMA_FRENCH analysis for MDLZ from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,553 - INFO - Executing SQL for price data for MDLZ
+2025-03-15 10:30:19,554 - INFO - Retrieved 1257 rows of price data for MDLZ
+2025-03-15 10:30:19,560 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,560 - INFO - Successfully analyzed MDLZ
+2025-03-15 10:30:19,560 - INFO - Processing MELI (57/98)
+2025-03-15 10:30:19,560 - INFO - Running FAMA_FRENCH analysis for MELI from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,560 - INFO - Executing SQL for price data for MELI
+2025-03-15 10:30:19,562 - INFO - Retrieved 1257 rows of price data for MELI
+2025-03-15 10:30:19,568 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,568 - INFO - Successfully analyzed MELI
+2025-03-15 10:30:19,568 - INFO - Processing META (58/98)
+2025-03-15 10:30:19,568 - INFO - Running FAMA_FRENCH analysis for META from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,568 - INFO - Executing SQL for price data for META
+2025-03-15 10:30:19,570 - INFO - Retrieved 1257 rows of price data for META
+2025-03-15 10:30:19,577 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,577 - INFO - Successfully analyzed META
+2025-03-15 10:30:19,577 - INFO - Processing MNST (59/98)
+2025-03-15 10:30:19,577 - INFO - Running FAMA_FRENCH analysis for MNST from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,577 - INFO - Executing SQL for price data for MNST
+2025-03-15 10:30:19,578 - INFO - Retrieved 1257 rows of price data for MNST
+2025-03-15 10:30:19,584 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,584 - INFO - Successfully analyzed MNST
+2025-03-15 10:30:19,584 - INFO - Processing MRVL (60/98)
+2025-03-15 10:30:19,584 - INFO - Running FAMA_FRENCH analysis for MRVL from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,584 - INFO - Executing SQL for price data for MRVL
+2025-03-15 10:30:19,586 - INFO - Retrieved 1257 rows of price data for MRVL
+2025-03-15 10:30:19,592 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,592 - INFO - Successfully analyzed MRVL
+2025-03-15 10:30:19,592 - INFO - Processing MSFT (61/98)
+2025-03-15 10:30:19,592 - INFO - Running FAMA_FRENCH analysis for MSFT from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,593 - INFO - Executing SQL for price data for MSFT
+2025-03-15 10:30:19,594 - INFO - Retrieved 1257 rows of price data for MSFT
+2025-03-15 10:30:19,600 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,600 - INFO - Successfully analyzed MSFT
+2025-03-15 10:30:19,600 - INFO - Processing MSTR (62/98)
+2025-03-15 10:30:19,600 - INFO - Running FAMA_FRENCH analysis for MSTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,600 - INFO - Executing SQL for price data for MSTR
+2025-03-15 10:30:19,601 - INFO - Retrieved 1257 rows of price data for MSTR
+2025-03-15 10:30:19,607 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,607 - INFO - Successfully analyzed MSTR
+2025-03-15 10:30:19,607 - INFO - Processing MTCH (63/98)
+2025-03-15 10:30:19,607 - INFO - Running FAMA_FRENCH analysis for MTCH from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,607 - INFO - Executing SQL for price data for MTCH
+2025-03-15 10:30:19,609 - INFO - Retrieved 1257 rows of price data for MTCH
+2025-03-15 10:30:19,615 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,615 - INFO - Successfully analyzed MTCH
+2025-03-15 10:30:19,615 - INFO - Processing NFLX (64/98)
+2025-03-15 10:30:19,615 - INFO - Running FAMA_FRENCH analysis for NFLX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,615 - INFO - Executing SQL for price data for NFLX
+2025-03-15 10:30:19,616 - INFO - Retrieved 1257 rows of price data for NFLX
+2025-03-15 10:30:19,623 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,623 - INFO - Successfully analyzed NFLX
+2025-03-15 10:30:19,623 - INFO - Processing NVDA (65/98)
+2025-03-15 10:30:19,623 - INFO - Running FAMA_FRENCH analysis for NVDA from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,623 - INFO - Executing SQL for price data for NVDA
+2025-03-15 10:30:19,625 - INFO - Retrieved 1257 rows of price data for NVDA
+2025-03-15 10:30:19,631 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,631 - INFO - Successfully analyzed NVDA
+2025-03-15 10:30:19,631 - INFO - Processing NXPI (66/98)
+2025-03-15 10:30:19,631 - INFO - Running FAMA_FRENCH analysis for NXPI from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,631 - INFO - Executing SQL for price data for NXPI
+2025-03-15 10:30:19,633 - INFO - Retrieved 1257 rows of price data for NXPI
+2025-03-15 10:30:19,639 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,639 - INFO - Successfully analyzed NXPI
+2025-03-15 10:30:19,639 - INFO - Processing ODFL (67/98)
+2025-03-15 10:30:19,639 - INFO - Running FAMA_FRENCH analysis for ODFL from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,639 - INFO - Executing SQL for price data for ODFL
+2025-03-15 10:30:19,640 - INFO - Retrieved 1257 rows of price data for ODFL
+2025-03-15 10:30:19,646 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,646 - INFO - Successfully analyzed ODFL
+2025-03-15 10:30:19,646 - INFO - Processing ORLY (68/98)
+2025-03-15 10:30:19,646 - INFO - Running FAMA_FRENCH analysis for ORLY from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,646 - INFO - Executing SQL for price data for ORLY
+2025-03-15 10:30:19,648 - INFO - Retrieved 1257 rows of price data for ORLY
+2025-03-15 10:30:19,655 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,655 - INFO - Successfully analyzed ORLY
+2025-03-15 10:30:19,655 - INFO - Processing PANW (69/98)
+2025-03-15 10:30:19,655 - INFO - Running FAMA_FRENCH analysis for PANW from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,655 - INFO - Executing SQL for price data for PANW
+2025-03-15 10:30:19,656 - INFO - Retrieved 1257 rows of price data for PANW
+2025-03-15 10:30:19,663 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,663 - INFO - Successfully analyzed PANW
+2025-03-15 10:30:19,663 - INFO - Processing PAYX (70/98)
+2025-03-15 10:30:19,663 - INFO - Running FAMA_FRENCH analysis for PAYX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,663 - INFO - Executing SQL for price data for PAYX
+2025-03-15 10:30:19,665 - INFO - Retrieved 1257 rows of price data for PAYX
+2025-03-15 10:30:19,671 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,671 - INFO - Successfully analyzed PAYX
+2025-03-15 10:30:19,671 - INFO - Processing PCAR (71/98)
+2025-03-15 10:30:19,671 - INFO - Running FAMA_FRENCH analysis for PCAR from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,671 - INFO - Executing SQL for price data for PCAR
+2025-03-15 10:30:19,672 - INFO - Retrieved 1257 rows of price data for PCAR
+2025-03-15 10:30:19,679 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,679 - INFO - Successfully analyzed PCAR
+2025-03-15 10:30:19,679 - INFO - Processing PEP (72/98)
+2025-03-15 10:30:19,679 - INFO - Running FAMA_FRENCH analysis for PEP from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,679 - INFO - Executing SQL for price data for PEP
+2025-03-15 10:30:19,680 - INFO - Retrieved 1257 rows of price data for PEP
+2025-03-15 10:30:19,687 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,687 - INFO - Successfully analyzed PEP
+2025-03-15 10:30:19,687 - INFO - Processing PLTR (73/98)
+2025-03-15 10:30:19,687 - INFO - Running FAMA_FRENCH analysis for PLTR from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,687 - INFO - Executing SQL for price data for PLTR
+2025-03-15 10:30:19,688 - INFO - Retrieved 1069 rows of price data for PLTR
+2025-03-15 10:30:19,695 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,695 - INFO - Successfully analyzed PLTR
+2025-03-15 10:30:19,695 - INFO - Processing PYPL (74/98)
+2025-03-15 10:30:19,695 - INFO - Running FAMA_FRENCH analysis for PYPL from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,695 - INFO - Executing SQL for price data for PYPL
+2025-03-15 10:30:19,696 - INFO - Retrieved 1257 rows of price data for PYPL
+2025-03-15 10:30:19,703 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,703 - INFO - Successfully analyzed PYPL
+2025-03-15 10:30:19,703 - INFO - Processing QCOM (75/98)
+2025-03-15 10:30:19,703 - INFO - Running FAMA_FRENCH analysis for QCOM from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,703 - INFO - Executing SQL for price data for QCOM
+2025-03-15 10:30:19,704 - INFO - Retrieved 1257 rows of price data for QCOM
+2025-03-15 10:30:19,711 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,711 - INFO - Successfully analyzed QCOM
+2025-03-15 10:30:19,711 - INFO - Processing REGN (76/98)
+2025-03-15 10:30:19,711 - INFO - Running FAMA_FRENCH analysis for REGN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,711 - INFO - Executing SQL for price data for REGN
+2025-03-15 10:30:19,713 - INFO - Retrieved 1257 rows of price data for REGN
+2025-03-15 10:30:19,719 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,719 - INFO - Successfully analyzed REGN
+2025-03-15 10:30:19,719 - INFO - Processing RIVN (77/98)
+2025-03-15 10:30:19,719 - INFO - Running FAMA_FRENCH analysis for RIVN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,719 - INFO - Executing SQL for price data for RIVN
+2025-03-15 10:30:19,720 - INFO - Retrieved 788 rows of price data for RIVN
+2025-03-15 10:30:19,726 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,726 - INFO - Successfully analyzed RIVN
+2025-03-15 10:30:19,726 - INFO - Processing ROST (78/98)
+2025-03-15 10:30:19,726 - INFO - Running FAMA_FRENCH analysis for ROST from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,726 - INFO - Executing SQL for price data for ROST
+2025-03-15 10:30:19,727 - INFO - Retrieved 1257 rows of price data for ROST
+2025-03-15 10:30:19,733 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,733 - INFO - Successfully analyzed ROST
+2025-03-15 10:30:19,733 - INFO - Processing SBUX (79/98)
+2025-03-15 10:30:19,733 - INFO - Running FAMA_FRENCH analysis for SBUX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,733 - INFO - Executing SQL for price data for SBUX
+2025-03-15 10:30:19,735 - INFO - Retrieved 1257 rows of price data for SBUX
+2025-03-15 10:30:19,742 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,742 - INFO - Successfully analyzed SBUX
+2025-03-15 10:30:19,742 - INFO - Processing SIRI (80/98)
+2025-03-15 10:30:19,742 - INFO - Running FAMA_FRENCH analysis for SIRI from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,742 - INFO - Executing SQL for price data for SIRI
+2025-03-15 10:30:19,743 - INFO - Retrieved 1257 rows of price data for SIRI
+2025-03-15 10:30:19,749 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,749 - INFO - Successfully analyzed SIRI
+2025-03-15 10:30:19,749 - INFO - Processing SMCI (81/98)
+2025-03-15 10:30:19,749 - INFO - Running FAMA_FRENCH analysis for SMCI from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,749 - INFO - Executing SQL for price data for SMCI
+2025-03-15 10:30:19,750 - INFO - Retrieved 1257 rows of price data for SMCI
+2025-03-15 10:30:19,757 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,757 - INFO - Successfully analyzed SMCI
+2025-03-15 10:30:19,757 - INFO - Processing SNPS (82/98)
+2025-03-15 10:30:19,757 - INFO - Running FAMA_FRENCH analysis for SNPS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,757 - INFO - Executing SQL for price data for SNPS
+2025-03-15 10:30:19,758 - INFO - Retrieved 1257 rows of price data for SNPS
+2025-03-15 10:30:19,765 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,765 - INFO - Successfully analyzed SNPS
+2025-03-15 10:30:19,765 - INFO - Processing SPY (83/98)
+2025-03-15 10:30:19,765 - INFO - Running FAMA_FRENCH analysis for SPY from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,765 - INFO - Executing SQL for price data for SPY
+2025-03-15 10:30:19,766 - INFO - Retrieved 1257 rows of price data for SPY
+2025-03-15 10:30:19,772 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,772 - INFO - Successfully analyzed SPY
+2025-03-15 10:30:19,772 - INFO - Processing SWKS (84/98)
+2025-03-15 10:30:19,772 - INFO - Running FAMA_FRENCH analysis for SWKS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,772 - INFO - Executing SQL for price data for SWKS
+2025-03-15 10:30:19,774 - INFO - Retrieved 1257 rows of price data for SWKS
+2025-03-15 10:30:19,780 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,780 - INFO - Successfully analyzed SWKS
+2025-03-15 10:30:19,780 - INFO - Processing TEAM (85/98)
+2025-03-15 10:30:19,780 - INFO - Running FAMA_FRENCH analysis for TEAM from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,780 - INFO - Executing SQL for price data for TEAM
+2025-03-15 10:30:19,782 - INFO - Retrieved 1257 rows of price data for TEAM
+2025-03-15 10:30:19,789 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,789 - INFO - Successfully analyzed TEAM
+2025-03-15 10:30:19,789 - INFO - Processing TMUS (86/98)
+2025-03-15 10:30:19,789 - INFO - Running FAMA_FRENCH analysis for TMUS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,789 - INFO - Executing SQL for price data for TMUS
+2025-03-15 10:30:19,790 - INFO - Retrieved 1257 rows of price data for TMUS
+2025-03-15 10:30:19,797 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,797 - INFO - Successfully analyzed TMUS
+2025-03-15 10:30:19,797 - INFO - Processing TSLA (87/98)
+2025-03-15 10:30:19,797 - INFO - Running FAMA_FRENCH analysis for TSLA from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,797 - INFO - Executing SQL for price data for TSLA
+2025-03-15 10:30:19,798 - INFO - Retrieved 1257 rows of price data for TSLA
+2025-03-15 10:30:19,804 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,804 - INFO - Successfully analyzed TSLA
+2025-03-15 10:30:19,804 - INFO - Processing TTD (88/98)
+2025-03-15 10:30:19,804 - INFO - Running FAMA_FRENCH analysis for TTD from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,804 - INFO - Executing SQL for price data for TTD
+2025-03-15 10:30:19,805 - INFO - Retrieved 1257 rows of price data for TTD
+2025-03-15 10:30:19,811 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,812 - INFO - Successfully analyzed TTD
+2025-03-15 10:30:19,812 - INFO - Processing TTWO (89/98)
+2025-03-15 10:30:19,812 - INFO - Running FAMA_FRENCH analysis for TTWO from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,812 - INFO - Executing SQL for price data for TTWO
+2025-03-15 10:30:19,813 - INFO - Retrieved 1257 rows of price data for TTWO
+2025-03-15 10:30:19,819 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,819 - INFO - Successfully analyzed TTWO
+2025-03-15 10:30:19,819 - INFO - Processing TXN (90/98)
+2025-03-15 10:30:19,819 - INFO - Running FAMA_FRENCH analysis for TXN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,819 - INFO - Executing SQL for price data for TXN
+2025-03-15 10:30:19,820 - INFO - Retrieved 1257 rows of price data for TXN
+2025-03-15 10:30:19,827 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,827 - INFO - Successfully analyzed TXN
+2025-03-15 10:30:19,827 - INFO - Processing VRSK (91/98)
+2025-03-15 10:30:19,827 - INFO - Running FAMA_FRENCH analysis for VRSK from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,827 - INFO - Executing SQL for price data for VRSK
+2025-03-15 10:30:19,828 - INFO - Retrieved 1257 rows of price data for VRSK
+2025-03-15 10:30:19,834 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,834 - INFO - Successfully analyzed VRSK
+2025-03-15 10:30:19,834 - INFO - Processing VRSN (92/98)
+2025-03-15 10:30:19,835 - INFO - Running FAMA_FRENCH analysis for VRSN from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,835 - INFO - Executing SQL for price data for VRSN
+2025-03-15 10:30:19,836 - INFO - Retrieved 1257 rows of price data for VRSN
+2025-03-15 10:30:19,841 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,841 - INFO - Successfully analyzed VRSN
+2025-03-15 10:30:19,841 - INFO - Processing VRTX (93/98)
+2025-03-15 10:30:19,841 - INFO - Running FAMA_FRENCH analysis for VRTX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,841 - INFO - Executing SQL for price data for VRTX
+2025-03-15 10:30:19,843 - INFO - Retrieved 1257 rows of price data for VRTX
+2025-03-15 10:30:19,849 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,849 - INFO - Successfully analyzed VRTX
+2025-03-15 10:30:19,849 - INFO - Processing WBD (94/98)
+2025-03-15 10:30:19,849 - INFO - Running FAMA_FRENCH analysis for WBD from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,849 - INFO - Executing SQL for price data for WBD
+2025-03-15 10:30:19,851 - INFO - Retrieved 1257 rows of price data for WBD
+2025-03-15 10:30:19,856 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,856 - INFO - Successfully analyzed WBD
+2025-03-15 10:30:19,856 - INFO - Processing WDAY (95/98)
+2025-03-15 10:30:19,856 - INFO - Running FAMA_FRENCH analysis for WDAY from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,856 - INFO - Executing SQL for price data for WDAY
+2025-03-15 10:30:19,859 - INFO - Retrieved 1257 rows of price data for WDAY
+2025-03-15 10:30:19,865 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,865 - INFO - Successfully analyzed WDAY
+2025-03-15 10:30:19,865 - INFO - Processing XEL (96/98)
+2025-03-15 10:30:19,865 - INFO - Running FAMA_FRENCH analysis for XEL from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,865 - INFO - Executing SQL for price data for XEL
+2025-03-15 10:30:19,866 - INFO - Retrieved 1257 rows of price data for XEL
+2025-03-15 10:30:19,871 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,871 - INFO - Successfully analyzed XEL
+2025-03-15 10:30:19,871 - INFO - Processing ZS (97/98)
+2025-03-15 10:30:19,871 - INFO - Running FAMA_FRENCH analysis for ZS from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,871 - INFO - Executing SQL for price data for ZS
+2025-03-15 10:30:19,873 - INFO - Retrieved 1257 rows of price data for ZS
+2025-03-15 10:30:19,879 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,879 - INFO - Successfully analyzed ZS
+2025-03-15 10:30:19,879 - INFO - Processing ^NDX (98/98)
+2025-03-15 10:30:19,879 - INFO - Running FAMA_FRENCH analysis for ^NDX from 2020-01-01 to 2025-03-15
+2025-03-15 10:30:19,879 - INFO - Executing SQL for price data for ^NDX
+2025-03-15 10:30:19,880 - INFO - Retrieved 1257 rows of price data for ^NDX
+2025-03-15 10:30:19,887 - ERROR - Error storing fundamental analysis results: 'expected_return'
+2025-03-15 10:30:19,887 - INFO - Successfully analyzed ^NDX
+2025-03-15 10:30:19,887 - INFO - Analysis completed. Success: 98, Errors: 0
+2025-03-15 10:38:08,989 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-15 10:38:08,989 - INFO - NumExpr defaulting to 16 threads.
+2025-03-15 10:38:10,134 - INFO - === Starting Data Pipeline ===
+2025-03-15 10:38:10,134 - INFO - Setting up database schema...
+2025-03-15 10:38:10,136 - INFO - Connected to database.
+2025-03-15 10:38:10,137 - INFO - Database schema created/updated successfully.
+2025-03-15 10:38:10,137 - INFO - Fetching tickers...
+2025-03-15 10:38:10,146 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 10:38:10,146 - INFO - Ticker fetch process completed successfully
+2025-03-15 10:38:10,146 - INFO - Fetching price data...
+2025-03-15 10:38:10,148 - INFO - Found 100 unique tickers to process
+2025-03-15 10:38:10,803 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 10:38:11,572 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 10:38:12,360 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 10:38:13,252 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 10:38:14,043 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 10:38:14,883 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 10:38:15,627 - INFO - Successfully stored 2263 price points for META
+2025-03-15 10:38:16,351 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 10:38:17,223 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 10:38:18,073 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 10:38:18,964 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 10:38:19,925 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 10:38:20,743 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 10:38:21,504 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 10:38:22,391 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 10:38:23,134 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 10:38:23,881 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 10:38:24,881 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 10:38:25,639 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 10:38:26,411 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 10:38:27,388 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 10:38:28,237 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 10:38:28,969 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 10:38:29,776 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 10:38:30,525 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 10:38:31,247 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 10:38:31,965 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 10:38:32,855 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 10:38:33,576 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 10:38:34,423 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 10:38:50,790 - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-15 10:38:50,790 - INFO - NumExpr defaulting to 16 threads.
+2025-03-15 10:38:54,698 - INFO - === Starting Data Pipeline ===
+2025-03-15 10:38:54,698 - INFO - Setting up database schema...
+2025-03-15 10:38:54,699 - INFO - Connected to database.
+2025-03-15 10:38:54,700 - INFO - Database schema created/updated successfully.
+2025-03-15 10:38:54,701 - INFO - Fetching tickers...
+2025-03-15 10:38:54,714 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 10:38:54,714 - INFO - Ticker fetch process completed successfully
+2025-03-15 10:38:54,714 - INFO - Fetching price data...
+2025-03-15 10:38:54,716 - INFO - Found 100 unique tickers to process
+2025-03-15 10:38:55,473 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 10:38:56,257 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 10:38:57,002 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 10:38:57,750 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 10:38:58,489 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 10:38:59,358 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 10:39:00,104 - INFO - Successfully stored 2263 price points for META
+2025-03-15 10:39:00,950 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 10:39:01,756 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 10:39:02,587 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 10:39:03,339 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 10:39:04,193 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 10:39:04,927 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 10:39:05,664 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 10:39:06,521 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 10:39:07,327 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 10:39:08,095 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 10:39:08,865 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 10:39:09,621 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 10:39:10,518 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 10:39:11,311 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 10:39:12,043 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 10:39:12,742 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 10:39:13,672 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 10:39:14,426 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 10:39:15,142 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 10:39:15,875 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 10:39:16,836 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 10:39:17,547 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 10:39:18,293 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 10:39:19,064 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 10:39:19,764 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 10:39:20,711 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 10:39:21,602 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 10:39:22,547 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 10:39:23,565 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 10:39:24,395 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 10:39:25,346 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 10:39:26,207 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 10:39:27,149 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 10:39:27,840 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 10:39:28,577 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 10:39:29,376 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 10:39:30,181 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 10:39:31,004 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 10:39:31,752 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 10:39:32,482 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 10:39:33,269 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 10:39:34,036 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 10:39:34,820 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 10:39:35,542 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 10:39:36,389 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 10:39:37,264 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 10:39:38,076 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 10:39:38,821 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 10:39:39,603 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 10:39:40,348 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 10:39:41,133 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 10:39:41,966 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 10:39:42,825 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 10:39:43,665 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 10:39:44,532 - INFO - Successfully stored 2263 price points for EXC
+2025-03-15 10:39:45,341 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-15 10:39:46,109 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-15 10:39:46,811 - INFO - Successfully stored 2263 price points for ANSS
+2025-03-15 10:39:47,626 - INFO - Successfully stored 2263 price points for CTSH
+2025-03-15 10:39:48,299 - INFO - Successfully stored 1329 price points for DDOG
+2025-03-15 10:39:49,091 - INFO - Successfully stored 2263 price points for IDXX
+2025-03-15 10:39:49,993 - INFO - Successfully stored 2263 price points for VRSK

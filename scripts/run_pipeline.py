@@ -15,13 +15,13 @@ All configuration values are centralized in config.py.
 import logging
 from datetime import datetime
 from config import DB_PATH, SCHEMA_PATH, LOG_FILE, LOG_LEVEL
-from db_utils import create_connection, setup_database
+from scripts.db_utils import create_connection, setup_database
 from scripts.fetch_tickers import main as fetch_tickers_main
 from scripts.fetch_price import main as fetch_price_main
 from scripts.cleanup_database import main as cleanup_main
 from scripts.fundamentals import main as run_fundamentals
 from scripts.technical_signals import update_technical_signals
-from backtest_technicals import backtest_trading_strategy, update_backtesting_results
+from scripts.backtest_technicals import backtest_trading_strategy, update_backtesting_results
 
 # Configure logging for the pipeline
 logging.basicConfig(
@@ -40,12 +40,12 @@ def main():
     conn.close()
     
     # Step 2: Fetch tickers and store them in the database
-    logging.info("Fetching tickers...")
-    fetch_tickers_main()  # This writes tickers into nasdaq_100_tickers
+    #logging.info("Fetching tickers...")
+    #fetch_tickers_main()  # This writes tickers into nasdaq_100_tickers
     
     # Step 3: Fetch price data for tickers and baseline indices
-    logging.info("Fetching price data...")
-    fetch_price_main()  # This writes price data into nasdaq_100_daily_prices
+    #logging.info("Fetching price data...")
+    #fetch_price_main()  # This writes price data into nasdaq_100_daily_prices
     
     # Step 4: Clean up duplicate entries in fundamental analysis tables
     logging.info("Cleaning up duplicate entries...")

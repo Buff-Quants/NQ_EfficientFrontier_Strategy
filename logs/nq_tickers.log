@@ -6489,3 +6489,81 @@
 2025-03-14 13:40:47,223 - INFO - Connected to database for technical signals update.
 2025-03-14 13:40:47,764 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
 2025-03-14 13:40:53,821 - INFO - Inserted 208636 records into technical_signals.
+2025-03-15 10:36:27,967 - INFO - === Starting Data Pipeline ===
+2025-03-15 10:36:27,967 - INFO - Setting up database schema...
+2025-03-15 10:36:36,764 - INFO - === Starting Data Pipeline ===
+2025-03-15 10:36:36,764 - INFO - Setting up database schema...
+2025-03-15 10:37:10,458 - INFO - === Starting Data Pipeline ===
+2025-03-15 10:37:10,458 - INFO - Setting up database schema...
+2025-03-15 10:37:10,467 - INFO - Connected to database.
+2025-03-15 10:37:10,471 - INFO - Database schema created/updated successfully.
+2025-03-15 10:37:10,471 - INFO - Fetching tickers...
+2025-03-15 10:37:10,484 - INFO - Successfully stored 100 tickers for 2025-03-15
+2025-03-15 10:37:10,484 - INFO - Ticker fetch process completed successfully
+2025-03-15 10:37:10,484 - INFO - Fetching price data...
+2025-03-15 10:37:10,485 - INFO - Found 100 unique tickers to process
+2025-03-15 10:37:11,084 - INFO - Successfully stored 2263 price points for AAPL
+2025-03-15 10:37:11,863 - INFO - Successfully stored 2263 price points for MSFT
+2025-03-15 10:37:12,663 - INFO - Successfully stored 2263 price points for AMZN
+2025-03-15 10:37:13,575 - INFO - Successfully stored 2263 price points for NVDA
+2025-03-15 10:37:14,358 - INFO - Successfully stored 2263 price points for GOOGL
+2025-03-15 10:37:15,199 - INFO - Successfully stored 2263 price points for GOOG
+2025-03-15 10:37:15,983 - INFO - Successfully stored 2263 price points for META
+2025-03-15 10:37:16,715 - INFO - Successfully stored 2263 price points for TSLA
+2025-03-15 10:37:17,469 - INFO - Successfully stored 2263 price points for AVGO
+2025-03-15 10:37:18,213 - INFO - Successfully stored 2263 price points for ADBE
+2025-03-15 10:37:19,128 - INFO - Successfully stored 2263 price points for COST
+2025-03-15 10:37:19,931 - INFO - Successfully stored 2263 price points for PEP
+2025-03-15 10:37:20,726 - INFO - Successfully stored 2263 price points for CSCO
+2025-03-15 10:37:21,472 - INFO - Successfully stored 2263 price points for NFLX
+2025-03-15 10:37:22,427 - INFO - Successfully stored 2263 price points for CMCSA
+2025-03-15 10:37:23,222 - INFO - Successfully stored 2263 price points for AMD
+2025-03-15 10:37:24,081 - INFO - Successfully stored 2263 price points for TMUS
+2025-03-15 10:37:25,022 - INFO - Successfully stored 2263 price points for INTC
+2025-03-15 10:37:25,816 - INFO - Successfully stored 2263 price points for INTU
+2025-03-15 10:37:26,576 - INFO - Successfully stored 2263 price points for QCOM
+2025-03-15 10:37:27,450 - INFO - Successfully stored 2263 price points for TXN
+2025-03-15 10:37:28,394 - INFO - Successfully stored 2263 price points for AMAT
+2025-03-15 10:37:29,312 - INFO - Successfully stored 2263 price points for AMGN
+2025-03-15 10:37:30,174 - INFO - Successfully stored 2263 price points for HON
+2025-03-15 10:37:30,946 - INFO - Successfully stored 2263 price points for SBUX
+2025-03-15 10:37:31,676 - INFO - Successfully stored 2263 price points for ISRG
+2025-03-15 10:37:32,444 - INFO - Successfully stored 2263 price points for ADI
+2025-03-15 10:37:33,305 - INFO - Successfully stored 2263 price points for MDLZ
+2025-03-15 10:37:34,145 - INFO - Successfully stored 2263 price points for GILD
+2025-03-15 10:37:34,863 - INFO - Successfully stored 2263 price points for REGN
+2025-03-15 10:37:35,745 - INFO - Successfully stored 2263 price points for ADP
+2025-03-15 10:37:36,489 - INFO - Successfully stored 2263 price points for VRTX
+2025-03-15 10:37:37,246 - INFO - Successfully stored 2263 price points for PANW
+2025-03-15 10:37:38,100 - INFO - Successfully stored 2263 price points for KLAC
+2025-03-15 10:37:38,821 - INFO - Successfully stored 2263 price points for LRCX
+2025-03-15 10:37:39,570 - INFO - Successfully stored 2263 price points for SNPS
+2025-03-15 10:37:40,302 - INFO - Successfully stored 2263 price points for ASML
+2025-03-15 10:37:41,135 - INFO - Successfully stored 2263 price points for CDNS
+2025-03-15 10:37:42,010 - INFO - Successfully stored 2263 price points for MRVL
+2025-03-15 10:37:42,744 - INFO - Successfully stored 2263 price points for BKNG
+2025-03-15 10:37:43,411 - INFO - Successfully stored 1019 price points for ABNB
+2025-03-15 10:37:44,162 - INFO - Successfully stored 2263 price points for ADSK
+2025-03-15 10:37:45,035 - INFO - Successfully stored 2263 price points for ORLY
+2025-03-15 10:37:45,742 - INFO - Successfully stored 2263 price points for FTNT
+2025-03-15 10:37:46,521 - INFO - Successfully stored 2263 price points for CTAS
+2025-03-15 10:37:47,302 - INFO - Successfully stored 2263 price points for MELI
+2025-03-15 10:37:48,151 - INFO - Successfully stored 2263 price points for MNST
+2025-03-15 10:37:48,918 - INFO - Successfully stored 2263 price points for PAYX
+2025-03-15 10:37:49,654 - INFO - Successfully stored 2263 price points for KDP
+2025-03-15 10:37:50,492 - INFO - Successfully stored 2263 price points for PCAR
+2025-03-15 10:37:51,215 - INFO - Successfully stored 1398 price points for CRWD
+2025-03-15 10:37:51,960 - INFO - Successfully stored 2263 price points for DXCM
+2025-03-15 10:37:52,749 - INFO - Successfully stored 2263 price points for CHTR
+2025-03-15 10:37:53,527 - INFO - Successfully stored 2263 price points for LULU
+2025-03-15 10:37:54,311 - INFO - Successfully stored 2263 price points for NXPI
+2025-03-15 10:37:55,056 - INFO - Successfully stored 2263 price points for MCHP
+2025-03-15 10:37:55,921 - INFO - Successfully stored 2263 price points for WDAY
+2025-03-15 10:37:56,726 - INFO - Successfully stored 2263 price points for CPRT
+2025-03-15 10:37:57,454 - INFO - Successfully stored 2263 price points for ODFL
+2025-03-15 10:37:58,246 - INFO - Successfully stored 2263 price points for ROST
+2025-03-15 10:37:59,093 - INFO - Successfully stored 2263 price points for FAST
+2025-03-15 10:37:59,968 - INFO - Successfully stored 2263 price points for EXC
+2025-03-15 10:38:00,769 - INFO - Successfully stored 2263 price points for BIIB
+2025-03-15 10:38:01,585 - INFO - Successfully stored 2263 price points for CSGP
+2025-03-15 10:38:02,394 - INFO - Successfully stored 2263 price points for ANSS

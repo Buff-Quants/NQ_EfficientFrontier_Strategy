@@ -28,7 +28,7 @@ pio.renderers.default = 'browser'
 pd.set_option('future.no_silent_downcasting', True)
 
 # Import technical indicator functions from technical_signals.py
-from technical_signals import apply_trading_strategy, update_technical_signals
+from scripts.technical_signals import apply_trading_strategy, update_technical_signals
 
 # Import configuration constants from config.py
 from config import DB_PATH, START_DATE, INIT_VALUE, DATA_FREQ, SMA_SHORT_RANGE, SMA_LONG_RANGE, LOG_FILE, LOG_LEVEL

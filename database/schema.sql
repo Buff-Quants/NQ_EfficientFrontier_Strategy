@@ -36,6 +36,7 @@ CREATE TABLE IF NOT EXISTS fundamental_results (
     ff_factor3 REAL,
     ff_factor4 REAL,
     ff_factor5 REAL,
+    model TEXT,
     UNIQUE(ticker, analysis_date)
 );
 
