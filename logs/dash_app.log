@@ -47,3 +47,15 @@
 2025-03-14 18:07:22,625 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
 2025-03-14 18:09:07,030 - INFO - Dash is running on http://127.0.0.1:8050/
 
+2025-03-14 18:19:12,058 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 18:21:59,888 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 18:24:57,936 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 18:27:21,916 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 18:30:20,876 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2025-03-14 18:33:10,509 - INFO - Dash is running on http://127.0.0.1:8050/
+

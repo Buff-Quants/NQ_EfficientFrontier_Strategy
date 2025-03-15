@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 
 # ---------------------------------------------------------------------
-# Import functions from our other scripts
+# Import functions from other scripts
 # ---------------------------------------------------------------------
 from technical_signals import update_technical_signals, apply_trading_strategy
 from backtest_technicals import backtest_trading_strategy
@@ -30,12 +30,6 @@ from backtest_technicals import backtest_trading_strategy
 DB_PATH = os.path.join("database", "data.db")
 START_DATE = '2000-01-01'
 INIT_VALUE = 100000
-
-# ---------------------------------------------------------------------
-# Update Technical Signals at Startup (if needed)
-# ---------------------------------------------------------------------
-# Uncomment if you wish to update signals on app start:
-# update_technical_signals(DB_PATH)
 
 # ---------------------------------------------------------------------
 # Run Backtest to Get Results
@@ -49,29 +43,21 @@ if backtest_results_df is None:
     backtest_results_df = pd.DataFrame()
 
 # ---------------------------------------------------------------------
-# Load Price Data and Signals Directly from the Database
+# Load Price Data and Signals from Database
 # ---------------------------------------------------------------------
 try:
     conn = sqlite3.connect(DB_PATH)
     price_df = pd.read_sql_query(
-        "SELECT date, ticker, close FROM nasdaq_100_daily_prices",
-        conn, parse_dates=['date']
-    )
-    # Pivot to wide format (date index, tickers as columns)
-    price_pivot = price_df.pivot(index='date', columns='ticker', values='close').sort_index()
-
-    # NOTE: Here we alias signal_date as date to match the pivot logic
-    signals_df = pd.read_sql_query(
-        "SELECT signal_date AS date, ticker, signal FROM technical_signals",
+        "SELECT date, ticker, close, volume FROM nasdaq_100_daily_prices",
         conn, parse_dates=['date']
     )
     conn.close()
 
-    signals_pivot = signals_df.pivot(index='date', columns='ticker', values='signal').sort_index().fillna(0)
+    # Pivot close data
+    price_pivot = price_df.pivot(index='date', columns='ticker', values='close').sort_index()
 except Exception as e:
-    logging.error(f"Error loading price or signals data: {e}")
+    logging.error(f"Error loading price data: {e}")
     price_pivot = pd.DataFrame()
-    signals_pivot = pd.DataFrame()
 
 # Create ticker list for dropdown based on price data
 tickers = list(price_pivot.columns) if not price_pivot.empty else []
@@ -84,9 +70,31 @@ server = app.server
 
 app.layout = html.Div([
     html.H1("Trading Strategy Dashboard"),
+    
     dcc.Tabs(id='tabs', value='tab-dashboard', children=[
         dcc.Tab(label='Dashboard', value='tab-dashboard', children=[
             html.Br(),
+
+            # Sorting Options for Data Table
+            html.Div([
+                html.Label("Sort By:"),
+                dcc.Dropdown(
+                    id='sort-dropdown',
+                    options=[{'label': col, 'value': col} for col in backtest_results_df.columns],
+                    value='Profit Percentage',
+                    clearable=False
+                ),
+                dcc.RadioItems(
+                    id='sort-order',
+                    options=[
+                        {'label': 'Ascending', 'value': 'asc'},
+                        {'label': 'Descending', 'value': 'desc'}
+                    ],
+                    value='desc',
+                    inline=True
+                ),
+            ], style={'width': '50%', 'margin-bottom': '20px'}),
+
             # Backtest Results Table
             dash_table.DataTable(
                 id='backtest-table',
@@ -97,7 +105,8 @@ app.layout = html.Div([
                 style_cell={'textAlign': 'center'}
             ),
             html.Br(),
-            # Interactive Chart for Selected Ticker
+
+            # Ticker Selection
             html.Div([
                 html.Label("Select Ticker:"),
                 dcc.Dropdown(
@@ -107,24 +116,11 @@ app.layout = html.Div([
                     clearable=False
                 )
             ], style={'width': '25%', 'display': 'inline-block'}),
+            
             dcc.Graph(id='strategy-graph')
-        ]),
-        dcc.Tab(label='Raw Data Output', value='tab-raw', children=[
-            html.Br(),
-            dash_table.DataTable(
-                id='raw-data-table',
-                columns=[{"name": col, "id": col} for col in backtest_results_df.columns],
-                data=backtest_results_df.to_dict('records'),
-                page_size=10,
-                style_table={'overflowX': 'auto'},
-                style_cell={'textAlign': 'center'}
-            )
-        ]),
-        dcc.Tab(label='Optimization (Placeholder)', value='tab-opt', children=[
-            html.Br(),
-            html.Div("Optimization results and future efficient frontier analysis will be added here.", style={'textAlign': 'center'})
         ])
     ]),
+    
     html.Div(id='additional-output')
 ])
 
@@ -136,66 +132,70 @@ app.layout = html.Div([
     Input('ticker-dropdown', 'value')
 )
 def update_graph(selected_ticker):
-    if not selected_ticker or price_pivot.empty or signals_pivot.empty:
+    if not selected_ticker or price_pivot.empty:
         return go.Figure()
 
-    # Get price series and corresponding signals
-    price_series = price_pivot[selected_ticker].dropna()
-    signal_series = signals_pivot[selected_ticker].reindex(price_series.index).fillna(0)
+    # Extract close price for selected ticker
+    close_series = price_pivot[selected_ticker].dropna()
+    close_pct_change = (close_series / close_series.iloc[0] - 1) * 100  # Convert to %
 
-    # Build the figure
-    fig = go.Figure()
-    # Plot price line
-    fig.add_trace(go.Scatter(
-        x=price_series.index,
-        y=price_series.values,
-        mode='lines',
-        name=f"{selected_ticker} Price"
-    ))
-    # Plot buy signals
-    buy_mask = (signal_series == 1)
-    fig.add_trace(go.Scatter(
-        x=price_series.index[buy_mask],
-        y=price_series[buy_mask],
-        mode='markers',
-        marker_symbol='triangle-up',
-        marker_color='green',
-        marker_size=10,
-        name="Buy Signal"
-    ))
-    # Plot sell signals
-    sell_mask = (signal_series == -1)
-    fig.add_trace(go.Scatter(
-        x=price_series.index[sell_mask],
-        y=price_series[sell_mask],
-        mode='markers',
-        marker_symbol='triangle-down',
-        marker_color='red',
-        marker_size=10,
-        name="Sell Signal"
-    ))
-    # Add SPY benchmark (if available)
+    # Fetch SPY & NASDAQ Benchmarks
     try:
         conn = sqlite3.connect(DB_PATH)
-        spy_df = pd.read_sql_query(
-            "SELECT date, close FROM nasdaq_100_daily_prices WHERE ticker = 'SPY' AND date >= ? ORDER BY date",
-            conn, params=(START_DATE,), parse_dates=['date']
+        benchmarks_df = pd.read_sql_query(
+            "SELECT date, ticker, close FROM nasdaq_100_daily_prices WHERE ticker IN ('SPY', '^NDX')",
+            conn, parse_dates=['date']
         )
         conn.close()
-        if not spy_df.empty:
-            spy_series = spy_df.set_index('date')['close'].sort_index()
-            fig.add_trace(go.Scatter(
-                x=spy_series.index,
-                y=spy_series.values,
-                mode='lines',
-                name="SPY Benchmark",
-                line=dict(color='orange')
-            ))
+
+        if not benchmarks_df.empty:
+            spy_series = benchmarks_df[benchmarks_df['ticker'] == 'SPY'].set_index('date')['close']
+            ndx_series = benchmarks_df[benchmarks_df['ticker'] == '^NDX'].set_index('date')['close']
+
+            spy_pct_change = (spy_series / spy_series.iloc[0] - 1) * 100
+            ndx_pct_change = (ndx_series / ndx_series.iloc[0] - 1) * 100
+        else:
+            spy_pct_change = pd.Series(dtype=float)
+            ndx_pct_change = pd.Series(dtype=float)
+
     except Exception as e:
-        logging.error(f"Error loading SPY benchmark data: {e}")
+        logging.error(f"Error loading SPY & NASDAQ data: {e}")
+        spy_pct_change = pd.Series(dtype=float)
+        ndx_pct_change = pd.Series(dtype=float)
+
+    # Build Plotly Figure
+    fig = go.Figure()
+
+    # Plot Ticker as % Change
+    fig.add_trace(go.Scatter(
+        x=close_series.index,
+        y=close_pct_change,
+        mode='lines',
+        name=f"{selected_ticker} % Change"
+    ))
+
+    # Plot Benchmarks
+    if not spy_pct_change.empty:
+        fig.add_trace(go.Scatter(
+            x=spy_pct_change.index,
+            y=spy_pct_change,
+            mode='lines',
+            name="SPY Benchmark",
+            line=dict(color='orange', dash='dash')
+        ))
+
+    if not ndx_pct_change.empty:
+        fig.add_trace(go.Scatter(
+            x=ndx_pct_change.index,
+            y=ndx_pct_change,
+            mode='lines',
+            name="NASDAQ Benchmark",
+            line=dict(color='purple', dash='dot')
+        ))
 
     fig.update_layout(
-        title=f"Interactive Trading Strategy for {selected_ticker}",
+        title=f"Performance Comparison for {selected_ticker}",
+        yaxis_title="Percentage Change (%)",
         xaxis=dict(
             rangeselector=dict(
                 buttons=[
@@ -211,6 +211,19 @@ def update_graph(selected_ticker):
         )
     )
     return fig
+
+
+@app.callback(
+    Output('backtest-table', 'data'),
+    [Input('sort-dropdown', 'value'), Input('sort-order', 'value')]
+)
+def update_backtest_table(sort_by, order):
+    if backtest_results_df.empty:
+        return []
+
+    sorted_df = backtest_results_df.sort_values(by=sort_by, ascending=(order == 'asc'))
+    return sorted_df.to_dict('records')
+
 
 # ---------------------------------------------------------------------
 # Run the Dash App
