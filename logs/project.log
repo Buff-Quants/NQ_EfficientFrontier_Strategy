@@ -63,3 +63,5 @@
 2025-03-14 16:56:04,565 - INFO - Loaded daily price data from nasdaq_100_daily_prices.
 2025-03-14 16:56:10,844 - INFO - Inserted 208832 records into technical_signals.
 2025-03-14 16:56:14,415 - ERROR - Error loading price or signals data: Execution failed on sql 'SELECT date, ticker, signal FROM technical_signals': no such column: date
+2025-03-14 19:06:44,408 - INFO - Dash is running on http://127.0.0.1:8050/
+
