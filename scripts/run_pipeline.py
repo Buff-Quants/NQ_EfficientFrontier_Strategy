@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 run_pipeline.py
 
@@ -5,19 +6,22 @@ This script runs the entire data pipeline, including:
 - Setting up the database schema,
 - Fetching tickers,
 - Fetching price data,
-- Cleaning up duplicate entries,
+- Cleaning up duplicate entries (in fundamental tables),
 - Running fundamental analysis, and
-- Computing technical signals.
+- Computing technical signals, as well as backtesting.
+All configuration values are centralized in config.py.
 """
 
 import logging
+from datetime import datetime
 from config import DB_PATH, SCHEMA_PATH, LOG_FILE, LOG_LEVEL
-from scripts.db_utils import create_connection, setup_database
+from db_utils import create_connection, setup_database
 from scripts.fetch_tickers import main as fetch_tickers_main
 from scripts.fetch_price import main as fetch_price_main
 from scripts.cleanup_database import main as cleanup_main
 from scripts.fundamentals import main as run_fundamentals
 from scripts.technical_signals import update_technical_signals
+from backtest_technicals import backtest_trading_strategy, update_backtesting_results
 
 # Configure logging for the pipeline
 logging.basicConfig(
@@ -37,23 +41,32 @@ def main():
     
     # Step 2: Fetch tickers and store them in the database
     logging.info("Fetching tickers...")
-    fetch_tickers_main()  # This function writes tickers to the appropriate table
+    fetch_tickers_main()  # This writes tickers into nasdaq_100_tickers
     
     # Step 3: Fetch price data for tickers and baseline indices
     logging.info("Fetching price data...")
-    fetch_price_main()  # This function writes price data to the database
+    fetch_price_main()  # This writes price data into nasdaq_100_daily_prices
     
-    # Step 4: Run fundamental analysis and store the results
+    # Step 4: Clean up duplicate entries in fundamental analysis tables
+    logging.info("Cleaning up duplicate entries...")
+    cleanup_main()  # Cleans up duplicates in fundamental_analysis_capm and fundamental_analysis_ff
+    
+    # Step 5: Run fundamental analysis and store the results
     logging.info("Running fundamental analysis...")
-    run_fundamentals()  # Make sure fundamentals.py is set to process all tickers as desired.
+    run_fundamentals()  # Processes all tickers based on price data
     
-    # Step 5: Compute technical signals and store them in the database
+    # Step 6: Compute technical signals and store them in the database
     logging.info("Computing technical signals...")
-    update_technical_signals(DB_PATH)  # Pass DB_PATH as needed.
-
-    # Step 6: Clean up duplicate entries in the database
-    logging.info("Running cleanup on database...")
-    cleanup_main()  # Cleans up duplicate entries and runs VACUUM
+    update_technical_signals(DB_PATH)
+    
+    # Step 7: Backtesting the trading strategy
+    logging.info("Running backtesting analysis...")
+    returns_df = backtest_trading_strategy()  
+    logging.info("Backtesting completed.")
+    
+    test_date = datetime.now().strftime('%Y-%m-%d')
+    strategy_name = "Technical Strategy"
+    update_backtesting_results(DB_PATH, returns_df, test_date, strategy_name)
     
     logging.info("=== Data Pipeline Completed Successfully ===")
 

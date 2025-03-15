@@ -1,13 +1,16 @@
-# backtest_technicals.py
+"""
+backtest_technicals.py
 
-'''
 This script contains functions to backtest a technical trading strategy using vectorbt.
-The backtest_trading_strategy function loads price data from the database, applies the technical strategy,
-and builds a portfolio using vectorbt's Portfolio.from_signals. It then extracts performance metrics.
-The update_backtesting_results function inserts the backtesting results into the SQL table backtesting_results.
-The optimize_sma_windows function optimizes the SMA window parameters for a given DataFrame of price data.
-The deep_dive_analysis function prints detailed portfolio statistics and displays an interactive Plotly performance plot.
-'''
+It:
+  - Loads price data from the database,
+  - Applies the technical strategy,
+  - Builds a portfolio using vectorbt's Portfolio.from_signals,
+  - Extracts performance metrics,
+  - Updates backtesting results in the SQL table,
+  - Optimizes SMA window parameters, and
+  - Provides a deep dive analysis with Plotly.
+"""
 
 import os
 import sqlite3
@@ -20,27 +23,30 @@ from math import floor
 import vectorbt as vbt
 import plotly.io as pio
 
-# Set Plotly default renderer to 'browser' for deep dive analysis
+# Set Plotly default renderer for deep dive analysis
 pio.renderers.default = 'browser'
-
-# Opt in to future behavior for downcasting
 pd.set_option('future.no_silent_downcasting', True)
 
 # Import technical indicator functions from technical_signals.py
 from technical_signals import apply_trading_strategy, update_technical_signals
 
-# Set up logging
-logging.basicConfig(filename='logs/project.log', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+# Import configuration constants from config.py
+from config import DB_PATH, START_DATE, INIT_VALUE, DATA_FREQ, SMA_SHORT_RANGE, SMA_LONG_RANGE, LOG_FILE, LOG_LEVEL
 
+# Configure logging using config values
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=LOG_LEVEL,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 ##############################################
 # BACKTESTING & ENHANCED ANALYSIS FUNCTIONS
 ##############################################
 
-def backtest_trading_strategy(db_path, starting_date='2000-01-01', investment_value=100000):
+def backtest_trading_strategy(db_path=DB_PATH, starting_date=START_DATE, investment_value=INIT_VALUE):
     """
-    For each ticker, load price data from SQL, apply the technical strategy (using original calculations),
+    For each ticker, load price data from SQL, apply the technical strategy,
     and build a portfolio using vectorbt's Portfolio.from_signals.
     Then extract performance metrics.
     """
@@ -68,16 +74,14 @@ def backtest_trading_strategy(db_path, starting_date='2000-01-01', investment_va
         entries = (df['overall_signal'] == 1) & (df['overall_signal'].shift(1) != 1)
         exits = (df['overall_signal'] == -1) & (df['overall_signal'].shift(1) != -1)
         
-        # Build the portfolio using vectorbt
         portfolio = vbt.Portfolio.from_signals(
             df['close'],
             entries,
             exits,
             init_cash=investment_value,
-            freq='1D'
+            freq=DATA_FREQ
         )
         
-        # Retrieve performance metrics
         total_return = portfolio.total_return()    # e.g., 1.1 means 110%
         profit = total_return * investment_value
         profit_pct = total_return * 100
@@ -128,9 +132,10 @@ def update_backtesting_results(db_path, results_df, test_date, strategy_name):
         logging.error(f"Error updating backtesting results: {e}")
 
 
-def optimize_sma_windows(df, sma_short_range, sma_long_range, investment_value=100000):
+def optimize_sma_windows(df, sma_short_range=SMA_SHORT_RANGE, sma_long_range=SMA_LONG_RANGE, investment_value=INIT_VALUE):
     """
-    Example optimization: loop over SMA window combinations (using original indicator calculations).
+    Optimize SMA window parameters for a given DataFrame of price data.
+    Loops over SMA window combinations using the original indicator calculations.
     """
     results = []
     for sma_short in sma_short_range:
@@ -139,7 +144,6 @@ def optimize_sma_windows(df, sma_short_range, sma_long_range, investment_value=1
                 continue
             
             df_opt = df.copy()
-            # Compute SMAs using original methods
             df_opt['SMA_short'] = df_opt['close'].rolling(window=sma_short).mean()
             df_opt['SMA_long'] = df_opt['close'].rolling(window=sma_long).mean()
             signal = df_opt['SMA_short'] > df_opt['SMA_long']
@@ -151,7 +155,7 @@ def optimize_sma_windows(df, sma_short_range, sma_long_range, investment_value=1
                 entries,
                 exits,
                 init_cash=investment_value,
-                freq='1D'
+                freq=DATA_FREQ
             )
             total_return = portfolio.total_return()
             results.append({
@@ -177,26 +181,24 @@ def deep_dive_analysis(portfolio):
 
 
 ##############################################
-# MAIN EXECUTION
+# MAIN EXECUTION (for testing)
 ##############################################
 
 if __name__ == "__main__":
-    db_path = os.path.join("database", "data.db")
+    # Update technical signals first (optional step)
+    update_technical_signals(DB_PATH)
     
-    # Step 1: Update technical signals using original indicator calculations
-    update_technical_signals(db_path)
-    
-    # Step 2: Run backtesting via vectorbt
-    returns_df = backtest_trading_strategy(db_path, starting_date='2000-01-01', investment_value=100000)
+    # Run backtesting for all tickers from the database
+    returns_df = backtest_trading_strategy(DB_PATH, starting_date=START_DATE, investment_value=INIT_VALUE)
     print("Backtesting Results:")
     print(returns_df)
     
-    # Step 3: Update backtesting results in SQL
+    # Update backtesting results in SQL
     test_date = datetime.now().strftime('%Y-%m-%d')
     strategy_name = "Vectorbt Technical Strategy"
-    update_backtesting_results(db_path, returns_df, test_date, strategy_name)
+    update_backtesting_results(DB_PATH, returns_df, test_date, strategy_name)
     
-    # Step 4: Merge Sector Information using yfinance
+    # Merge Sector Information using yfinance
     tickers = returns_df['Ticker'].unique()
     sector_list = []
     for t in tickers:
@@ -211,7 +213,7 @@ if __name__ == "__main__":
     print("\nResults with Sector Information:")
     print(returns_df)
     
-    # Step 5: Display top 25 stocks and sector counts
+    # Display top 25 stocks and sector counts
     ranked_df = returns_df.sort_values(by='Profit Gained', ascending=False).head(25)
     print("\nTop 25 Stocks:")
     print(ranked_df)
@@ -222,28 +224,24 @@ if __name__ == "__main__":
     
     # --- Additional: Parameter Optimization and Deep Dive Analysis ---
     print("\nStarting SMA Parameter Optimization on AAPL:")
-    conn = sqlite3.connect(db_path)
+    conn = sqlite3.connect(DB_PATH)
     aapl_df = pd.read_sql_query(
-        "SELECT date, close, volume FROM nasdaq_100_daily_prices WHERE ticker = 'AAPL' AND date >= '2000-01-01' ORDER BY date", 
-        conn, parse_dates=['date']
+        "SELECT date, close, volume FROM nasdaq_100_daily_prices WHERE ticker = 'AAPL' AND date >= ? ORDER BY date", 
+        conn, params=(START_DATE,), parse_dates=['date']
     )
     conn.close()
     aapl_df = aapl_df.sort_values('date').reset_index(drop=True)
     
-    # Define SMA parameter ranges
-    sma_short_range = np.arange(3, 15)
-    sma_long_range = np.arange(15, 50, 5)
-    opt_results = optimize_sma_windows(aapl_df, sma_short_range, sma_long_range, investment_value=100000)
+    opt_results = optimize_sma_windows(aapl_df, sma_short_range=SMA_SHORT_RANGE, sma_long_range=SMA_LONG_RANGE, investment_value=INIT_VALUE)
     print("\nOptimization Results for AAPL (SMA windows):")
     print(opt_results.sort_values(by='total_return', ascending=False).head(5))
     
-    # Deep dive analysis using best parameters from optimization
     best = opt_results.sort_values(by='total_return', ascending=False).iloc[0]
     best_sma_short = int(best['sma_short'])
     best_sma_long = int(best['sma_long'])
     print(f"\nBest SMA parameters: Short = {best_sma_short}, Long = {best_sma_long}")
     
-    # Rebuild signals for AAPL using best SMA parameters (using original indicator calculations)
+    # Rebuild signals for AAPL using best SMA parameters
     aapl_df['SMA_short'] = aapl_df['close'].rolling(window=best_sma_short).mean()
     aapl_df['SMA_long'] = aapl_df['close'].rolling(window=best_sma_long).mean()
     signal = aapl_df['SMA_short'] > aapl_df['SMA_long']
@@ -254,7 +252,7 @@ if __name__ == "__main__":
         aapl_df['close'],
         entries,
         exits,
-        init_cash=100000,
-        freq='1D'
+        init_cash=INIT_VALUE,
+        freq=DATA_FREQ
     )
     deep_dive_analysis(best_portfolio)
